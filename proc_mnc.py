@@ -15,8 +15,8 @@ with open('./partilhadas.json') as json_file:
     # debug mostrar o registo n
     
     #print (type(datalatest))
-    #print (type(datalatest[0]))
-    #print(datalatest[0])
+    #print (type(datalatest["elements"]))
+    #print(datalatest["elements"])
     #print (type(datalatest[0]["evses"]))
     #print(datalatest[0]["evses"])
 
@@ -79,15 +79,17 @@ def findsemi(d1, path=""):
         for k in d1:
             #print ("            Encontrar dentro dict")
             if (k == "MNC") :
-                #print ("        Encontrado status level:")
+                #print ("Encontrado MNC:")
                 #print (levelglobal)
                 #print (k)
-                #verificar se estão na watch list
-                #result = [ "%s " %nomeactual, "%s: " % path, "%s : %s" % (k, d1[k])]
-                #levelmax=levelglobal
-                #print("".join(result))  
-                #fich.write ("".join(result))
-                #fich.write("\n")
+                #print (d1[k])
+                #print (type(d1[k]))
+                d1[k] = d1[k].replace(';', "-")
+                #alterar ; para -
+                #print (d1[k])
+                
+                
+                
                 
 
             levelglobal=levelglobal+1
@@ -117,17 +119,16 @@ def findsemi(d1, path=""):
 #### Percorrer a árvore à procura do MNC com ponto e virgula
 n=0
 #for x in range(25):
-for x in datalatest:
+for x in datalatest["elements"]:
     m=0
     #procurar em cada um dos elementos
-    findsemi(datalatest[n])
+    findsemi(datalatest["elements"])
     n=n+1
 
 
-
-
+with open("partilhadas2.json", "w") as outfile:
+    json.dump(datalatest, outfile)
 
 
 if escreverfich == 1:
     fich.close()
-
