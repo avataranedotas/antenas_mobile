@@ -8,6 +8,3 @@ wget -O partilhadas.json 'https://maps.mail.ru/osm/tools/overpass/api/interprete
 sleep 60
 
 sed -i '/.*timestamp_.*/d' *.json
-
-osmtogeojson partilhadas.json >| partilhadas.geojson
-
