@@ -15,12 +15,24 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+         python-version: 3.8 #install the python needed    
     - name: Install deps
       run: npm i -g osmtogeojson      
     - name: Get the data and analyze
       run: |
         chmod +x ./umap.sh
         ./umap.sh
+      shell: bash
+    - name: proc_mnc.py
+      run: |
+        python proc_mnc.py    
+    - name: Post convert to geojson
+      run: |
+        chmod +x ./post.sh
+        ./post.sh
       shell: bash
     - name: Commit and push if it changed
       run: |-
