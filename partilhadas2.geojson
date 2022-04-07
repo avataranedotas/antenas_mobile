@@ -10220,10 +10220,10 @@
   "id": "node/9534546568",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03",
+    "MNC": "01-06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone P;NOS",
+    "operator": "Vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9534546568"
@@ -14446,7 +14446,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone P;NOS",
+    "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9627590266"
@@ -14454,8 +14454,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7873352,
-      40.1744897
+      -8.7874142,
+      40.1745826
     ]
   }
 },
@@ -14845,6 +14845,69 @@
     "coordinates": [
       -8.4213463,
       41.5292253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9646907851",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03,06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "NOS;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9646907851"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8062162,
+      40.1489298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9646940325",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "vodafone P;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9646940325"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8485621,
+      40.2170597
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9646940331",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS;MEO",
+    "tower:construction": "roof",
+    "tower:type": "communication",
+    "id": "node/9646940331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.866346,
+      40.1506322
     ]
   }
 }
