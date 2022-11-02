@@ -6030,6 +6030,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "note": "Torre partilhada pela MEO e NOS",
+    "operator": "NOS;MEO",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9374741160"
@@ -7320,10 +7321,10 @@
   "id": "node/9467387940",
   "properties": {
     "MCC": "268",
-    "MNC": "03-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS;MEO",
+    "operator": "Vodafone P;NOS;MEO",
     "tower:construction": "tower",
     "tower:type": "communication",
     "id": "node/9467387940"
@@ -29254,6 +29255,28 @@
     "coordinates": [
       -8.65875,
       41.1251157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10013829170",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10013829170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6250013,
+      41.1129999
     ]
   }
 },
