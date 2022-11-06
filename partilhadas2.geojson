@@ -61,7 +61,7 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "840",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "São Bernardo",
     "operator": "PTC;MEO;NOS",
@@ -92,7 +92,7 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "1000",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Fátima",
     "operator": "PTC",
@@ -123,7 +123,7 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "841",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
     "material": "metal",
     "name": "Foz",
@@ -148,13 +148,14 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "49",
     "communications_transponder:frequency": "698 MHz",
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "750",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Castelete (Ilha do pico, Açores)",
     "operator": "NOS;MEO;PTC",
@@ -177,13 +178,14 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "47",
     "communications_transponder:frequency": "682 MHz",
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "2000",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
     "name": "Espalamaca (Ilha do Faial, Açores)",
     "operator": "vodafone P;MEO;PTC",
@@ -206,13 +208,14 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "56",
     "communications_transponder:frequency": "754 MHz",
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "841",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Azóia, Sintra",
     "operator": "PTC;MEO;vodafone P;NOS",
@@ -242,7 +245,7 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "308",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Torre de Telecomunicações",
     "operator": "vodafone P;MEO;PTC",
@@ -273,7 +276,7 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "200",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Alvaiázere",
     "operator": "vodafone P;MEO;PTC",
@@ -304,7 +307,7 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "2000",
-    "communications_transponder:service": "TDT Portugesa",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Évora - Entrevinhas",
     "operator": "MEO;PTC",
@@ -1663,6 +1666,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/3802937344",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/3802937344"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4428625,
+      38.7244097
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3810713697",
   "properties": {
     "MCC": "268",
@@ -2579,7 +2604,13 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
+    "name": "Avis",
     "operator": "NOS;MEO",
     "tower:construction": "tower",
     "tower:type": "communication",
@@ -4465,7 +4496,13 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
+    "name": "Sousel",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -4474,8 +4511,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6862385,
-      38.9306592
+      -7.6862464,
+      38.9306548
     ]
   }
 },
@@ -7576,7 +7613,13 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Nisa",
     "operator": "vodafone P;NOS;MEO",
     "tower:construction": "tower",
     "tower:type": "communication",
@@ -9064,7 +9107,13 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Mação",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -11346,15 +11395,21 @@
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
     "communication:radio": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
+    "name": "Arronches",
     "operator": "vodafone P;MEO",
     "id": "node/9515221714"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.2851948,
-      39.1223896
+      -7.2852501,
+      39.1223605
     ]
   }
 },
@@ -19258,9 +19313,19 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "447",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "name": "Vouzela",
+    "operator": "vodafone P;NOS;MEO;PTC",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9652792587"
@@ -27546,28 +27611,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9738595801",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01-06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9738595801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.4478586,
-      38.7239063
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9738595802",
   "properties": {
     "MCC": "268",
@@ -28308,8 +28351,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1223323,
-      38.7779988
+      -9.1223122,
+      38.7779868
     ]
   }
 },
