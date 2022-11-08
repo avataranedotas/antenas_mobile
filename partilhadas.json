@@ -493,7 +493,13 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
+    "name": "Pico Bartolomeu",
     "operator": "vodafone P;MEO",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -1311,7 +1317,13 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "tower",
+    "name": "Camarinhas",
     "operator": "vodafone P;MEO",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -1636,7 +1648,13 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Arouca",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -1948,6 +1966,24 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "NOS;MEO",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 5669945800,
+  "lat": 37.0862996,
+  "lon": -7.9953240,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "40",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -2851,8 +2887,14 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
     "material": "metal",
+    "name": "Terras de Bouro",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -2943,7 +2985,13 @@
     "MCC": "268",
     "MNC": "03;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Ponte de Lima",
     "operator": "NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -3145,8 +3193,14 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
     "material": "metal",
+    "name": "Ponta Delgada",
     "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -3180,6 +3234,25 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 8369638609,
+  "lat": 37.0524928,
+  "lon": -7.9483160,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "30",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -5674,6 +5747,40 @@
 },
 {
   "type": "node",
+  "id": 9481290557,
+  "lat": 37.1006428,
+  "lon": -8.0537762,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9481290562,
+  "lat": 37.0591542,
+  "lon": -7.9668847,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9481290564,
   "lat": 37.0646485,
   "lon": -7.8167537,
@@ -5932,31 +6039,35 @@
 },
 {
   "type": "node",
-  "id": 9481517273,
-  "lat": 37.0946317,
-  "lon": -7.9606511,
+  "id": 9481517282,
+  "lat": 37.0945100,
+  "lon": -7.9607488,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
-    "tower:construction": "tower",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
 {
   "type": "node",
-  "id": 9481517298,
-  "lat": 37.1159548,
-  "lon": -8.0262707,
+  "id": 9481517307,
+  "lat": 37.1162381,
+  "lon": -8.0266236,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
-    "tower:construction": "tower",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -6837,6 +6948,20 @@
 },
 {
   "type": "node",
+  "id": 9496618702,
+  "lat": 37.0856920,
+  "lon": -8.0286938,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS"
+  }
+},
+{
+  "type": "node",
   "id": 9496727507,
   "lat": 37.1863670,
   "lon": -8.4436356,
@@ -6917,21 +7042,6 @@
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9499383903,
-  "lat": 38.0195368,
-  "lon": -7.8120509,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -7728,10 +7838,11 @@
   "lon": -7.9841745,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -7787,6 +7898,66 @@
   "id": 9510669075,
   "lat": 37.1536668,
   "lon": -7.8891238,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P"
+  }
+},
+{
+  "type": "node",
+  "id": 9510684789,
+  "lat": 37.1423085,
+  "lon": -8.0255516,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 9510684790,
+  "lat": 37.1379837,
+  "lon": -8.0244097,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P"
+  }
+},
+{
+  "type": "node",
+  "id": 9510684794,
+  "lat": 37.1381668,
+  "lon": -8.0200590,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P"
+  }
+},
+{
+  "type": "node",
+  "id": 9510684796,
+  "lat": 37.1345126,
+  "lon": -8.0187682,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
@@ -8881,16 +9052,52 @@
 },
 {
   "type": "node",
+  "id": 9531066809,
+  "lat": 37.0469725,
+  "lon": -8.0165474,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9531066812,
+  "lat": 37.0307766,
+  "lon": -8.0086180,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "mimics": "pine",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9531066813,
   "lat": 37.0531044,
   "lon": -8.0085772,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "mimics": "pine",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -8930,16 +9137,32 @@
 },
 {
   "type": "node",
+  "id": 9532442752,
+  "lat": 37.0456279,
+  "lon": -8.0452395,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "vodafone P;NOS"
+  }
+},
+{
+  "type": "node",
   "id": 9532442754,
   "lat": 37.0388772,
   "lon": -8.0379508,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "mimics": "palm",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -9021,6 +9244,22 @@
 },
 {
   "type": "node",
+  "id": 9534546571,
+  "lat": 37.0502377,
+  "lon": -8.0641317,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "vodafone P"
+  }
+},
+{
+  "type": "node",
   "id": 9534546572,
   "lat": 37.0608609,
   "lon": -8.0650011,
@@ -9043,6 +9282,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
@@ -9832,6 +10072,22 @@
 },
 {
   "type": "node",
+  "id": 9557388304,
+  "lat": 37.0894145,
+  "lon": -8.2221665,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS"
+  }
+},
+{
+  "type": "node",
   "id": 9557404468,
   "lat": 37.0927598,
   "lon": -8.1784415,
@@ -10422,6 +10678,23 @@
     "man_made": "mast",
     "operator": "NOS;MEO",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9563645164,
+  "lat": 37.1299666,
+  "lon": -8.0388894,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -11337,7 +11610,13 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "São João de Ver - Santa Maria da Feira",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -13121,8 +13400,14 @@
     "MCC": "268",
     "MNC": "03;06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
     "material": "metal",
+    "name": "Mealhada",
     "operator": "NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -15777,7 +16062,13 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Lourosa",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -18419,8 +18710,12 @@
     "MCC": "268",
     "MNC": "03;06",
     "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
     "communications_transponder:channel": "67",
-    "communications_transponder:service": "TDT",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
     "material": "metal",
     "name": "Porto Santo",
@@ -19316,7 +19611,13 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Ribeira Grande",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -19588,6 +19889,21 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9710879854,
+  "lat": 38.8547118,
+  "lon": -9.1354666,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -19984,6 +20300,22 @@
 },
 {
   "type": "node",
+  "id": 9740328396,
+  "lat": 38.8113967,
+  "lon": -9.1217101,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "tower",
+    "material": "metal",
+    "operator": "vodafone P;MEO",
+    "tower:construction": "lattice",
+    "tower:type": "watchtower"
+  }
+},
+{
+  "type": "node",
   "id": 9752012625,
   "lat": 38.7998788,
   "lon": -9.3830249,
@@ -19992,9 +20324,13 @@
     "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
     "man_made": "mast",
     "material": "metal",
-    "name": "TDT",
+    "name": "Sintra",
     "operator": "NOS;MEO",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
