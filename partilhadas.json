@@ -100,7 +100,8 @@
     "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Fátima",
-    "operator": "PTC",
+    "operator": "vodafone P;MEO;PTC",
+    "owner": "MEO",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -2314,6 +2315,21 @@
 },
 {
   "type": "node",
+  "id": 6123977811,
+  "lat": 38.5372918,
+  "lon": -8.8588581,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "tower:construction": "tower",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 6124260493,
   "lat": 37.1039992,
   "lon": -7.6630212,
@@ -2442,10 +2458,10 @@
   "lon": -8.8164662,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -4021,6 +4037,20 @@
 },
 {
   "type": "node",
+  "id": 9232969118,
+  "lat": 38.5635605,
+  "lon": -8.8850593,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9236587355,
   "lat": 38.7451950,
   "lon": -8.6740169,
@@ -4543,10 +4573,11 @@
   "lon": -8.6374859,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -15147,7 +15178,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
-    "owner": "NOS",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -20514,7 +20545,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
-    "owner": "MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -22741,6 +22772,20 @@
     "location": "underground",
     "man_made": "antenna",
     "operator": "vodafone P;MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 9934664745,
+  "lat": 38.7178508,
+  "lon": -9.1227788,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO"
   }
 },
 {
