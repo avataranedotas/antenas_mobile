@@ -363,7 +363,7 @@
     "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Évora - Entrevinhas",
-    "operator": "MEO;PTC",
+    "operator": "vodafone P;MEO;PTC",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:type": "communication",
     "id": "node/1165384525"
@@ -1935,10 +1935,11 @@
   "id": "node/3862068768",
   "properties": {
     "MCC": "268",
-    "MNC": "03-06",
+    "MNC": "01-06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS;MEO",
+    "operator": "vodafone P;MEO",
+    "owner": "MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/3862068768"
@@ -10616,6 +10617,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9491071988"
@@ -10664,6 +10666,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9491072050"
@@ -20186,6 +20189,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9606091036"
@@ -20417,6 +20421,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9606140342"
@@ -21392,10 +21397,10 @@
   "id": "node/9626548457",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9626548457"
@@ -22909,6 +22914,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9631439586"
@@ -25948,6 +25954,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9659359024"
@@ -29085,6 +29092,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9681264637"
@@ -33865,6 +33873,27 @@
     "coordinates": [
       -9.2368602,
       38.7470971
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9921437173",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03-06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS;MEO",
+    "owner": "CellNex",
+    "id": "node/9921437173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2420246,
+      38.7568809
     ]
   }
 },
