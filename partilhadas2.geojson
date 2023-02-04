@@ -1916,6 +1916,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
+    "owner": "MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/3836222673"
@@ -5311,6 +5312,27 @@
     "coordinates": [
       -7.789644,
       37.6162858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8744170241",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "CellNex",
+    "tower:type": "communication",
+    "id": "node/8744170241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5835065,
+      41.0098596
     ]
   }
 },
@@ -15352,6 +15374,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9538687388",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI:NOS",
+    "owner": "CellNex",
+    "tower:type": "communication",
+    "id": "node/9538687388"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1583283,
+      38.6436785
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9538687392",
   "properties": {
     "MCC": "268",
@@ -21921,8 +21964,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3369888,
-      39.3650386
+      -9.337198,
+      39.3640349
     ]
   }
 },
@@ -21935,6 +21978,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9610764236"
@@ -21956,6 +22000,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9610764245"
@@ -23277,6 +23322,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9627599294"
@@ -25704,9 +25750,11 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9654354336"
@@ -28542,6 +28590,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9668756358"
@@ -29382,6 +29431,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9669004685"
@@ -39166,6 +39216,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/10313516503",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10313516503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0323653,
+      41.2689211
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10314513401",
   "properties": {
     "MCC": "268",
@@ -39185,6 +39258,29 @@
     "coordinates": [
       -8.0244023,
       39.2498169
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10432448311",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10432448311"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0750638,
+      41.2633339
     ]
   }
 },
