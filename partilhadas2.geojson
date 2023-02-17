@@ -1261,6 +1261,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/3242486452"
@@ -5908,15 +5909,37 @@
 },
 {
   "type": "Feature",
+  "id": "node/9105642940",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9105642940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.94106,
+      38.681133
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9105642941",
   "properties": {
     "MCC": "268",
-    "MNC": "01-02-06",
+    "MNC": "01-06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;DIGI;MEO",
-    "owner": "CellNex",
+    "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9105642941"
@@ -32722,11 +32745,12 @@
   "id": "node/9696186989",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-02-06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;DIGI;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9696186989"
@@ -38382,6 +38406,27 @@
     "coordinates": [
       -8.6483759,
       41.1779898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9983405710",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "CellNex",
+    "id": "node/9983405710"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6111499,
+      41.1930653
     ]
   }
 },
