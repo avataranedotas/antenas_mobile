@@ -429,6 +429,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/1371144744"
@@ -779,6 +780,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/1983356491",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
+    "location": "wall",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "CellNex",
+    "id": "node/1983356491"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.791661,
+      37.0842258
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2006625411",
   "properties": {
     "MCC": "268",
@@ -801,11 +824,34 @@
 },
 {
   "type": "Feature",
+  "id": "node/2062782999",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/2062782999"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5555815,
+      40.6925931
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2077603758",
   "properties": {
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "owner": "CellNex",
@@ -850,6 +896,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Reportada como tendo equipamento da DIGI , falta confirmação visual",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
@@ -991,8 +1038,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1261127,
-      38.7200485
+      -9.1260907,
+      38.719987
     ]
   }
 },
@@ -3991,6 +4038,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "30",
     "man_made": "mast",
@@ -5209,6 +5257,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -5697,6 +5746,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9017216999",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/9017216999"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9164283,
+      38.6344104
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9026854752",
   "properties": {
     "MCC": "268",
@@ -5810,6 +5881,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "owner": "CellNex",
@@ -6026,6 +6098,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem antenas DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
@@ -6200,6 +6273,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
+    "owner": "vodafone P",
     "tower:construction": "tower",
     "tower:type": "communication",
     "id": "node/9203453930"
@@ -6221,6 +6295,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:type": "communication",
     "id": "node/9203453972"
   },
@@ -6347,6 +6422,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9215210709"
@@ -6557,6 +6633,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "NOS;MEO",
     "owner": "CellNex",
@@ -6619,10 +6696,11 @@
   "id": "node/9264885374",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03",
+    "MNC": "01-02-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "CellNex",
     "tower:construction": "lattice",
     "tower:type": "communication",
@@ -6939,6 +7017,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Foi alterada a estrutura no topo da torre, possivelmente para antenas da DIGI",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "owner": "CellNex",
@@ -7440,6 +7519,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
@@ -9138,6 +9218,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "CellNex",
@@ -9805,6 +9886,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
@@ -11016,6 +11098,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "mast",
     "operator": "NOS;MEO",
@@ -11735,6 +11818,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Possíveis ferros para a DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
@@ -12393,6 +12477,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Existem suportes livres, mas não há garantia que sejam para a DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -12526,6 +12611,7 @@
     "MNC": "01-03",
     "check_date": "2023-01-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -14116,6 +14202,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "owner": "CellNex",
@@ -14394,6 +14481,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "NOS;MEO",
     "owner": "CellNex",
@@ -16425,6 +16513,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -19056,6 +19145,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -19430,6 +19520,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "CellNex",
@@ -20013,6 +20104,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Parece que foram instalados mais ferros, investigar",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -23045,6 +23137,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "owner": "CellNex",
@@ -23629,8 +23722,10 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9626599014"
@@ -23654,6 +23749,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9626599015"
@@ -23829,6 +23925,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9626618276"
@@ -23896,6 +23993,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9626618282"
@@ -23917,6 +24015,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
+    "owner": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9626618287"
@@ -24070,6 +24169,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -24115,6 +24215,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -24385,6 +24486,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -24467,6 +24569,29 @@
     "coordinates": [
       -9.3527598,
       38.9379051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9630213207",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9630213207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7403694,
+      41.1796553
     ]
   }
 },
@@ -24660,6 +24785,7 @@
     "material": "metal",
     "name": "Mealhada",
     "operator": "NOS;MEO",
+    "owner": "MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9630357636"
@@ -24815,6 +24941,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -24951,6 +25078,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
@@ -25042,6 +25170,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -25087,9 +25216,11 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Parece que foram instalados mais ferros, investigar",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9631439578"
@@ -25857,6 +25988,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9634487184",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9634487184"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5838894,
+      40.6748252
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9641759989",
   "properties": {
     "MCC": "268",
@@ -26486,6 +26639,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -28164,6 +28318,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -29189,6 +29344,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -30790,6 +30946,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9672640904"
@@ -31140,6 +31297,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -32853,6 +33011,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -32921,6 +33080,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
@@ -33505,6 +33665,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -35552,6 +35713,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -35733,9 +35895,11 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9738595805"
@@ -35981,6 +36145,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "mimics": "pine",
     "operator": "NOS;MEO",
@@ -36199,6 +36364,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "owner": "CellNex",
@@ -37541,6 +37707,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "NOS;MEO",
     "owner": "CellNex",
@@ -38475,6 +38642,7 @@
     "MNC": "01-03-06",
     "check_date": "2023-01-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Parece ter ferros extra, investigar",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
@@ -38498,6 +38666,7 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Suportes instalados à volta das antenas do andar de baixo",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -38648,6 +38817,26 @@
     "coordinates": [
       -8.596412,
       41.1423444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9984000253",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03-06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "id": "node/9984000253"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6297983,
+      41.1548441
     ]
   }
 },
@@ -39096,6 +39285,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/10013896287",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03-06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "id": "node/10013896287"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6206091,
+      41.1183121
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10019166155",
   "properties": {
     "MCC": "268",
@@ -39300,6 +39509,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/10027402818",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03-06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "id": "node/10027402818"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6275265,
+      41.1572291
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10027732611",
   "properties": {
     "MCC": "268",
@@ -39460,6 +39689,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
