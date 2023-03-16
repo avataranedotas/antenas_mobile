@@ -136,7 +136,8 @@
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "1000",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Fátima",
     "operator": "vodafone P;MEO;PTC",
     "owner": "MEO",
@@ -168,10 +169,12 @@
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "840",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Algueirão",
     "operator": "vodafone P;PTC;MEO",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/1165292874"
   },
@@ -290,10 +293,12 @@
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "841",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Azóia, Sintra",
     "operator": "PTC;MEO;vodafone P;NOS",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/1165384310"
   },
@@ -320,7 +325,8 @@
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "308",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;MEO;PTC",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
@@ -350,7 +356,8 @@
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "200",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Alvaiázere",
     "operator": "vodafone P;MEO;PTC",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
@@ -2435,6 +2442,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/4156458991",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/4156458991"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9798904,
+      39.4289081
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4297946876",
   "properties": {
     "MCC": "268",
@@ -2895,7 +2926,8 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Arouca",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
@@ -3300,8 +3332,10 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;MEO",
+    "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/5320756239"
   },
@@ -3436,8 +3470,10 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
+    "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/5766160001"
   },
@@ -3721,8 +3757,10 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "operator": "NOS;MEO",
+    "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/5991140898"
   },
@@ -5106,7 +5144,7 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
     "material": "metal",
     "name": "Terras de Bouro",
     "operator": "vodafone P;MEO",
@@ -5117,8 +5155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3025045,
-      41.7272814
+      -8.3025206,
+      41.7273495
     ]
   }
 },
@@ -5392,8 +5430,9 @@
     "communication:gsm": "yes",
     "communication:lte": "yes",
     "communication:mobile_phone": "yes",
-    "man_made": "tower",
+    "man_made": "mast",
     "operator": "NOS;MEO",
+    "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/7926478642"
   },
@@ -10402,7 +10441,8 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Nisa",
     "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
@@ -12558,7 +12598,8 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Mação",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
@@ -23268,7 +23309,8 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "São João de Ver - Santa Maria da Feira",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
@@ -26473,6 +26515,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9630213212",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9630213212"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8855896,
+      41.0064068
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9630213213",
   "properties": {
     "MCC": "268",
@@ -27727,6 +27792,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9631489861",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9631489861"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6197558,
+      40.993172
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9631489863",
   "properties": {
     "MCC": "268",
@@ -28440,7 +28528,8 @@
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "447",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "height": "40",
+    "man_made": "mast",
     "material": "metal",
     "name": "Vouzela",
     "operator": "vodafone P;NOS;MEO;PTC",
@@ -31573,7 +31662,8 @@
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Lourosa",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
@@ -33804,6 +33894,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
@@ -45364,6 +45455,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10555422343",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10555422343"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.4348605,
+      41.5614111
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10557051854",
   "properties": {
     "MCC": "268",
@@ -45910,6 +46025,29 @@
     "coordinates": [
       -8.5229697,
       39.5848351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10738186844",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10738186844"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.7402343,
+      41.8460846
     ]
   }
 }
