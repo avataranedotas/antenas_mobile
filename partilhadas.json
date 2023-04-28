@@ -3020,12 +3020,12 @@
   "lon": -8.7987625,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -7289,18 +7289,51 @@
 },
 {
   "type": "node",
+  "id": 9374741124,
+  "lat": 37.5143598,
+  "lon": -8.7168062,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9374741160,
   "lat": 37.5315718,
   "lon": -8.7824838,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "note": "Torre partilhada pela MEO e NOS",
-    "operator": "NOS;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9374741189,
+  "lat": 37.4277358,
+  "lon": -8.7699032,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -18110,8 +18143,8 @@
 {
   "type": "node",
   "id": 9560664349,
-  "lat": 41.3097740,
-  "lon": -7.7602488,
+  "lat": 41.3097934,
+  "lon": -7.7602531,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
@@ -19552,6 +19585,23 @@
 },
 {
   "type": "node",
+  "id": 9573444918,
+  "lat": 39.5243487,
+  "lon": -8.5827676,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9573444951,
   "lat": 39.5311940,
   "lon": -8.5187249,
@@ -19663,6 +19713,22 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9573445029,
+  "lat": 39.6570162,
+  "lon": -8.5729068,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
     "tower:type": "communication"
   }
 },
@@ -42852,6 +42918,24 @@
 },
 {
   "type": "node",
+  "id": 10737978578,
+  "lat": 39.6464133,
+  "lon": -8.8395363,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10738186844,
   "lat": 41.8460846,
   "lon": -6.7402343,
@@ -43987,6 +44071,23 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10795468708,
+  "lat": 38.7056583,
+  "lon": -9.3404644,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
