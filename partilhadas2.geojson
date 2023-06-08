@@ -436,6 +436,7 @@
     "material": "metal",
     "name": "Azóia, Sintra",
     "operator": "PTC;MEO;vodafone P;NOS",
+    "owner": "MEO",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -1448,6 +1449,7 @@
     "MCC": "268",
     "MNC": "01-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
@@ -5347,6 +5349,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/6206751894"
@@ -11879,6 +11882,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9434211243",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9434211243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8816989,
+      38.7822107
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9434211252",
   "properties": {
     "MCC": "268",
@@ -15877,6 +15902,28 @@
     "coordinates": [
       -7.6647172,
       39.6547867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9488359833",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/9488359833"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7007269,
+      39.6792277
     ]
   }
 },
@@ -27788,7 +27835,7 @@
   "id": "node/9569809519",
   "properties": {
     "MCC": "268",
-    "MNC": "01:03",
+    "MNC": "01-03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -64004,6 +64051,29 @@
     "coordinates": [
       -8.0244023,
       39.2498169
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10314528192",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10314528192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.97736,
+      40.6606769
     ]
   }
 },
