@@ -6974,10 +6974,11 @@
   "id": "node/8235967444",
   "properties": {
     "MCC": "268",
-    "MNC": "02-03",
+    "MNC": "01-02-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "tube",
     "tower:type": "communication",
@@ -9146,6 +9147,29 @@
     "coordinates": [
       -8.7448065,
       38.6341891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9230019582",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/9230019582"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7461659,
+      38.6429462
     ]
   }
 },
