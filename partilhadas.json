@@ -3397,11 +3397,12 @@
   "lon": -7.0548870,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -8715,6 +8716,22 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9403407855,
+  "lat": 38.4703474,
+  "lon": -8.8837048,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "vodafone P;MEO",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -20677,6 +20694,22 @@
 },
 {
   "type": "node",
+  "id": 9563721583,
+  "lat": 40.1026912,
+  "lon": -7.4879804,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9563735329,
   "lat": 40.1414413,
   "lon": -7.4975958,
@@ -27529,6 +27562,20 @@
     "operator": "vodafone P;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9633837290,
+  "lat": 40.7724797,
+  "lon": -7.0650407,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "antenna",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex"
   }
 },
 {
@@ -47360,6 +47407,24 @@
 },
 {
   "type": "node",
+  "id": 10292149155,
+  "lat": 41.0827215,
+  "lon": -6.9702083,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10292149171,
   "lat": 41.7558026,
   "lon": -8.3747283,
@@ -49516,6 +49581,23 @@
 },
 {
   "type": "node",
+  "id": 10761003908,
+  "lat": 40.0879478,
+  "lon": -7.2346415,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10761458097,
   "lat": 40.5273785,
   "lon": -7.6974490,
@@ -50614,6 +50696,23 @@
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10995572191,
+  "lat": 40.1094554,
+  "lon": -7.2227402,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 }
