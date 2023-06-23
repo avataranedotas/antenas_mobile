@@ -2812,6 +2812,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
@@ -7038,7 +7039,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9569179,
+      -8.9569166,
       38.6378973
     ]
   }
@@ -42014,6 +42015,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9661346834",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9661346834"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.9640307,
+      40.4528617
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9662901889",
   "properties": {
     "MCC": "268",
@@ -68315,6 +68339,27 @@
     "coordinates": [
       -8.8563269,
       39.6593243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10776427974",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "id": "node/10776427974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6714919,
+      41.1647339
     ]
   }
 },
