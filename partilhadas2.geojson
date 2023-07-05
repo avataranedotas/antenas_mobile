@@ -2317,10 +2317,11 @@
   "id": "node/3460273837",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:type": "communication",
     "id": "node/3460273837"
@@ -2471,10 +2472,11 @@
   "id": "node/3468060659",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage",
     "tower:type": "communication",
     "id": "node/3468060659"
@@ -13941,12 +13943,12 @@
   "id": "node/9467387924",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03",
+    "MNC": "01-02-03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9467387924"
@@ -18022,6 +18024,27 @@
     "coordinates": [
       -7.861933,
       38.0157137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9499383888",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:type": "communication",
+    "id": "node/9499383888"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8594866,
+      38.0174081
     ]
   }
 },
@@ -52830,10 +52853,11 @@
   "id": "node/9708835436",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -52918,10 +52942,11 @@
   "id": "node/9708835440",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -67249,7 +67274,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS;MEO",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
@@ -68745,6 +68770,29 @@
     "coordinates": [
       -25.4878011,
       37.838458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10294919328",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10294919328"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -27.1456799,
+      38.6565218
     ]
   }
 },
@@ -71169,6 +71217,30 @@
     "coordinates": [
       -7.9749906,
       39.6140612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10760295047",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10760295047"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -28.5301611,
+      38.500477
     ]
   }
 },
