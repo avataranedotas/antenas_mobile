@@ -319,8 +319,9 @@
   "lon": -28.2501909,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "49",
@@ -329,11 +330,14 @@
     "communications_transponder:polarisation": "horizontal",
     "communications_transponder:power": "750",
     "communications_transponder:service": "TV",
-    "man_made": "tower",
+    "height": "40",
+    "man_made": "mast",
+    "material": "metal",
     "name": "Castelete (Ilha do pico, Açores)",
-    "operator": "PTC;NOS;MEO",
+    "operator": "vodafone P;NOS;MEO;PTC",
     "owner": "MEO",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -2906,6 +2910,24 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 4500183035,
+  "lat": 41.2802479,
+  "lon": -7.9141168,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -6671,6 +6693,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -10734,6 +10757,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -29610,6 +29634,24 @@
     "material": "metal",
     "operator": "NOS;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9632163039,
+  "lat": 40.4067463,
+  "lon": -7.5394156,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -51858,6 +51900,23 @@
 },
 {
   "type": "node",
+  "id": 10231979684,
+  "lat": 39.1428099,
+  "lon": -8.8923855,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10234675506,
   "lat": 39.5091387,
   "lon": -9.0861343,
@@ -56386,6 +56445,23 @@
 },
 {
   "type": "node",
+  "id": 10816523977,
+  "lat": 39.4792039,
+  "lon": -8.6277545,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10816578874,
   "lat": 41.2020980,
   "lon": -8.3142793,
@@ -56648,12 +56724,12 @@
   "lon": -9.2631241,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
