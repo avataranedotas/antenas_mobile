@@ -7226,31 +7226,17 @@
 },
 {
   "type": "node",
-  "id": 9084249795,
-  "lat": 38.7679096,
-  "lon": -8.6116580,
+  "id": 9088018203,
+  "lat": 38.1097302,
+  "lon": -8.3435276,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "01;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS;MEO",
+    "operator": "vodafone P;MEO;SIRESP",
+    "owner": "MEO",
     "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9088018202,
-  "lat": 38.1086321,
-  "lon": -8.3545379,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -7743,6 +7729,22 @@
 },
 {
   "type": "node",
+  "id": 9208585683,
+  "lat": 38.7676488,
+  "lon": -8.6314354,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9208585684,
   "lat": 38.6403177,
   "lon": -8.9175518,
@@ -8102,10 +8104,11 @@
   "lon": -8.5790686,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -43905,12 +43908,13 @@
 {
   "type": "node",
   "id": 9703915991,
-  "lat": 32.7505167,
+  "lat": 32.7505190,
   "lon": -17.2032197,
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
