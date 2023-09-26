@@ -914,27 +914,6 @@
 },
 {
   "type": "node",
-  "id": 1958895801,
-  "lat": 37.7781198,
-  "lon": -25.1687417,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;06",
-    "communication:mobile_phone": "yes",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "tower",
-    "name": "Pico Bartolomeu",
-    "operator": "vodafone P;MEO",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 1970534535,
   "lat": 38.6459186,
   "lon": -9.1648574,
@@ -3717,6 +3696,28 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 5322207418,
+  "lat": 37.8330239,
+  "lon": -25.1518153,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "addr:city": "Nordeste",
+    "addr:postcode": "9630-160",
+    "addr:street": "Rua dos Clérigos",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "source": "Município do Nordeste",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -43611,7 +43612,7 @@
   "lon": -8.7271326,
   "tags": {
     "MCC": "268",
-    "MNC": "06;02",
+    "MNC": "02;06",
     "check_date": "2023-05-30",
     "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
@@ -57596,6 +57597,24 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10239079526,
+  "lat": 37.7782654,
+  "lon": -25.1688788,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
