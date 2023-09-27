@@ -2961,13 +2961,12 @@
   "id": "node/3603830364",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03-06",
+    "MNC": "01-02-03-06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -20234,6 +20233,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9493927909",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9493927909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1682401,
+      38.3956213
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9494000029",
   "properties": {
     "MCC": "268",
@@ -34186,6 +34207,28 @@
     "coordinates": [
       -8.0212848,
       40.4245628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9569867750",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9569867750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9875434,
+      40.4360979
     ]
   }
 },
@@ -65120,6 +65163,30 @@
     "coordinates": [
       -9.3122166,
       38.7951758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910500199",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/9910500199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3300118,
+      38.7918723
     ]
   }
 },
