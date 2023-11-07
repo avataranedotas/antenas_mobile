@@ -4205,6 +4205,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-11-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -10322,6 +10323,23 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9383011445,
+  "lat": 38.6686215,
+  "lon": -8.4807562,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -29442,6 +29460,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
@@ -43216,11 +43235,12 @@
   "lon": -7.2099656,
   "tags": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "01;02;03;06",
     "check_date": "2023-11-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -59637,6 +59657,25 @@
 },
 {
   "type": "node",
+  "id": 10159594620,
+  "lat": 41.2666512,
+  "lon": -7.8147502,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "check_date": "2023-11-04",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10159790373,
   "lat": 38.7149360,
   "lon": -9.4642371,
@@ -60931,6 +60970,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",

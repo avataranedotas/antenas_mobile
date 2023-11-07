@@ -5614,6 +5614,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01-03",
+    "check_date": "2023-11-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -13912,6 +13913,29 @@
     "coordinates": [
       -9.0038021,
       38.5333185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9383011445",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9383011445"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4807562,
+      38.6686215
     ]
   }
 },
@@ -39983,6 +40007,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01-03",
+    "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
@@ -58587,11 +58612,12 @@
   "id": "node/9677069044",
   "properties": {
     "MCC": "268",
-    "MNC": "02-06",
+    "MNC": "01-02-03-06",
     "check_date": "2023-11-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -81034,6 +81060,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/10159594620",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-02-03-06",
+    "check_date": "2023-11-04",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10159594620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8147502,
+      41.2666512
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10159790373",
   "properties": {
     "MCC": "268",
@@ -82776,6 +82827,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01-03",
+    "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
