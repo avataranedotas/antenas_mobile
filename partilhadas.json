@@ -4302,14 +4302,15 @@
 {
   "type": "node",
   "id": 6057588694,
-  "lat": 38.6676083,
-  "lon": -8.2100451,
+  "lat": 38.6675658,
+  "lon": -8.2100380,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:type": "communication"
   }
@@ -10235,6 +10236,22 @@
 },
 {
   "type": "node",
+  "id": 9377353305,
+  "lat": 38.6228525,
+  "lon": -9.0402731,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9377372028,
   "lat": 38.7439235,
   "lon": -8.9284825,
@@ -11269,6 +11286,22 @@
 },
 {
   "type": "node",
+  "id": 9403538806,
+  "lat": 37.2562433,
+  "lon": -8.2882283,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9403538815,
   "lat": 37.2558494,
   "lon": -8.2883790,
@@ -11277,6 +11310,7 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
@@ -16252,9 +16286,8 @@
   "lon": -8.4436356,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -16266,8 +16299,8 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Silves Centro",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -27179,7 +27212,7 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "On Tower",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -29014,6 +29047,23 @@
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "guyed_lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9581803082,
+  "lat": 39.1547546,
+  "lon": -7.4713231,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
