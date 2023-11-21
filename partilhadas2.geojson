@@ -10419,11 +10419,12 @@
   "id": "node/9088018203",
   "properties": {
     "MCC": "268",
-    "MNC": "01-02-06",
+    "MNC": "01-02-03-06",
     "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;MEO;SIRESP",
+    "operator": "vodafone P;DIGI;NOS;MEO;SIRESP",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -15256,8 +15257,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.231084,
-      37.6543755
+      -8.2310647,
+      37.6543372
     ]
   }
 },
@@ -22072,6 +22073,7 @@
     "MNC": "01-03-06",
     "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "tower:construction": "lattice",
@@ -50729,12 +50731,13 @@
   "id": "node/9654353977",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03-06",
+    "MNC": "01-02-03-06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9654353977"
@@ -63664,6 +63667,28 @@
     "coordinates": [
       -8.7878926,
       39.2477182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9703407500",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9703407500"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0992929,
+      39.3399491
     ]
   }
 },
