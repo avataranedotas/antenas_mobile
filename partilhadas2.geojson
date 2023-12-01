@@ -15566,6 +15566,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9397102701",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9397102701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2649749,
+      37.7583279
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9397102741",
   "properties": {
     "MCC": "268",
@@ -33977,10 +34000,11 @@
   "id": "node/9556611541",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -39978,11 +40002,12 @@
   "id": "node/9573646681",
   "properties": {
     "MCC": "268",
-    "MNC": "02-03",
+    "MNC": "01-02-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -88442,6 +88467,29 @@
     "coordinates": [
       -8.5061287,
       41.337902
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10698226389",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10698226389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5577153,
+      40.9983272
     ]
   }
 },
