@@ -5101,6 +5101,7 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "50",
     "man_made": "tower",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
@@ -5217,10 +5218,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
+    "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
+    "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -5777,6 +5781,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -6296,8 +6301,11 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
 },
@@ -8078,8 +8086,10 @@
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -8650,8 +8660,10 @@
     "check_date": "2023-11-03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
+    "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -8663,10 +8675,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
+    "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
+    "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -8678,11 +8693,14 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-03-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -27352,9 +27370,12 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -27386,10 +27407,10 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
+    "location": "roof",
+    "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:type": "communication"
+    "owner": "Vantage Towers"
   }
 },
 {
@@ -27434,12 +27455,11 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece que foram instalados mais ferros, investigar",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
+    "location": "roof",
+    "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:type": "communication"
+    "owner": "Vantage Towers"
   }
 },
 {
@@ -27453,10 +27473,10 @@
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
+    "location": "roof",
+    "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "tower:type": "communication"
+    "owner": "NOS"
   }
 },
 {
@@ -27469,10 +27489,10 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
+    "location": "roof",
+    "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:type": "communication"
+    "owner": "Vantage Towers"
   }
 },
 {
@@ -27502,10 +27522,11 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
     "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:type": "communication"
+    "owner": "Vantage Towers"
   }
 },
 {
@@ -34542,17 +34563,18 @@
 {
   "type": "node",
   "id": 9630262550,
-  "lat": 41.6827148,
-  "lon": -8.8024238,
+  "lat": 41.6827909,
+  "lon": -8.8024372,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
     "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:type": "communication"
+    "owner": "Vantage Towers"
   }
 },
 {
@@ -34634,9 +34656,12 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
 },
@@ -35331,6 +35356,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-03-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
@@ -63267,6 +63293,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
+    "check_date": "2023-03-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
@@ -64319,6 +64346,7 @@
     "material": "metal",
     "operator": "NOS;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -64331,11 +64359,12 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Parecem existir ferros abaixo da plataforma no topo, investigar se existe DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -64364,10 +64393,14 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
+    "colour": "green",
     "communication:mobile_phone": "yes",
+    "location": "surface",
     "man_made": "mast",
+    "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -68000,6 +68033,7 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "source": "freestanding",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -70675,6 +70709,25 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11421733856,
+  "lat": 41.4117673,
+  "lon": -7.1034041,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "fixme": "Aproximate position",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
