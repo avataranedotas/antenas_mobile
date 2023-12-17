@@ -5972,8 +5972,8 @@
     "man_made": "tower",
     "material": "metal",
     "name": "Castro Verde",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -13204,7 +13204,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;nos",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
@@ -25228,6 +25228,24 @@
 },
 {
   "type": "node",
+  "id": 9556368501,
+  "lat": 37.7083582,
+  "lon": -7.9329827,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9556368594,
   "lat": 37.9436584,
   "lon": -7.5922981,
@@ -25506,6 +25524,23 @@
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 9557529630,
+  "lat": 37.6985600,
+  "lon": -8.0844600,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Falta confirmar no Cellmapper o ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers"
   }
 },
 {

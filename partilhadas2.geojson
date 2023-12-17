@@ -7975,8 +7975,8 @@
     "man_made": "tower",
     "material": "metal",
     "name": "Castro Verde",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
     "tower:type": "communication",
@@ -17793,7 +17793,7 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;nos",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
@@ -34133,6 +34133,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/9556368501",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03-06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9556368501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9329827,
+      37.7083582
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9556368594",
   "properties": {
     "MCC": "268",
@@ -34512,6 +34536,29 @@
     "coordinates": [
       -8.5085238,
       37.1426607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9557529630",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Falta confirmar no Cellmapper o ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "id": "node/9557529630"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.08446,
+      37.69856
     ]
   }
 },
