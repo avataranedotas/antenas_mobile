@@ -16901,8 +16901,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8540329,
-      37.3091394
+      -8.8540503,
+      37.3091522
     ]
   }
 },
@@ -22585,10 +22585,11 @@
   "id": "node/9493927879",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -22597,7 +22598,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.306932,
+      -8.3069293,
       38.499681
     ]
   }
@@ -50495,6 +50496,30 @@
     "coordinates": [
       -8.4693727,
       40.483006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9652792592",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9652792592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1436372,
+      40.5667247
     ]
   }
 },
@@ -85344,6 +85369,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10276787095",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10276787095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8203277,
+      37.2615305
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10276866923",
   "properties": {
     "MCC": "268",
@@ -95873,8 +95922,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.1034041,
-      41.4117673
+      -7.1032321,
+      41.411045
     ]
   }
 }
