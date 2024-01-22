@@ -2631,6 +2631,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/3357608115",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/3357608115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0315343,
+      39.2895032
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3358585063",
   "properties": {
     "MCC": "268",
@@ -7479,11 +7502,12 @@
     "MCC": "268",
     "MNC": "01-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/6822803359"
@@ -12714,6 +12738,7 @@
     "MCC": "268",
     "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
@@ -17920,10 +17945,10 @@
   "id": "node/9461670399",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03-06",
+    "MNC": "01-03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9461670399"
@@ -37775,11 +37800,11 @@
   "id": "node/9560686833",
   "properties": {
     "MCC": "268",
-    "MNC": "01-02-03",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication",
@@ -40378,11 +40403,11 @@
   "id": "node/9573071629",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03",
+    "MNC": "01-03-06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -47377,6 +47402,7 @@
     "MCC": "268",
     "MNC": "02-03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se também tem MEO",
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI;NOS",
@@ -57995,6 +58021,31 @@
     "coordinates": [
       -8.6083047,
       40.4999005
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9667009456",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "check_date": "2023-06-30",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9667009456"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5766609,
+      40.3294944
     ]
   }
 },
@@ -98432,6 +98483,30 @@
     "coordinates": [
       -9.1573217,
       38.7245216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11536673439",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/11536673439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.51717,
+      40.786655
     ]
   }
 }
