@@ -17506,6 +17506,22 @@
 },
 {
   "type": "node",
+  "id": 9495621031,
+  "lat": 38.5701157,
+  "lon": -7.9080735,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers"
+  }
+},
+{
+  "type": "node",
   "id": 9495731884,
   "lat": 38.5698651,
   "lon": -7.9071656,
@@ -59043,13 +59059,12 @@
   "lon": -8.6551985,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "check_date": "2023-01-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -59188,6 +59203,24 @@
     "man_made": "antenna",
     "operator": "NOS;MEO",
     "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 9982273146,
+  "lat": 41.2346137,
+  "lon": -8.6644060,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2023-03-30",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 },
 {
@@ -74459,6 +74492,20 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11610189191,
+  "lat": 38.3739382,
+  "lon": -8.6350248,
+  "tags": {
+    "MCC": "268",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Deverá haver uma micro da MEO segundo o geo da anacom. Investigar.",
+    "fixme": "approximate location",
+    "man_made": "mast",
     "tower:type": "communication"
   }
 }

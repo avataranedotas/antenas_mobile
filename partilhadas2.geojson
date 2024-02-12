@@ -23597,6 +23597,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9495621031",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "id": "node/9495621031"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9080735,
+      38.5701157
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9495731884",
   "properties": {
     "MCC": "268",
@@ -79994,13 +80016,12 @@
   "id": "node/9982273117",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03-06",
+    "MNC": "01-02-03-06",
     "check_date": "2023-01-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -80194,6 +80215,30 @@
     "coordinates": [
       -8.6202305,
       41.2372743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9982273146",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "check_date": "2023-03-30",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9982273146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.664406,
+      41.2346137
     ]
   }
 },
@@ -100824,6 +100869,26 @@
     "coordinates": [
       -7.373004,
       38.568251
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11610189191",
+  "properties": {
+    "MCC": "268",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Deverá haver uma micro da MEO segundo o geo da anacom. Investigar.",
+    "fixme": "approximate location",
+    "man_made": "mast",
+    "tower:type": "communication",
+    "id": "node/11610189191"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6350248,
+      38.3739382
     ]
   }
 }
