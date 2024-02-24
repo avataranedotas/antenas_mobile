@@ -254,6 +254,40 @@
 },
 {
   "type": "Feature",
+  "id": "node/1165292678",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "check_date": "2024-02-23",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "841",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Leça",
+    "operator": "DIGI;MEO;PTC",
+    "owner": "Cellnex",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/1165292678"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.694183,
+      41.200744
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1165292730",
   "properties": {
     "MCC": "268",
@@ -66047,11 +66081,12 @@
   "properties": {
     "MCC": "268",
     "MNC": "02-06",
+    "check_date": "2024-02-23",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
-    "tower:construction": "lattice",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/9690733392"
   },
