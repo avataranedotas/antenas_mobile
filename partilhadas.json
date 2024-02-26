@@ -4117,7 +4117,6 @@
     "MCC": "268",
     "MNC": "03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "NOS;MEO",
     "tower:construction": "lattice",
@@ -7190,23 +7189,6 @@
     "name": "Ponta Delgada",
     "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 8339387474,
-  "lat": 41.1707498,
-  "lon": -8.6485692,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -23379,16 +23361,19 @@
 },
 {
   "type": "node",
-  "id": 9543796824,
-  "lat": 39.7571269,
-  "lon": -8.8206206,
+  "id": 9543796825,
+  "lat": 39.7571273,
+  "lon": -8.8206257,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
+    "location": "roof",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
+    "material": "metal",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -61732,6 +61717,22 @@
     "MCC": "268",
     "MNC": "02;03",
     "check_date": "2024-02-21",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 10026755156,
+  "lat": 41.1636150,
+  "lon": -8.6133232,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2024-02-24",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",

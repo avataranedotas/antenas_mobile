@@ -5466,7 +5466,6 @@
     "MCC": "268",
     "MNC": "03-06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "NOS;MEO",
     "tower:construction": "lattice",
@@ -9585,29 +9584,6 @@
     "coordinates": [
       -16.9842144,
       32.8238164
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8339387474",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01-03",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/8339387474"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6485692,
-      41.1707498
     ]
   }
 },
@@ -31570,22 +31546,25 @@
 },
 {
   "type": "Feature",
-  "id": "node/9543796824",
+  "id": "node/9543796825",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03",
+    "MNC": "02-03-06",
     "communication:mobile_phone": "yes",
+    "location": "roof",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
+    "material": "metal",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication",
-    "id": "node/9543796824"
+    "id": "node/9543796825"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8206206,
-      39.7571269
+      -8.8206257,
+      39.7571273
     ]
   }
 },
@@ -83655,6 +83634,28 @@
     "coordinates": [
       -8.6036407,
       41.1616248
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10026755156",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-03",
+    "check_date": "2024-02-24",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "id": "node/10026755156"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6133232,
+      41.163615
     ]
   }
 },
