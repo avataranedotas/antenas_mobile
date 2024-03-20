@@ -145,7 +145,7 @@
     "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "São Bernardo",
-    "operator": "PTC;NOS;MEO",
+    "operator": "NOS;MEO;PTC",
     "source": "http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -21563,6 +21563,22 @@
 },
 {
   "type": "node",
+  "id": 9512394502,
+  "lat": 39.8184999,
+  "lon": -8.7146407,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9512394521,
   "lat": 39.8465785,
   "lon": -8.7030272,
@@ -33036,13 +33052,13 @@
   "lon": -6.9671257,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -57611,11 +57627,11 @@
   "lon": -9.1366406,
   "tags": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;MEO",
+    "operator": "NOS;MEO",
     "owner": "Cellnex"
   }
 },
@@ -60388,7 +60404,7 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS;DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex"
   }
 },
@@ -68932,12 +68948,12 @@
   "lon": -6.8652427,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -71324,6 +71340,24 @@
 },
 {
   "type": "node",
+  "id": 10741979003,
+  "lat": 40.9908952,
+  "lon": -7.3319159,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "reinforced_concrete",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10741981192,
   "lat": 41.7798137,
   "lon": -7.3534649,
@@ -71401,11 +71435,11 @@
   "lon": -7.0155990,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
