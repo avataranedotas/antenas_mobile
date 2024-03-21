@@ -27220,9 +27220,12 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -27254,8 +27257,10 @@
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
+    "material": "reinforced_concrete",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
@@ -27269,9 +27274,12 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -27285,9 +27293,12 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
     "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
 },
@@ -27301,10 +27312,10 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
+    "location": "roof",
+    "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "tower:type": "communication"
+    "owner": "NOS"
   }
 },
 {
@@ -27369,9 +27380,12 @@
     "MCC": "268",
     "MNC": "02;06",
     "communication:mobile_phone": "yes",
+    "location": "roof",
     "man_made": "mast",
+    "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -35327,6 +35341,22 @@
 },
 {
   "type": "node",
+  "id": 9626548466,
+  "lat": 40.8450524,
+  "lon": -8.5561841,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "Vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9626599008,
   "lat": 40.6907910,
   "lon": -8.1240238,
@@ -36812,23 +36842,6 @@
     "name": "Mealhada",
     "operator": "NOS;MEO",
     "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9630357637,
-  "lat": 40.8450875,
-  "lon": -8.5560163,
-  "tags": {
-    "MCC": "268",
-    "MNC": "02;03",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "DIGI;NOS",
-    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
