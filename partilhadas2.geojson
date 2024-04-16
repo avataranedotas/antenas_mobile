@@ -3084,14 +3084,13 @@
   "id": "node/3468044507",
   "properties": {
     "MCC": "268",
-    "MNC": "01-03-06",
+    "MNC": "01-02-03-06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "tower:construction": "freestanding",
+    "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/3468044507"
   },
@@ -52977,12 +52976,13 @@
   "id": "node/9634516280",
   "properties": {
     "MCC": "268",
-    "MNC": "03-06",
-    "check_date": "2023-03-30",
+    "MNC": "02-03-06",
+    "addr:street": "Rua Manuel Firmino",
+    "check_date": "2024-04-14",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:type": "communication",
     "id": "node/9634516280"
@@ -74108,12 +74108,11 @@
   "id": "node/9738595805",
   "properties": {
     "MCC": "268",
-    "MNC": "01-06",
+    "MNC": "01-02-06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -87795,6 +87794,27 @@
     "coordinates": [
       -9.150456,
       38.8125661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10057081598",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02-06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "id": "node/10057081598"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4702572,
+      38.7948512
     ]
   }
 },
