@@ -369,6 +369,20 @@
   </node>
   <node id='-1248885' action='modify' visible='true' lat='38.7737006729' lon='-9.33487058759' />
   <node id='-1248886' action='modify' visible='true' lat='38.77705474818' lon='-9.33069707036' />
+  <node id='-1248887' action='modify' visible='true' lat='39.63496027302' lon='-8.53755444556'>
+    <tag k='ref' v='SACX00591' />
+  </node>
+  <node id='-1248888' action='modify' visible='true' lat='39.01808338531' lon='-9.29389715731'>
+    <tag k='ref' v='LICX01683' />
+  </node>
+  <node id='-1248892' action='modify' visible='true' lat='38.97695747684' lon='-9.26312685281' />
+  <node id='-1248893' action='modify' visible='true' lat='39.06983771518' lon='-9.30470110059'>
+    <tag k='ref' v='LICX01691' />
+  </node>
+  <node id='-1249067' action='modify' visible='true' lat='39.08725907341' lon='-9.28850591451'>
+    <tag k='ref' v='LICX01690' />
+  </node>
+  <node id='-1249079' action='modify' visible='true' lat='39.11020823481' lon='-9.28957344174' />
   <way id='-202287' action='modify' visible='true'>
     <nd ref='-1248648' />
     <nd ref='-1248649' />
@@ -889,5 +903,21 @@
   <way id='-202416' action='modify' visible='true'>
     <nd ref='-1248885' />
     <nd ref='-1248886' />
+  </way>
+  <way id='-202417' action='modify' visible='true'>
+    <nd ref='-1249067' />
+    <nd ref='-1248893' />
+  </way>
+  <way id='-202421' action='modify' visible='true'>
+    <nd ref='-1248888' />
+    <nd ref='-1248892' />
+  </way>
+  <way id='-202430' action='modify' visible='true'>
+    <nd ref='-1248893' />
+    <nd ref='-1248888' />
+  </way>
+  <way id='-202432' action='modify' visible='true'>
+    <nd ref='-1249079' />
+    <nd ref='-1249067' />
   </way>
 </osm>
