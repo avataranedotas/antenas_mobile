@@ -12506,6 +12506,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
@@ -12620,11 +12621,11 @@
   "lon": -8.6262017,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -18198,6 +18199,23 @@
     "mimics": "chimney",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers"
+  }
+},
+{
+  "type": "node",
+  "id": 9494023519,
+  "lat": 38.2959342,
+  "lon": -8.2305664,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-05-10",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 },
 {
@@ -34375,6 +34393,22 @@
 },
 {
   "type": "node",
+  "id": 9606140341,
+  "lat": 41.9675238,
+  "lon": -8.7113317,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9606140342,
   "lat": 41.9839963,
   "lon": -8.6603860,
@@ -37670,10 +37704,11 @@
   "lon": -8.7655920,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication"
