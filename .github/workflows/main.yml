@@ -26,9 +26,9 @@ jobs:
         chmod +x ./umap.sh
         ./umap.sh
       shell: bash
-    - name: proc_mnc.py
-      run: |
-        python proc_mnc.py    
+    #- name: proc_mnc.py
+    #  run: |
+    #    python proc_mnc.py    
     - name: Post convert to geojson
       run: |
         chmod +x ./post.sh
