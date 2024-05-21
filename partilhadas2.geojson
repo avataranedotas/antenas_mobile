@@ -361,7 +361,6 @@
     "MNC": "02-06",
     "check_date": "2024-05-10",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "56",
@@ -59765,12 +59764,13 @@
   "id": "node/9661398661",
   "properties": {
     "MCC": "268",
-    "MNC": "03-06",
+    "MNC": "01-03-06",
     "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -66389,6 +66389,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/9681205625",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01-02-03-06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9681205625"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7723068,
+      40.4816035
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9681205628",
   "properties": {
     "MCC": "268",
@@ -69195,11 +69219,11 @@
   "id": "node/9693378612",
   "properties": {
     "MCC": "268",
-    "MNC": "02-06",
+    "MNC": "02-03-06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -75082,7 +75106,6 @@
     "MNC": "01-02-03-06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "underground",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
@@ -75091,8 +75114,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -27.2253657,
-      38.647365
+      -27.225296,
+      38.6476164
     ]
   }
 },
