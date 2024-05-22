@@ -3316,11 +3316,12 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "MEO;SIRESP",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -4649,6 +4650,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -4658,8 +4660,8 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Mogadouro",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "MEO;SIRESP",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -9888,6 +9890,7 @@
     "MNC": "01;02;03;06",
     "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO;SIRESP",
     "owner": "Cellnex",
@@ -17020,10 +17023,11 @@
   "lon": -8.1409440,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -30085,10 +30089,11 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;NOS;MEO;SIRESP",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -30553,11 +30558,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;02;03;06",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO;SIRESP",
     "owner": "Cellnex",
+    "ref": "NBG098",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -33713,10 +33720,11 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "MEO;SIRESP",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -40183,6 +40191,7 @@
     "MCC": "268",
     "MNC": "06",
     "check_date": "2023-06-30",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -40191,8 +40200,8 @@
     "communications_transponder:service": "TV",
     "man_made": "mast",
     "name": "Vila da Ponte, Sernancelhe",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "MEO;SIRESP",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
