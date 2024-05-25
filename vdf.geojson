@@ -35621,6 +35621,33 @@
 },
 {
   "type": "Feature",
+  "id": "node/9569809463",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "check_date": "2023-07-30",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "mimics": "pine",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NGR142",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9569809463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.8375096,
+      40.5173795
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9569809495",
   "properties": {
     "MCC": "268",
@@ -53881,6 +53908,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
@@ -63849,11 +63877,12 @@
   "id": "node/9709173970",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9709173970"
@@ -99547,10 +99576,12 @@
     "MNC": "01;03",
     "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NGR009",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10314528192"
@@ -111094,6 +111125,27 @@
     "coordinates": [
       -8.6638047,
       40.4258752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11929474037",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "location": "underground",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "ref": "DAC007",
+    "id": "node/11929474037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.6656517,
+      37.7397438
     ]
   }
 }
