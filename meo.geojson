@@ -517,7 +517,7 @@
     "material": "metal",
     "name": "Trancão",
     "operator": "PTC;MEO",
-    "owner": "PTC",
+    "owner": "Cellnex",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
     "tower:type": "communication",
@@ -1027,6 +1027,40 @@
     "coordinates": [
       -8.7955282,
       41.6776588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1165292953",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-03-30",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "840",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Batalha",
+    "operator": "MEO;PTC",
+    "owner": "Cellnex",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/1165292953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8085057,
+      39.6582286
     ]
   }
 },
@@ -37591,13 +37625,12 @@
   "id": "node/9571844954",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
-    "communication:microwave": "yes",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;MEO",
-    "owner": "Vantage Towers",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "id": "node/9571844954"
   },
   "geometry": {
@@ -57448,11 +57481,12 @@
   "id": "node/9685385507",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2024-03-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9685385507"
@@ -61440,12 +61474,12 @@
   "id": "node/9701574241",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9701574241"
@@ -61710,30 +61744,6 @@
     "coordinates": [
       -8.8376655,
       39.6472766
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9701699058",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-05-30",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9701699058"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8084415,
-      39.6582237
     ]
   }
 },
@@ -109341,6 +109351,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-03-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "MEO",
