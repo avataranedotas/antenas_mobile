@@ -28639,11 +28639,11 @@
   "lon": -8.6593934,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -52999,21 +52999,6 @@
 },
 {
   "type": "node",
-  "id": 9899902247,
-  "lat": 38.7607926,
-  "lon": -9.3966621,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
-  }
-},
-{
-  "type": "node",
   "id": 9899902249,
   "lat": 38.7165379,
   "lon": -9.4243001,
@@ -53933,7 +53918,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB043"
   }
 },
 {
@@ -54137,6 +54123,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "MLB452",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -69548,6 +69535,22 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 10030407004,
+  "lat": 38.7607954,
+  "lon": -9.3966137,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "MLB424"
   }
 },
 {
