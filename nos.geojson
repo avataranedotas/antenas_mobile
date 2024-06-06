@@ -11933,11 +11933,11 @@
   "id": "node/9367548622",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9367548622"
@@ -26141,10 +26141,11 @@
   "id": "node/9533621926",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9533621926"
@@ -26162,13 +26163,13 @@
   "id": "node/9533621927",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9533621927"
@@ -26178,6 +26179,29 @@
     "coordinates": [
       -9.1879885,
       38.6090916
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9533621928",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/9533621928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1937472,
+      38.6180196
     ]
   }
 },
@@ -66374,8 +66398,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0941557,
-      38.7684413
+      -9.0943891,
+      38.7683681
     ]
   }
 },
@@ -88008,8 +88032,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0939572,
-      38.7716129
+      -9.0939626,
+      38.7715125
     ]
   }
 },
@@ -103157,8 +103181,8 @@
     "communication:mobile_phone": "yes",
     "fixme": "Move to exact location",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
     "tower:type": "communication",
     "id": "node/11702065624"
   },

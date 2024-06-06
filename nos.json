@@ -1,6 +1,6 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -8928,11 +8928,11 @@
   "lon": -9.1795968,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -19464,10 +19464,11 @@
   "lon": -9.1854132,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -19479,14 +19480,31 @@
   "lon": -9.1879885,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9533621928,
+  "lat": 38.6180196,
+  "lon": -9.1937472,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
 },
@@ -49255,8 +49273,8 @@
 {
   "type": "node",
   "id": 9923304303,
-  "lat": 38.7684413,
-  "lon": -9.0941557,
+  "lat": 38.7683681,
+  "lon": -9.0943891,
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
@@ -65057,8 +65075,8 @@
 {
   "type": "node",
   "id": 10213112420,
-  "lat": 38.7716129,
-  "lon": -9.0939572,
+  "lat": 38.7715125,
+  "lon": -9.0939626,
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
@@ -76326,8 +76344,8 @@
     "communication:mobile_phone": "yes",
     "fixme": "Move to exact location",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
     "tower:type": "communication"
   }
 },
