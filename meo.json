@@ -46870,6 +46870,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NMA038",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -47684,6 +47685,7 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "NMA056",
     "tower:construction": "freestanding",
     "tower:type": "lighting"
   }
@@ -76131,7 +76133,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "location": "roof",
+    "location": "indoor",
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "MEO"
@@ -82637,6 +82639,35 @@
   "id": 11960932098,
   "lat": 32.6452139,
   "lon": -16.9207000,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 11962654792,
+  "lat": 32.6622147,
+  "lon": -16.8766844,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "fixme": "Move to exact location",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 11962654793,
+  "lat": 32.8533951,
+  "lon": -17.1564756,
   "tags": {
     "MCC": "268",
     "MNC": "06",
