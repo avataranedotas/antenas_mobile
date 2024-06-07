@@ -1302,36 +1302,6 @@
 },
 {
   "type": "node",
-  "id": 1165383995,
-  "lat": 38.3878656,
-  "lon": -28.2501909,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:channel": "49",
-    "communications_transponder:frequency": "698 MHz",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:power": "750",
-    "communications_transponder:service": "TV",
-    "height": "40",
-    "man_made": "mast",
-    "material": "metal",
-    "name": "Castelete (Ilha do pico, Açores)",
-    "operator": "vodafone P;NOS;MEO;PTC",
-    "owner": "MEO",
-    "ref": "VAC107",
-    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 1165384013,
   "lat": 41.3620993,
   "lon": -7.7640805,
@@ -5857,6 +5827,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "VAC020",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -41501,6 +41472,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VAC019",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -41535,24 +41507,6 @@
     "man_made": "mast",
     "operator": "MEO",
     "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9708859700,
-  "lat": 38.4314085,
-  "lon": -28.4413934,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "Cellnex",
-    "ref": "VAC102",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -76176,11 +76130,14 @@
   "lon": -27.8443766,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VAC144",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -79361,6 +79318,21 @@
     "operator": "vodafone P;NOS",
     "owner": "Cellnex",
     "ref": "NBR075",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11962398705,
+  "lat": 38.4163000,
+  "lon": -28.3391600,
+  "tags": {
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }

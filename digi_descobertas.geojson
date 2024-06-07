@@ -272,6 +272,42 @@
 },
 {
   "type": "Feature",
+  "id": "node/1165383995",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "49",
+    "communications_transponder:frequency": "698 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "750",
+    "communications_transponder:service": "TV",
+    "height": "40",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Castelete (Ilha do pico, Açores)",
+    "operator": "vodafone P;DIGI;NOS;MEO;PTC",
+    "owner": "Cellnex",
+    "ref": "VAC107",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/1165383995"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -28.2501909,
+      38.3878656
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1165384149",
   "properties": {
     "MCC": "268",
@@ -34142,6 +34178,30 @@
     "coordinates": [
       -9.2554933,
       39.0431195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9708859700",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VAC102",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9708859700"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -28.4413934,
+      38.4314085
     ]
   }
 },
