@@ -52,7 +52,7 @@ wget -O digi_existentes.json 'https://overpass-api.de/api/interpreter?data=%5Bou
 sleep 60
 
 #Ran-sharing
-#echo "Antenas Ran-sharing"
+echo "Antenas Ran-sharing"
 wget -O ran_sharing.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3Barea(id%3A3600295480)-%3E.searchArea%3B(%0Anode%5B%22communication%3Amobile_phone%3Aran_sharing%22~%22.%22%5D(area.searchArea)%3B%0A)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
 sleep 60
 
