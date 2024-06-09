@@ -2470,23 +2470,71 @@
 },
 {
   "type": "Feature",
-  "id": "node/3468109927",
+  "id": "node/3468109926",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "tower",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
     "tower:type": "communication",
-    "id": "node/3468109927"
+    "id": "node/3468109926"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -31.2579124,
-      39.4287588
+      -31.1694122,
+      39.3823166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3468109928",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/3468109928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -31.1363901,
+      39.4514947
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3468116331",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/3468116331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -31.1133871,
+      39.6734307
     ]
   }
 },
@@ -11380,28 +11428,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9328522045",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/9328522045"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -31.1133855,
-      39.675216
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9353019543",
   "properties": {
     "MCC": "268",
@@ -19304,23 +19330,24 @@
 },
 {
   "type": "Feature",
-  "id": "node/9490172947",
+  "id": "node/9490178006",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "tower",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Vantage Towers",
     "tower:construction": "lattice",
     "tower:type": "communication",
-    "id": "node/9490172947"
+    "id": "node/9490178006"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -31.1370078,
-      39.451266
+      -31.2578181,
+      39.4287303
     ]
   }
 },
@@ -54552,13 +54579,13 @@
   "id": "node/9666995450",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-06-30",
+    "MNC": "02;03",
+    "check_date": "2024-06-08",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "id": "node/9666995450"
   },
   "geometry": {
@@ -54923,12 +54950,13 @@
   "id": "node/9667009461",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
+    "check_date": "2024-06-08",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9667009461"
