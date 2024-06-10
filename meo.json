@@ -544,6 +544,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -556,7 +557,7 @@
     "man_made": "tower",
     "material": "metal",
     "name": "Surrinha",
-    "operator": "PTC;MEO",
+    "operator": "MEO;SIRESP;PTC",
     "owner": "PTC",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
@@ -8357,11 +8358,12 @@
     "MCC": "268",
     "MNC": "06",
     "check_date": "2023-05-30",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "MEO;SIRESP",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
