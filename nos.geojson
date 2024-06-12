@@ -59103,13 +59103,12 @@
   "id": "node/9683558811",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
     "id": "node/9683558811"
   },
   "geometry": {
@@ -65224,6 +65223,27 @@
     "coordinates": [
       -9.3037419,
       38.7842527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910500197",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "id": "node/9910500197"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3249836,
+      38.7842323
     ]
   }
 },
