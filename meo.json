@@ -29221,11 +29221,11 @@
   "lon": -8.6553487,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -46433,9 +46433,8 @@
   "lon": -8.9623882,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:modulation": "COFDM",
@@ -46443,8 +46442,8 @@
     "communications_transponder:service": "TV",
     "man_made": "mast",
     "name": "Rio Maior",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -79980,6 +79979,25 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11128783001,
+  "lat": 39.6080411,
+  "lon": -8.4946194,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "ref": "21RB016",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }

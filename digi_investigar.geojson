@@ -1602,35 +1602,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9703407508",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "mast",
-    "name": "Rio Maior",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9703407508"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9623882,
-      39.3537858
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9735977674",
   "properties": {
     "MCC": "268",
@@ -2496,6 +2467,31 @@
     "coordinates": [
       -7.1878199,
       41.4849741
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10769708525",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "check_date": "2023-10-30",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a NOS não se mudou para a torre da VDF ao lado",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10769708525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3545527,
+      41.2589889
     ]
   }
 },
