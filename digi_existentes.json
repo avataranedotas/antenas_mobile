@@ -284,6 +284,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-03-30",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -16936,18 +16937,6 @@
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "MEO"
-  }
-},
-{
-  "type": "node",
-  "id": 9512394467,
-  "lat": 39.7905660,
-  "lon": -8.7334400,
-  "tags": {
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
   }
 },
 {
@@ -56369,13 +56358,13 @@
   "lon": -8.3951856,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "check_date": "2024-03-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS"
   }
 },
@@ -63016,6 +63005,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2024-03-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -69988,23 +69978,6 @@
 },
 {
   "type": "node",
-  "id": 10717831567,
-  "lat": 41.6076434,
-  "lon": -8.5009959,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03;06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 10719969998,
   "lat": 40.5245405,
   "lon": -7.5417870,
@@ -74312,7 +74285,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;06",
-    "check_date": "2023-07-30",
+    "check_date": "2024-05-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
@@ -75290,10 +75263,13 @@
   "lat": 41.2533226,
   "lon": -8.7053687,
   "tags": {
+    "MCC": "268",
+    "MNC": "03",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
