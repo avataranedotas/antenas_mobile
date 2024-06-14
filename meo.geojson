@@ -40441,6 +40441,7 @@
     "MNC": "06",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a MEO ainda emite daqui ou foi para junto da VDF/NOS um pouco a ESTE",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
@@ -51840,7 +51841,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;06",
-    "check_date": "2022-11-30",
+    "check_date": "2024-04-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -51890,6 +51891,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
+    "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9672725910"
@@ -51908,6 +51910,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03;06",
+    "check_date": "2024-04-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -94977,6 +94980,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/10121423138",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "id": "node/10121423138"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.690561,
+      41.2004809
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10121884917",
   "properties": {
     "MCC": "268",
@@ -100107,6 +100130,30 @@
     "coordinates": [
       -9.10424,
       38.833443
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10563398603",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10563398603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7266207,
+      40.3546429
     ]
   }
 },
