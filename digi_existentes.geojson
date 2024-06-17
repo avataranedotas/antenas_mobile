@@ -72009,6 +72009,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/9979955225",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "MBR173",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/9979955225"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3898642,
+      41.3922457
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9979955227",
   "properties": {
     "MCC": "268",
@@ -76444,13 +76468,11 @@
   "type": "Feature",
   "id": "node/9995227312",
   "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-05-30",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
+    "old_operator": "NOS",
+    "old_ref": "MBR008",
     "owner": "NOS",
     "id": "node/9995227312"
   },
@@ -96775,14 +96797,10 @@
   "type": "Feature",
   "id": "node/10769708525",
   "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-10-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se a NOS não se mudou para a torre da VDF ao lado",
+    "communication:mobile_phone": "no",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -104542,27 +104560,6 @@
     "coordinates": [
       -7.780461,
       37.121636
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11739483084",
-  "properties": {
-    "communication:mobile_phone": "yes",
-    "fixme": "Move to exact location",
-    "height": "30",
-    "man_made": "mast",
-    "material": "metal",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/11739483084"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4739418,
-      39.6731688
     ]
   }
 },

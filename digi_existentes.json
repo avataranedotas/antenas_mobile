@@ -53240,6 +53240,24 @@
 },
 {
   "type": "node",
+  "id": 9979955225,
+  "lat": 41.3922457,
+  "lon": -8.3898642,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "MBR173",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9979955227,
   "lat": 41.3797637,
   "lon": -8.3185667,
@@ -56501,13 +56519,11 @@
   "lat": 41.3932877,
   "lon": -8.3873365,
   "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-05-30",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
+    "old_operator": "NOS",
+    "old_ref": "MBR008",
     "owner": "NOS"
   }
 },
@@ -71444,14 +71460,10 @@
   "lat": 41.2589889,
   "lon": -8.3545527,
   "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-10-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se a NOS não se mudou para a torre da VDF ao lado",
+    "communication:mobile_phone": "no",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -77144,21 +77156,6 @@
     "man_made": "mast",
     "material": "metal",
     "owner": "Cellnex",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 11739483084,
-  "lat": 39.6731688,
-  "lon": -8.4739418,
-  "tags": {
-    "communication:mobile_phone": "yes",
-    "fixme": "Move to exact location",
-    "height": "30",
-    "man_made": "mast",
-    "material": "metal",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
