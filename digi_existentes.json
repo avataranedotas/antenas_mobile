@@ -14821,13 +14821,13 @@
   "lon": -7.3918843,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -63269,6 +63269,26 @@
 },
 {
   "type": "node",
+  "id": 10167660137,
+  "lat": 41.0261919,
+  "lon": -7.5737411,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Cabaços - Moimenta da Beira",
+    "operator": "MEO",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10171592790,
   "lat": 38.7044824,
   "lon": -9.2512446,
@@ -65929,13 +65949,13 @@
   "lon": -6.9702083,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -78267,9 +78287,12 @@
   "lat": 41.3486890,
   "lon": -8.0031600,
   "tags": {
+    "MCC": "268",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -78950,6 +78973,72 @@
     "man_made": "antenna",
     "manufacturer": "Vantage Towers S.A",
     "operator": "NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 11999833915,
+  "lat": 42.0679052,
+  "lon": -8.5014223,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11999879005,
+  "lat": 41.8869428,
+  "lon": -8.3523398,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11999909659,
+  "lat": 40.9857089,
+  "lon": -7.7167745,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11999961369,
+  "lat": 40.7940594,
+  "lon": -7.2598874,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 }
 
