@@ -40634,32 +40634,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9654353972",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:emergency": "yes",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS;MEO;SIRESP",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9654353972"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.7796265,
-      39.414517
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9654354336",
   "properties": {
     "MCC": "268",
@@ -98207,10 +98181,13 @@
   "type": "Feature",
   "id": "node/10815307411",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -104690,8 +104667,12 @@
   "type": "Feature",
   "id": "node/11769089007",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
+    "operator": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11769089007"
@@ -107468,6 +107449,30 @@
     "coordinates": [
       -9.1059084,
       39.0262696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12002885323",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12002885323"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9410692,
+      38.1465331
     ]
   }
 }
