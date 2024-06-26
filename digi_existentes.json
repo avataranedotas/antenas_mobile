@@ -6467,6 +6467,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "NGR075",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -17291,6 +17292,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NAV008",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -21661,6 +21663,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NGR062",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -22372,33 +22375,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9561415873,
-  "lat": 40.1698378,
-  "lon": -7.1744356,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:channel": "56",
-    "communications_transponder:frequency": "754 MHz",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:power": "780",
-    "communications_transponder:service": "TV",
-    "man_made": "mast",
-    "name": "Penamacor",
-    "operator": "MEO;PTC",
-    "owner": "MEO",
-    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "ref": "NCB067",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -22412,9 +22389,10 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem outras operadoras",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -22431,6 +22409,7 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "NGR109",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -22448,6 +22427,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NCB116",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -23291,6 +23271,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NVI056",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -33209,6 +33190,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NVI156",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -65515,7 +65497,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "NOS"
+    "owner": "NOS",
+    "ref": "NCB066"
   }
 },
 {
@@ -67659,6 +67642,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NCB065",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -70387,11 +70371,13 @@
   "lon": -7.3127854,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "Cellnex",
+    "ref": "NCB084",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
