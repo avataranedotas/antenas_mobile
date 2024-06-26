@@ -5828,8 +5828,9 @@
   "id": "node/5104724351",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:modulation": "COFDM",
@@ -5838,7 +5839,8 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Arouca",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "NAV005",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/5104724351"
@@ -50148,6 +50150,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NVI143",
     "id": "node/9683684608"
   },
   "geometry": {
@@ -75080,12 +75083,10 @@
   "type": "Feature",
   "id": "node/9991449740",
   "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -95507,11 +95508,13 @@
   "id": "node/10767235064",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NAV013",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10767235064"
