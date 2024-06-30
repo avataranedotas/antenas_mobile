@@ -209,8 +209,8 @@
 {
   "type": "node",
   "id": 1165292339,
-  "lat": 38.7257590,
-  "lon": -9.1291026,
+  "lat": 38.7257670,
+  "lon": -9.1290495,
   "tags": {
     "MCC": "268",
     "MNC": "06",
@@ -7222,8 +7222,8 @@
   "lon": -8.2529376,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2024-01-20",
+    "MNC": "02;06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -7235,8 +7235,9 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Albufeira",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "95AG001;FACX00510",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
@@ -20574,6 +20575,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO",
@@ -23308,12 +23310,12 @@
 {
   "type": "node",
   "id": 9548320572,
-  "lat": 37.0955330,
-  "lon": -8.2392267,
+  "lat": 37.0962176,
+  "lon": -8.2393528,
   "tags": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-05-30",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -25674,6 +25676,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -26105,33 +26108,18 @@
 },
 {
   "type": "node",
-  "id": 9559250290,
-  "lat": 37.0900077,
-  "lon": -8.2537673,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite, possivelmente apenas 2G",
-    "location": "wall",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
-  }
-},
-{
-  "type": "node",
   "id": 9559250291,
   "lat": 37.0881296,
   "lon": -8.2515331,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex"
   }
 },
 {
@@ -26142,6 +26130,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
@@ -31650,12 +31639,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-10-14",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Poderá ter digi numa das chaminés falsas",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
-    "owner": "MEO"
+    "owner": "Cellnex"
   }
 },
 {
@@ -81233,23 +81223,6 @@
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 11453989739,
-  "lat": 39.5547993,
-  "lon": -8.4017046,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-03-30",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO"
   }
 },
 {
