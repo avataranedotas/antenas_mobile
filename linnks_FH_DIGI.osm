@@ -430,6 +430,12 @@
   <node id='-1251567' action='modify' visible='true' lat='38.54706568845' lon='-9.02530275352' />
   <node id='-1251568' action='modify' visible='true' lat='38.54061063322' lon='-9.01648968525' />
   <node id='-1251569' action='modify' visible='true' lat='38.56247722789' lon='-9.03700724311' />
+  <node id='-1251570' action='modify' visible='true' lat='38.6110273992' lon='-9.09003854871' />
+  <node id='-1251571' action='modify' visible='true' lat='38.61832906637' lon='-9.09225404799' />
+  <node id='-1251572' action='modify' visible='true' lat='38.62305253952' lon='-9.08173710376'>
+    <tag k='ref' v='STCX03264' />
+  </node>
+  <node id='-1251576' action='modify' visible='true' lat='38.60839911441' lon='-9.07648265898' />
   <way id='-203085' action='modify' visible='true'>
     <nd ref='-1251283' />
     <nd ref='-1251284' />
@@ -1059,5 +1065,13 @@
     <nd ref='-1251569' />
     <nd ref='-1251567' />
     <nd ref='-1251568' />
+  </way>
+  <way id='-203251' action='modify' visible='true'>
+    <nd ref='-1251576' />
+    <nd ref='-1251570' />
+  </way>
+  <way id='-203254' action='modify' visible='true'>
+    <nd ref='-1251570' />
+    <nd ref='-1251571' />
   </way>
 </osm>
