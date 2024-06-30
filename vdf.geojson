@@ -26947,23 +26947,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/9528394333",
+  "id": "node/9528394332",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
-    "id": "node/9528394333"
+    "id": "node/9528394332"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0847226,
-      38.6247029
+      -9.083933,
+      38.6241849
     ]
   }
 },
@@ -29973,6 +29973,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VFA003",
     "id": "node/9548320576"
   },
   "geometry": {
@@ -77615,14 +77616,16 @@
   "id": "node/10082448947",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "highway": "street_lamp",
     "lamp_type": "electric",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NVI061",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10082448947"
