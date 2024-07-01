@@ -63178,12 +63178,12 @@
   "id": "node/9989326612",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI ou é ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -72709,6 +72709,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Bombeiros",
+    "ref": "VCO061",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/10075963973"
@@ -76290,6 +76291,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "NOS",
+    "ref": "VCO062",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10292079048"
@@ -93816,6 +93818,71 @@
     "coordinates": [
       -8.5864,
       41.550646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12026782227",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "mast",
+    "operator": "MEO",
+    "tower:type": "communication",
+    "id": "node/12026782227"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5393086,
+      37.4164526
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12026807494",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "highway": "street_lamp",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12026807494"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3938564,
+      38.7228067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12026807495",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "fixme": "Move to exact location",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/12026807495"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6256704,
+      37.2424982
     ]
   }
 }
