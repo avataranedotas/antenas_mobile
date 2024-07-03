@@ -54881,11 +54881,11 @@
   "id": "node/9666995465",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9666995465"
@@ -54893,8 +54893,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8013291,
-      40.4258221
+      -8.8013667,
+      40.4258507
     ]
   }
 },
@@ -102480,11 +102480,12 @@
   "id": "node/10740042906",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a torre foi substituida por uma maior",
     "man_made": "mast",
     "material": "reinforced_concrete",
-    "operator": "vodafone P",
+    "operator": "vodafone P;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
