@@ -1650,6 +1650,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/2688825032",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "ref": "NVC043",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/2688825032"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3407259,
+      42.0804754
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2793870051",
   "properties": {
     "MCC": "268",
@@ -22093,12 +22117,14 @@
   "id": "node/9499390832",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NVC040",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9499390832"
@@ -45869,6 +45895,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/9631463961",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "ref": "NVC039",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9631463961"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.23976,
+      42.1269723
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9631463962",
   "properties": {
     "MCC": "268",
@@ -51037,8 +51088,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.574813,
-      41.3801556
+      -8.574762,
+      41.3802794
     ]
   }
 },
@@ -58496,6 +58547,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NVC041",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9672991487"
