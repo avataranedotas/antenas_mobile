@@ -16275,6 +16275,7 @@
     "man_made": "mast",
     "operator": "vodafoneP;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NCB145",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -26987,6 +26988,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se também emite VDF/NOS com o eNb 761212",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:modulation": "COFDM",
@@ -68652,6 +68654,23 @@
     "material": "metal",
     "operator": "MEO",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12044168934,
+  "lat": 41.7167871,
+  "lon": -6.6901705,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
