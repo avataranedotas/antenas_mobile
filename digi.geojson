@@ -966,13 +966,13 @@
   "id": "node/2641946645",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe outro operador além da MEO e DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "MBR144",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/2641946645"
@@ -17034,6 +17034,29 @@
     "coordinates": [
       -9.1739737,
       38.6760288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9538687403",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-07-08",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/9538687403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1747637,
+      38.7133692
     ]
   }
 },
@@ -42105,11 +42128,12 @@
   "id": "node/9979955226",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "MBR151",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9979955226"
