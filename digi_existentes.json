@@ -6986,11 +6986,11 @@
   "lon": -8.9877344,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Possíveis antenas DIGI. Investigar",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "MST200",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -68655,6 +68655,42 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "ref": "NBG147",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12044659698,
+  "lat": 40.6007235,
+  "lon": -8.6459547,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12044659699,
+  "lat": 41.3677911,
+  "lon": -8.3022182,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "Cellnex",
+    "ref": "MBR160",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
