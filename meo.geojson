@@ -29903,12 +29903,12 @@
   "id": "node/9538687739",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9538687739"
@@ -44183,6 +44183,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03;06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -79772,22 +79773,21 @@
 },
 {
   "type": "Feature",
-  "id": "node/9923304290",
+  "id": "node/9923304289",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9923304290"
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "id": "node/9923304289"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0962479,
-      38.758655
+      -9.096263,
+      38.7586565
     ]
   }
 },
@@ -81339,17 +81339,16 @@
     "MNC": "06",
     "communication:mobile_phone": "yes",
     "location": "roof",
-    "name": "ElectroBeato Lda",
-    "not:brand:wikidata": "Q3306167",
+    "man_made": "antenna",
+    "operator": "MEO",
     "owner": "MEO",
-    "shop": "electronics",
     "id": "node/9934664756"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1057228,
-      38.7325874
+      -9.1056584,
+      38.7326303
     ]
   }
 },
@@ -83431,27 +83430,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9936269385",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9936269385"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1404279,
-      38.7204938
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9936269386",
   "properties": {
     "MCC": "268",
@@ -83625,7 +83603,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "03;06",
-    "check_date": "2023-05-30",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -83647,8 +83625,9 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
-    "location": "roof",
+    "location": "wall",
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "MEO",
@@ -83731,6 +83710,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
@@ -83752,6 +83732,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -83773,6 +83754,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
@@ -84090,13 +84072,13 @@
   "id": "node/9940013474",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-05-30",
+    "MNC": "02;06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "id": "node/9940013474"
   },
   "geometry": {
@@ -115451,6 +115433,29 @@
     "coordinates": [
       -7.4275434,
       37.192918
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12057928722",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/12057928722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1414937,
+      38.7233341
     ]
   }
 }

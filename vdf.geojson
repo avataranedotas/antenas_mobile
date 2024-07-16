@@ -1556,6 +1556,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "emergency": "siren",
     "location": "roof",
@@ -1563,7 +1564,7 @@
     "material": "metal",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
-    "siren:purpose": "tornado",
+    "siren:purpose": "tsunami",
     "siren:type": "electronic",
     "source:emergency": "survey;https://www.lisboa.pt/fileadmin/cidade_temas/seguranca/documentos/Risco_Tsunami_SMariaMaior_Misericordia.pdf",
     "tower:construction": "lattice",
@@ -44988,6 +44989,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03;06",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -67715,6 +67717,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/9923304289",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "wall",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "id": "node/9923304289"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.096263,
+      38.7586565
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9923304294",
   "properties": {
     "MCC": "268",
@@ -75253,6 +75275,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -96019,6 +96042,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -109271,6 +109295,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "height": "3",
     "location": "surface",
@@ -112612,6 +112637,27 @@
     "coordinates": [
       -9.4172295,
       38.7024842
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12057928723",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "location": "wall",
+    "man_made": "antenna",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "id": "node/12057928723"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0948853,
+      38.7699136
     ]
   }
 }
