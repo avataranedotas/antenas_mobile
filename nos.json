@@ -17373,6 +17373,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "MCO004",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -42809,6 +42810,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NBR013",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -44680,6 +44682,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "NBR022",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -53590,6 +53593,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "03",
+    "check_date": "2024-03-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
@@ -53597,6 +53601,7 @@
     "material": "metal",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MBR079",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -76925,7 +76930,8 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS"
+    "operator": "vodafone P;NOS",
+    "ref": "NBR035"
   }
 },
 {
@@ -76971,6 +76977,7 @@
     "check_date": "2023-05-30",
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se é o eNb 26129",
     "man_made": "mast",
     "operator": "NOS",
     "tower:construction": "tower",
@@ -78017,6 +78024,22 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 12063219129,
+  "lat": 38.8004656,
+  "lon": -9.1097058,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "man_made": "utility_pole",
+    "material": "metal",
+    "operator": "NOS",
+    "ref": "DLB183",
+    "utility": "telecom"
   }
 }
 
