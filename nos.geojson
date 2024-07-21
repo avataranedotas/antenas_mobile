@@ -93929,11 +93929,13 @@
   "id": "node/10559800429",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NVI016",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10559800429"
@@ -100778,14 +100780,13 @@
   "id": "node/10771900021",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10771900021"
@@ -105432,6 +105433,26 @@
     "coordinates": [
       -8.5326621,
       39.4620019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12066833068",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "id": "node/12066833068"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3121456,
+      38.6850722
     ]
   }
 }
