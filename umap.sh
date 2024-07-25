@@ -1,5 +1,8 @@
 #!/bin/bash
 
+HAUMANO=$(date -d "1 year ago" +"%Y-%m-%d")
+
+echo $HAUMANO
 
 #VDF
 echo "VDF"
@@ -48,7 +51,8 @@ sleep 60
 
 #DIGI_existentes
 echo "Caça às DIGI - Existentes"
-wget -O digi_existentes.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3Barea(id%3A3600295480)-%3E.searchArea%3B(node%5B%22communication%3Amobile_phone%22~%22.%22%5D%5B%22MNC%22!~%2202%22%5D%5B%22communication%3Amobile_phone%3Aextra_tube%22!~%22.%22%5D%5B%22location%22!%3D%22indoor%22%5D(if%3A((date(t%5B%22check_date%22%5D)%3Cdate(%222023-07-11T19%3A26%3A29.922Z%22))%7C%7C(!is_date(t%5B%22check_date%22%5D))%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20))(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+#wget -O digi_existentes.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3Barea(id%3A3600295480)-%3E.searchArea%3B(node%5B%22communication%3Amobile_phone%22~%22.%22%5D%5B%22MNC%22!~%2202%22%5D%5B%22communication%3Amobile_phone%3Aextra_tube%22!~%22.%22%5D%5B%22location%22!%3D%22indoor%22%5D(if%3A((date(t%5B%22check_date%22%5D)%3Cdate(%222023-07-11T19%3A26%3A29.922Z%22))%7C%7C(!is_date(t%5B%22check_date%22%5D))%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20))(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+wget -O digi_existentes.json  'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3Barea(id%3A3600295480)-%3E.searchArea%3B(node%5B%22communication%3Amobile_phone%22~%22.%22%5D%5B%22MNC%22!~%2202%22%5D%5B%22communication%3Amobile_phone%3Aextra_tube%22!~%22.%22%5D%5B%22location%22!%3D%22indoor%22%5D(if%3A((date(t%5B%22check_date%22%5D)%3Cdate(%22'$HAUMANO'%22))%7C%7C(!is_date(t%5B%22check_date%22%5D))%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20))(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
 sleep 60
 
 #Ran-sharing
