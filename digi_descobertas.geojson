@@ -13977,13 +13977,15 @@
   "id": "node/9501621964",
   "properties": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "01;02;03",
     "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VEV054",
     "id": "node/9501621964"
   },
   "geometry": {
@@ -17562,6 +17564,31 @@
     "coordinates": [
       -9.2179704,
       38.6533354
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9545984061",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2024-07-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/9545984061"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8045072,
+      39.7486933
     ]
   }
 },
