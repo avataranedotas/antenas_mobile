@@ -16415,13 +16415,15 @@
   "lon": -7.9086172,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "01;02;03",
     "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;NOS",
-    "owner": "Cellnex"
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "VEV054"
   }
 },
 {
@@ -20613,14 +20615,13 @@
   "lon": -8.8045072,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2024-07-22",
+    "MNC": "02;03",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -39112,13 +39113,15 @@
   "lon": -6.9380442,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-07-30",
+    "MNC": "01;03",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NGR004",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -67060,6 +67063,26 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10291537492,
+  "lat": 40.8070087,
+  "lon": -6.9435250,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2024-07-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NGR002",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
