@@ -29947,11 +29947,12 @@
   "id": "node/9538687741",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "02;03;06",
+    "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
@@ -79442,6 +79443,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -80321,7 +80323,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-05-30",
+    "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -80344,12 +80346,12 @@
   "id": "node/9934550993",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "id": "node/9934550993"
   },
   "geometry": {
@@ -80513,6 +80515,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -80663,6 +80666,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -80966,7 +80970,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-05-30",
+    "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -99283,6 +99287,30 @@
     "coordinates": [
       -6.6295034,
       41.2576823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10292178539",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10292178539"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.6771019,
+      41.2468617
     ]
   }
 },
