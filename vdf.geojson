@@ -3978,12 +3978,13 @@
   "id": "node/4381001923",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO;SIRESP",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/4381001923"
@@ -46508,6 +46509,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NVR001",
     "id": "node/9631985497"
   },
   "geometry": {
