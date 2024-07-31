@@ -13330,22 +13330,6 @@
 },
 {
   "type": "node",
-  "id": 9392062849,
-  "lat": 38.5134870,
-  "lon": -9.0351842,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9392062851,
   "lat": 38.5199180,
   "lon": -9.0199821,
@@ -19132,22 +19116,6 @@
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "MEO"
-  }
-},
-{
-  "type": "node",
-  "id": 9484708834,
-  "lat": 38.4378887,
-  "lon": -9.1170850,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
   }
 },
 {
@@ -33376,28 +33344,6 @@
 },
 {
   "type": "node",
-  "id": 9579316582,
-  "lat": 40.2272853,
-  "lon": -8.0541911,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "mast",
-    "name": "Arganil",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9579316587,
   "lat": 40.2341010,
   "lon": -8.0435828,
@@ -40465,7 +40411,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
-    "owner": "MEO"
+    "owner": "MEO",
+    "ref": "99TM048"
   }
 },
 {
@@ -114069,6 +114016,7 @@
   "tags": {
     "colour": "gray",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar quais as operadoras presentes",
     "man_made": "mast",
     "material": "metal",
     "owner": "Vantage Towers",
