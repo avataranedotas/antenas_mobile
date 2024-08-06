@@ -1455,6 +1455,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VLR045",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -4125,6 +4126,24 @@
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "ref": "VAC103",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 5948433285,
+  "lat": 40.6115198,
+  "lon": -6.9978890,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "check_date": "2024-06-21",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -22632,7 +22651,7 @@
   "lon": -8.3592820,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
@@ -30737,6 +30756,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VLR054",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -42448,6 +42468,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "ref": "MAV033",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -45885,6 +45906,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "VLR132",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -72400,12 +72422,14 @@
   "lon": -7.8235439,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "reinforced_concrete",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NVR050",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }

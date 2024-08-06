@@ -41127,30 +41127,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9560664385",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/9560664385"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.7232494,
-      41.300394
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9560664394",
   "properties": {
     "MCC": "268",
@@ -66711,6 +66687,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "ref": "MAV033",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9668919242"
@@ -133668,12 +133645,14 @@
   "id": "node/10281151842",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "reinforced_concrete",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NVR050",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10281151842"
