@@ -98376,30 +98376,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9984000256",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/9984000256"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.63103,
-      41.1549358
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9984100873",
   "properties": {
     "MCC": "268",
@@ -133841,12 +133817,14 @@
   "id": "node/10282958248",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NVI008",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10282958248"
@@ -142347,30 +142325,6 @@
     "coordinates": [
       -7.6109036,
       41.0849607
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10742239647",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "height": "10",
-    "man_made": "mast",
-    "material": "reinforced_concrete",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10742239647"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.569258,
-      41.084797
     ]
   }
 },
@@ -157071,10 +157025,13 @@
   "type": "Feature",
   "id": "node/11899240158",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
