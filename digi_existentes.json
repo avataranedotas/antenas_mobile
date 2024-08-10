@@ -83642,21 +83642,6 @@
 },
 {
   "type": "node",
-  "id": 10104395372,
-  "lat": 41.3790843,
-  "lon": -8.7668705,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
   "id": 10104395373,
   "lat": 41.3846504,
   "lon": -8.7641189,
@@ -107369,9 +107354,11 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NGR022",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
