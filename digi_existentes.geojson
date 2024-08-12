@@ -7325,52 +7325,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5252603363",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-07-30",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/5252603363"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -6.897511,
-      40.3949922
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5252603364",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/5252603364"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -6.897787,
-      40.3949922
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5322188977",
   "properties": {
     "addr:city": "Nordeste",
@@ -40173,6 +40127,31 @@
     "coordinates": [
       -8.222191,
       37.0894225
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9559215773",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Foi instalada uma segunda chaminé que deverá ser DIGI, confirmar",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "NCB030",
+    "id": "node/9559215773"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5059778,
+      40.2844502
     ]
   }
 },
