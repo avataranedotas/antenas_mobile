@@ -52686,6 +52686,7 @@
   "id": "node/9631439594",
   "properties": {
     "communication:mobile_phone": "no",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "old_operator": "NOS",
@@ -54384,30 +54385,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9632163038",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9632163038"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.6454568,
-      40.3990235
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9632163043",
   "properties": {
     "MCC": "268",
@@ -54446,28 +54423,6 @@
     "coordinates": [
       -7.8604363,
       40.3625282
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9632203235",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "id": "node/9632203235"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.860483,
-      40.3625754
     ]
   }
 },
@@ -70697,29 +70652,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9681205627",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9681205627"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.646825,
-      40.3769553
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9681205631",
   "properties": {
     "MCC": "268",
@@ -70881,10 +70813,11 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9681264636"
@@ -132859,29 +132792,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10274242484",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "reinforced_concrete",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10274242484"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.2683653,
-      40.3435728
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10274303467",
   "properties": {
     "MCC": "268",
@@ -160604,6 +160514,46 @@
     "coordinates": [
       -8.1979818,
       41.6104702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12109238505",
+  "properties": {
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "fixme": "Aproximate position",
+    "man_made": "mast",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12109238505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.3028331,
+      37.9502109
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12109238506",
+  "properties": {
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se é mesmo de rede móvel ou da REFER/IP",
+    "fixme": "Aproximate position",
+    "man_made": "mast",
+    "tower:type": "communication",
+    "id": "node/12109238506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4515698,
+      40.3597182
     ]
   }
 }
