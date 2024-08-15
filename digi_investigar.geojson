@@ -1471,7 +1471,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:note": "Investigar qual a operadora no andar de baixo",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -2191,6 +2191,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10031770533",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10031770533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4423324,
+      38.705385
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10032211425",
   "properties": {
     "MCC": "268",
@@ -2208,6 +2232,32 @@
     "coordinates": [
       -9.3017877,
       38.7732082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10043018048",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
+    "communication:mobile_phone:note": "Confirmar que tem DIGI",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/10043018048"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3042825,
+      38.706992
     ]
   }
 },
