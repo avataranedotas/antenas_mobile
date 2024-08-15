@@ -1684,6 +1684,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "MLB164",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/3802937344"
@@ -13501,6 +13502,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VBJ071",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9499383820"
@@ -13773,6 +13775,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VBJ042",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9499383920"
@@ -19798,9 +19801,11 @@
     "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "25",
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VSA040",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9558739889"
@@ -21975,9 +21980,11 @@
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "35",
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VSA042",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9569904772"
@@ -32015,6 +32022,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/9668878022",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-07-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9668878022"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3453305,
+      41.634822
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9668878027",
   "properties": {
     "MCC": "268",
@@ -38485,6 +38516,59 @@
     "coordinates": [
       -9.0846444,
       38.8636353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9738561243",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-07-28",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Alverca",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9738561243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0630891,
+      38.8777673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9738561245",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-07-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "id": "node/9738561245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9928477,
+      38.9510553
     ]
   }
 },
@@ -56597,6 +56681,29 @@
     "coordinates": [
       -7.7220223,
       40.1042965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12112754329",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/12112754329"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1429846,
+      38.651852
     ]
   }
 }
