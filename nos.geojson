@@ -1778,12 +1778,12 @@
   "id": "node/2948423290",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03;06",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "ref": "MBR129",
     "tower:construction": "freestanding",
@@ -79367,12 +79367,12 @@
   "id": "node/10031864632",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
     "id": "node/10031864632"
   },
   "geometry": {
@@ -106017,12 +106017,11 @@
   "id": "node/12053033228",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Possivelmente site MEO e/ou DIGI, necessário confirmação",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "id": "node/12053033228"
   },
   "geometry": {

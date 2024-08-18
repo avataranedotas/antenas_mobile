@@ -142,31 +142,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2948423290",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS",
-    "owner": "Cellnex",
-    "ref": "MBR129",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/2948423290"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3912778,
-      41.6252017
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3789025427",
   "properties": {
     "MCC": "268",
@@ -2790,6 +2765,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11065339302",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Parece ter mais dois operadores além da MEO (provavelmente DIGI e NOS). Investigar",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/11065339302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6354048,
+      40.9498894
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11455899180",
   "properties": {
     "MCC": "268",
@@ -2966,27 +2965,6 @@
     "coordinates": [
       -7.6920128,
       41.2812597
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12053033228",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Possivelmente site MEO e/ou DIGI, necessário confirmação",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "id": "node/12053033228"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.4172295,
-      38.7024842
     ]
   }
 },
