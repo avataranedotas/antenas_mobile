@@ -2868,6 +2868,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "MCO039",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/2006625411"
@@ -149691,7 +149692,6 @@
     "MNC": "06",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "fixme": "Aproximate position",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -149703,8 +149703,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.0656681,
-      41.0333744
+      -7.0659409,
+      41.0323131
     ]
   }
 },
@@ -159520,6 +159520,45 @@
     "coordinates": [
       -9.1402857,
       38.7208312
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12122734429",
+  "properties": {
+    "communication:mobile_phone": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "mast",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12122734429"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4293193,
+      40.1819964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12122734430",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "location": "wall",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "id": "node/12122734430"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1831353,
+      38.7529036
     ]
   }
 }
