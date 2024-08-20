@@ -127739,12 +127739,12 @@
   "id": "node/10222061716",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "underground",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
     "id": "node/10222061716"
   },
   "geometry": {
@@ -159560,6 +159560,66 @@
     "coordinates": [
       -9.1831353,
       38.7529036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12122984704",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/12122984704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.0972484,
+      39.0706643
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12122984705",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/12122984705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7313642,
+      38.9453601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12123014150",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "wall",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/12123014150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8736274,
+      40.1643538
     ]
   }
 }
