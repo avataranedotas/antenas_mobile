@@ -25312,12 +25312,12 @@
   "id": "node/9484708756",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
     "id": "node/9484708756"
   },
   "geometry": {
@@ -63656,28 +63656,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9666898240",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-03-30",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9666898240"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5981191,
-      40.5215398
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9666898241",
   "properties": {
     "MCC": "268",
@@ -63702,13 +63680,13 @@
   "id": "node/9666898242",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "check_date": "2023-03-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
     "id": "node/9666898242"
   },
   "geometry": {
@@ -77166,11 +77144,11 @@
   "id": "node/9709012156",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9709012156"
@@ -159599,6 +159577,67 @@
     "coordinates": [
       -8.8736274,
       40.1643538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12125465412",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "fixme": "Find antenna and move to exact location",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/12125465412"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.338238,
+      37.751408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12125465413",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "fixme": "Find antenna and move to exact location",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/12125465413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.3249986,
+      37.7490772
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12125481919",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12125481919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.559365,
+      37.768294
     ]
   }
 }
