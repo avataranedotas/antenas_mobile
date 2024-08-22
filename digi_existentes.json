@@ -98673,11 +98673,12 @@
   "lat": 32.6422049,
   "lon": -16.9204406,
   "tags": {
-    "communication:mobile_phone": "no",
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "old_operator": "NOS",
-    "owner": "NOS"
+    "operator": "MEO"
   }
 },
 {
@@ -106989,6 +106990,23 @@
 },
 {
   "type": "node",
+  "id": 10776571683,
+  "lat": 32.6987574,
+  "lon": -16.7709464,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "layer": "-1",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10776571684,
   "lat": 33.0844740,
   "lon": -16.3232106,
@@ -107410,21 +107428,6 @@
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 10778773758,
-  "lat": 32.6416595,
-  "lon": -16.9200370,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
   }
 },
 {
@@ -117615,6 +117618,62 @@
     "ref": "VCO102",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12128569454,
+  "lat": 32.7074682,
+  "lon": -16.7663311,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "underground",
+    "man_made": "antenna",
+    "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 12128569455,
+  "lat": 32.6464722,
+  "lon": -16.8542338,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "underground",
+    "man_made": "antenna",
+    "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 12128569456,
+  "lat": 32.6488520,
+  "lon": -16.8470589,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "underground",
+    "man_made": "antenna",
+    "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 12128647154,
+  "lat": 39.0251087,
+  "lon": -27.9716625,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO"
   }
 }
 
