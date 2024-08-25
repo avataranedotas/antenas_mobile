@@ -105722,7 +105722,6 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "reinforced_concrete",
-    "note": "Repetidor de sinal com yagi, falta confirmar se pertence à MEO. Registada no Cellmapper com o eNb 4855 na B3 (LTE),",
     "operator": "MEO",
     "owner": "MEO",
     "tower:construction": "freestanding",
@@ -111708,6 +111707,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/11610189191",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "fixme": "approximate location",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/11610189191"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6344005,
+      38.3776769
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11619324863",
   "properties": {
     "MCC": "268",
@@ -111992,7 +112011,7 @@
     "MNC": "06",
     "check_date": "2024-03-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Only Repeater",
+    "description": "Repetidor",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -113528,7 +113547,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Repetidor",
+    "description": "Repetidor",
     "man_made": "mast",
     "operator": "MEO",
     "tower:construction": "freestanding",
