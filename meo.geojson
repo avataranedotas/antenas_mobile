@@ -10000,12 +10000,12 @@
   "id": "node/7764005014",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "02;03;06",
     "check_date": "2024-05-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -10014,8 +10014,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6250839,
-      39.9097327
+      -8.6252153,
+      39.9097389
     ]
   }
 },
@@ -12093,6 +12093,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VSA236",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9137443224"
@@ -103647,6 +103648,7 @@
     "material": "reinforced_concrete",
     "operator": "vodafone P;MEO",
     "owner": "Vantage Towers",
+    "ref": "NVI025",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10740042906"
@@ -117094,6 +117096,26 @@
     "coordinates": [
       -8.3274932,
       38.2161362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12140892585",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/12140892585"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6755407,
+      39.6292548
     ]
   }
 }
