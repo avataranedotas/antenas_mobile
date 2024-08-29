@@ -23965,6 +23965,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -39438,12 +39439,12 @@
   "lon": -6.9640307,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -53329,21 +53330,6 @@
 },
 {
   "type": "node",
-  "id": 9989326614,
-  "lat": 40.2115723,
-  "lon": -8.4428882,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
-  }
-},
-{
-  "type": "node",
   "id": 9989326615,
   "lat": 40.2046691,
   "lon": -8.4075314,
@@ -64156,6 +64142,20 @@
 },
 {
   "type": "node",
+  "id": 10075981375,
+  "lat": 40.2114698,
+  "lon": -8.4432292,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO"
+  }
+},
+{
+  "type": "node",
   "id": 10077223583,
   "lat": 40.5304315,
   "lon": -8.0968636,
@@ -70739,12 +70739,12 @@
   "lon": -8.1668061,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "NOS;MEO",
+    "owner": "Cellnex"
   }
 },
 {
@@ -75165,12 +75165,12 @@
   "lon": -8.4123087,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "NOS;MEO",
+    "owner": "Cellnex"
   }
 },
 {
