@@ -18993,29 +18993,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9416002961",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece ter um segundo andar. Confirmar se é DIGI",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9416002961"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8940938,
-      38.7355395
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9416002968",
   "properties": {
     "MCC": "268",
@@ -152959,12 +152936,12 @@
   "id": "node/11608181909",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/11608181909"
@@ -153706,11 +153683,15 @@
   "type": "Feature",
   "id": "node/11758866532",
   "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "fixme": "Aproximate position, please move to exact location",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",

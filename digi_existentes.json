@@ -14216,23 +14216,6 @@
 },
 {
   "type": "node",
-  "id": 9416002961,
-  "lat": 38.7355395,
-  "lon": -8.8940938,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece ter um segundo andar. Confirmar se é DIGI",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9416002968,
   "lat": 38.6467735,
   "lon": -8.2101125,
@@ -112688,12 +112671,12 @@
   "lon": -7.3730040,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -113237,11 +113220,15 @@
   "lat": 39.0004532,
   "lon": -7.5628772,
   "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "fixme": "Aproximate position, please move to exact location",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"

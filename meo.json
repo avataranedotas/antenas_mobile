@@ -13071,12 +13071,11 @@
   "lon": -8.8940938,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece ter um segundo andar. Confirmar se é DIGI",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -83144,6 +83143,23 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 11608181909,
+  "lat": 38.5682510,
+  "lon": -7.3730040,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
   }
 },
 {

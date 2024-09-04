@@ -17270,12 +17270,11 @@
   "id": "node/9416002961",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece ter um segundo andar. Confirmar se é DIGI",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9416002961"
@@ -112424,6 +112423,29 @@
     "coordinates": [
       -8.2132566,
       37.0892107
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11608181909",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/11608181909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.373004,
+      38.568251
     ]
   }
 },
