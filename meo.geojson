@@ -4138,8 +4138,9 @@
   "id": "node/2989571185",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:modulation": "COFDM",
@@ -4148,8 +4149,9 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Barroca Grande",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NCB127",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/2989571185"
@@ -5352,14 +5354,14 @@
   "id": "node/3789025427",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2024-04-30",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem outras operadoras",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NCB119",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/3789025427"
@@ -41114,22 +41116,21 @@
 },
 {
   "type": "Feature",
-  "id": "node/9606091047",
+  "id": "node/9606091048",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9606091047"
+    "operator": "vodafone P;MEO",
+    "id": "node/9606091048"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.824183,
-      40.229516
+      -7.8241817,
+      40.2295442
     ]
   }
 },
