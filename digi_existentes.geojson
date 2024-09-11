@@ -20671,8 +20671,8 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9461670319"
@@ -30616,30 +30616,6 @@
     "coordinates": [
       -7.8891238,
       37.1536668
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9510684789",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2023-08-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "ref": "VFA139",
-    "id": "node/9510684789"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.0255516,
-      37.1423085
     ]
   }
 },
@@ -45564,10 +45540,11 @@
     "MCC": "268",
     "MNC": "06",
     "check_date": "2023-04-30",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "MEO;SIRESP",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9590836691"
@@ -121061,12 +121038,10 @@
   "type": "Feature",
   "id": "node/10172314324",
   "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "old_operator": "vodafone P",
     "owner": "Vantage Towers",
     "id": "node/10172314324"
   },
@@ -150688,10 +150663,14 @@
   "type": "Feature",
   "id": "node/11387556402",
   "properties": {
+    "MCC": "268",
+    "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P",
     "owner": "Vantage Towers",
+    "ref": "PT-TIMS-108013",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/11387556402"
