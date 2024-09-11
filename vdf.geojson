@@ -108,6 +108,7 @@
     "name": "Algueirão",
     "operator": "vodafone P;DIGI;MEO;PTC",
     "owner": "Cellnex",
+    "ref": "LICX05070",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -44598,6 +44599,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02136",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9627599290"
@@ -45782,25 +45784,27 @@
 },
 {
   "type": "Feature",
-  "id": "node/9630412369",
+  "id": "node/9630412368",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
-    "check_date": "2023-06-30",
+    "MNC": "01;02;03;06",
+    "check_date": "2024-08-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VLB020",
     "tower:construction": "freestanding",
     "tower:type": "communication",
-    "id": "node/9630412369"
+    "id": "node/9630412368"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0475494,
-      38.8919274
+      -9.0474813,
+      38.8919483
     ]
   }
 },
@@ -66938,6 +66942,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02158",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9899915872"
@@ -91746,6 +91751,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LICX03853",
     "id": "node/10179157143"
   },
   "geometry": {
@@ -110091,7 +110097,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "VLB084",
+    "ref": "VLB084;LICX01752",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11060019426"

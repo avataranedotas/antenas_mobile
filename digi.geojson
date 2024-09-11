@@ -256,6 +256,7 @@
     "name": "Algueirão",
     "operator": "vodafone P;DIGI;MEO;PTC",
     "owner": "Cellnex",
+    "ref": "LICX05070",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -1395,7 +1396,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
-    "ref": "98LO025",
+    "ref": "98LO025;LICX05008",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/3151448146"
@@ -22967,6 +22968,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/9571844850",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2023-03-30",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "name": "Vila de Rei",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9571844850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1406558,
+      39.673463
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9571844869",
   "properties": {
     "MCC": "268",
@@ -26194,6 +26224,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02136",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9627599290"
@@ -27063,13 +27094,15 @@
   "id": "node/9630412368",
   "properties": {
     "MCC": "268",
-    "MNC": "02;03;06",
-    "check_date": "2023-06-30",
+    "MNC": "01;02;03;06",
+    "check_date": "2024-08-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VLB020",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9630412368"
@@ -40479,6 +40512,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX01764",
     "id": "node/9752012627"
   },
   "geometry": {
@@ -40500,6 +40534,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX01763",
     "id": "node/9752012629"
   },
   "geometry": {
@@ -40718,6 +40753,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02158",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9899915872"
@@ -41010,6 +41046,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02152",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9910427023"
@@ -41193,6 +41230,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02144",
     "id": "node/9910500209"
   },
   "geometry": {
@@ -41683,6 +41721,7 @@
     "man_made": "antenna",
     "operator": "DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "LICX01864",
     "id": "node/9912698398"
   },
   "geometry": {
@@ -41773,6 +41812,7 @@
     "man_made": "antenna",
     "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02126",
     "id": "node/9912764580"
   },
   "geometry": {
@@ -41863,6 +41903,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX03487",
     "id": "node/9912764591"
   },
   "geometry": {
@@ -41884,6 +41925,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02111",
     "id": "node/9913360228"
   },
   "geometry": {
@@ -41905,6 +41947,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX02109",
     "id": "node/9913360230"
   },
   "geometry": {
@@ -42259,6 +42302,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX05051",
     "id": "node/9913434328"
   },
   "geometry": {
@@ -42382,12 +42426,13 @@
   "id": "node/9914252161",
   "properties": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;NOS",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX01869",
     "id": "node/9914252161"
   },
   "geometry": {
@@ -50112,6 +50157,7 @@
     "material": "metal",
     "operator": "DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "LICX01761",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10030285242"
@@ -50982,6 +51028,28 @@
     "coordinates": [
       -9.268994,
       38.7417634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10042414665",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX01892",
+    "id": "node/10042414665"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2795261,
+      38.7442568
     ]
   }
 },
@@ -52620,6 +52688,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LICX03853",
     "id": "node/10179157143"
   },
   "geometry": {
@@ -52877,6 +52946,7 @@
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX05017",
     "id": "node/10238792702"
   },
   "geometry": {
@@ -55901,6 +55971,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX01639",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10781614152"
@@ -56087,6 +56158,7 @@
     "material": "metal",
     "operator": "DIGI",
     "owner": "Cellnex",
+    "ref": "LICX03711",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10795468708"
@@ -57704,7 +57776,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "VLB084",
+    "ref": "VLB084;LICX01752",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11060019426"
