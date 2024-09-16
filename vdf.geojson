@@ -75374,11 +75374,12 @@
   "id": "node/10035047104",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "id": "node/10035047104"
   },
   "geometry": {
@@ -75386,6 +75387,28 @@
     "coordinates": [
       -9.2407287,
       38.7057925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10035047105",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2024-08-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "id": "node/10035047105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2450306,
+      38.7101958
     ]
   }
 },
@@ -89786,6 +89809,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -94632,6 +94656,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -94644,49 +94669,6 @@
     "coordinates": [
       -9.2376537,
       38.7128722
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10208390673",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10208390673"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2392567,
-      38.7161554
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10208390674",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "mimics": "chimney",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10208390674"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2455614,
-      38.7108248
     ]
   }
 },
