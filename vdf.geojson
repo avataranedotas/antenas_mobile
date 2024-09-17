@@ -31949,31 +31949,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9555021607",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "old_ref": "NVI038",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "ref": "NVI252",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/9555021607"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8902417,
-      40.7407426
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9555023198",
   "properties": {
     "MCC": "268",
@@ -76489,6 +76464,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "highway": "street_lamp",
     "lamp_mount": "straight_mast",
     "lamp_type": "electric",
@@ -98821,6 +98797,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "material": "reinforced_concrete",
     "operator": "vodafone P",
@@ -102183,6 +102160,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
@@ -103604,13 +103582,11 @@
   "id": "node/10740042906",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se a torre foi substituida por uma maior",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "material": "reinforced_concrete",
-    "operator": "vodafone P;MEO",
-    "owner": "Vantage Towers",
+    "operator": "vodafone P;NOS;MEO",
     "ref": "NVI025",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -103933,6 +103909,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
@@ -104447,28 +104424,6 @@
     "coordinates": [
       -8.6045573,
       41.1342571
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10757369825",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "vodafone P;MEO",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10757369825"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -6.8929305,
-      40.9073623
     ]
   }
 },
@@ -105250,6 +105205,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -105870,6 +105826,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
@@ -105891,12 +105848,14 @@
   "id": "node/10761013494",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NCB087",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10761013494"
@@ -106091,6 +106050,7 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "operator": "vodafone P;MEO",
     "owner": "Vantage Towers",
@@ -106374,6 +106334,7 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -106421,6 +106382,7 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -107297,6 +107259,7 @@
     "MNC": "01",
     "check_date": "2023-10-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
@@ -114210,6 +114173,53 @@
     "coordinates": [
       -8.58441,
       41.109497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12182999641",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
+    "man_made": "mast",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12182999641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.8935601,
+      40.9076818
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12182999642",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "NVI252",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12182999642"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9015236,
+      40.7371296
     ]
   }
 }
