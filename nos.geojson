@@ -20811,6 +20811,7 @@
     "material": "metal",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MPT359",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/9499165102"
@@ -27903,7 +27904,9 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "old_ref": "MLR031",
     "operator": "vodafone P;NOS",
+    "ref": "MLR081",
     "id": "node/9545984076"
   },
   "geometry": {
@@ -49485,6 +49488,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/9654423553",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "MPT487",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9654423553"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4427679,
+      41.3243049
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9654423555",
   "properties": {
     "MCC": "268",
@@ -51672,29 +51699,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9654832488",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9654832488"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4429253,
-      41.3252846
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9654832489",
   "properties": {
     "MCC": "268",
@@ -52201,25 +52205,25 @@
 },
 {
   "type": "Feature",
-  "id": "node/9654871923",
+  "id": "node/9654871922",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-05-30",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "Cellnex",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "MPT470",
     "tower:construction": "freestanding",
     "tower:type": "communication",
-    "id": "node/9654871923"
+    "id": "node/9654871922"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5848511,
-      41.2843778
+      -8.5845798,
+      41.2844268
     ]
   }
 },
@@ -52321,10 +52325,12 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a NOS se mudou para outra torre próxima",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MPT067",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9654871930"
@@ -70504,7 +70510,9 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "old_ref": "MPT292",
     "operator": "vodafone P;NOS",
+    "ref": "MPT485",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9980507786"
@@ -71104,8 +71112,10 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "old_ref": "MPT344",
     "operator": "DIGI;NOS",
     "owner": "NOS",
+    "ref": "MPT475",
     "id": "node/9983405698"
   },
   "geometry": {
@@ -73152,8 +73162,10 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "old_ref": "MAV052",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MAV222",
     "id": "node/9995175814"
   },
   "geometry": {
@@ -73265,7 +73277,9 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "old_ref": "MPT221",
     "operator": "vodafone P;NOS",
+    "ref": "MPT478",
     "id": "node/9995227302"
   },
   "geometry": {
@@ -73896,8 +73910,10 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "old_ref": "MPT195",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MPT494",
     "id": "node/9995386935"
   },
   "geometry": {
@@ -74884,8 +74900,10 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
+    "old_ref": "MPT192",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "MPT488",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/10013896284"
@@ -75087,6 +75105,7 @@
     "material": "metal",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MPT476",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/10016871666"
@@ -75293,6 +75312,7 @@
     "material": "metal",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MPT032",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10019166159"
@@ -75682,6 +75702,7 @@
     "man_made": "antenna",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MPT304",
     "id": "node/10019287924"
   },
   "geometry": {
@@ -76879,6 +76900,7 @@
     "material": "metal",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MPT385",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/10026596632"
@@ -77220,8 +77242,10 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "old_ref": "MPT338",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "MPT484",
     "id": "node/10026755154"
   },
   "geometry": {
@@ -87888,6 +87912,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "MPT480",
     "id": "node/10147552120"
   },
   "geometry": {
@@ -92302,6 +92327,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "MPT119",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10292374912"
@@ -105564,6 +105590,7 @@
     "material": "metal",
     "operator": "NOS",
     "owner": "Cellnex",
+    "ref": "MPT497",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11767645403"
