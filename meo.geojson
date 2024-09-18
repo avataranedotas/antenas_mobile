@@ -2955,6 +2955,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-08-08",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
@@ -55752,6 +55753,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
@@ -55798,6 +55800,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -55819,13 +55822,13 @@
   "id": "node/9678127547",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
@@ -70764,7 +70767,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-05-28",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
@@ -70788,7 +70791,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
-    "check_date": "2023-08-30",
+    "check_date": "2024-08-08",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "mapillary": "320546276174476",
@@ -75145,6 +75148,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "MEO",
@@ -75692,6 +75696,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -75712,12 +75717,13 @@
   "id": "node/9917962196",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "id": "node/9917962196"
   },
   "geometry": {
@@ -76161,10 +76167,11 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO, NOS, Vodafone, Digi",
+    "operator": "MEO",
     "owner": "MEO",
     "id": "node/9921409127"
   },
@@ -76178,31 +76185,11 @@
 },
 {
   "type": "Feature",
-  "id": "node/9921409128",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9921409128"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.23605,
-      38.7211545
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9921409129",
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
@@ -76226,17 +76213,18 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "wall",
     "man_made": "antenna",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "id": "node/9921409130"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2399271,
-      38.7254182
+      -9.2398828,
+      38.7254737
     ]
   }
 },
@@ -76247,6 +76235,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
@@ -76372,6 +76361,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -76394,20 +76384,18 @@
   "id": "node/9921409139",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
-    "location": "roof",
+    "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex",
+    "operator": "vodafone P;NOS;MEO",
     "id": "node/9921409139"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2192164,
-      38.7279616
+      -9.2197394,
+      38.7280076
     ]
   }
 },
@@ -77801,13 +77789,14 @@
   "id": "node/9921503482",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;03;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9921503482"
@@ -77846,12 +77835,13 @@
   "id": "node/9921503484",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "id": "node/9921503484"
   },
   "geometry": {
@@ -78003,7 +77993,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "03;06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -78027,7 +78017,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78078,7 +78068,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "03;06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78128,7 +78118,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78154,7 +78144,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78230,6 +78220,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78255,7 +78246,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78281,7 +78272,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78307,7 +78298,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -78333,7 +78324,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -96609,6 +96600,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/10202813594",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;MEO",
+    "id": "node/10202813594"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.236166,
+      38.7211823
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10202834797",
   "properties": {
     "MCC": "268",
@@ -101927,7 +101938,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -101953,7 +101964,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-04-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
@@ -118484,6 +118495,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
