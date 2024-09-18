@@ -7102,6 +7102,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NCB105",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -11144,6 +11145,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "NCB103",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -11192,6 +11194,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NCB106",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -11240,6 +11243,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NCB107",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -34214,6 +34218,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NCB099",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -61262,6 +61267,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
@@ -63939,21 +63945,6 @@
     "man_made": "antenna",
     "operator": "vodafone P",
     "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
-  "id": 9935522120,
-  "lat": 38.7323426,
-  "lon": -9.1599597,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
   }
 },
 {
@@ -102073,6 +102064,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NCB108",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -115565,6 +115557,23 @@
     "material": "reinforced_concrete",
     "operator": "NOS",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12183720484,
+  "lat": 40.6186455,
+  "lon": -8.3854759,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 }
