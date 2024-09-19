@@ -20195,11 +20195,12 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-06-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -20506,6 +20507,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "FACX03783",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -25405,14 +25407,13 @@
   "lon": -8.6968441,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "ref": "VSA186",
     "tower:construction": "guyed_tube",
@@ -27584,6 +27585,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "FACX01142",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -38977,6 +38979,7 @@
     "MCC": "268",
     "MNC": "01;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -39318,17 +39321,19 @@
 },
 {
   "type": "node",
-  "id": 9672837695,
-  "lat": 38.7045599,
-  "lon": -9.4691916,
+  "id": 9672837694,
+  "lat": 38.7045497,
+  "lon": -9.4691973,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;03;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "MLB416"
   }
 },
 {
