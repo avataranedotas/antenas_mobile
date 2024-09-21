@@ -16389,30 +16389,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9383011445",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "ref": "VEV075",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9383011445"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.480753,
-      38.6685929
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9383015717",
   "properties": {
     "MCC": "268",
@@ -47936,11 +47912,11 @@
   "id": "node/9626614117",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "ref": "NVR091",
     "tower:construction": "freestanding",
@@ -65438,9 +65414,10 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar quais os outros operadores além da MEO",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9674447162"
@@ -102544,6 +102521,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VFA260",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/10097351488"
@@ -126695,6 +126673,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NGR115",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10586857641"
@@ -129159,9 +129138,12 @@
   "type": "Feature",
   "id": "node/10738740753",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -140896,15 +140878,15 @@
   "id": "node/11455899180",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar que operadores existem além da MEO",
-    "fixme": "Aproximate position, move to correct location",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NBG191",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11455899180"
@@ -140912,8 +140894,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.0791551,
-      41.3796114
+      -7.079975,
+      41.380179
     ]
   }
 },
@@ -149551,6 +149533,49 @@
     "coordinates": [
       -8.6652383,
       41.1517379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12191545276",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "tower:type": "communication",
+    "id": "node/12191545276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0307287,
+      41.7149995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12191564025",
+  "properties": {
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12191564025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6690766,
+      41.4756301
     ]
   }
 }
