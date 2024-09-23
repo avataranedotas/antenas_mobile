@@ -4264,7 +4264,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
-    "ref": "VFA093",
+    "ref": "VFA093;FACX01099",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -9356,6 +9356,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "FACX01216",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -10978,7 +10979,7 @@
     "name": "Silves Centro",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "VFA092",
+    "ref": "VFA092;FACX05087",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -12541,6 +12542,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "FACX05387",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -15059,6 +15061,21 @@
 },
 {
   "type": "node",
+  "id": 9550729299,
+  "lat": 37.1029500,
+  "lon": -8.3669836,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
   "id": 9550729305,
   "lat": 37.1012482,
   "lon": -8.3592820,
@@ -15176,7 +15193,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "FACX01168"
   }
 },
 {
@@ -17257,6 +17275,23 @@
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9561415801,
+  "lat": 37.1045500,
+  "lon": -8.3766503,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },

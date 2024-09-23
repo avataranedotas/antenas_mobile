@@ -5637,7 +5637,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
-    "ref": "VFA093",
+    "ref": "VFA093;FACX01099",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/8583910737"
@@ -12517,6 +12517,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "FACX01216",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9481319578"
@@ -14697,7 +14698,7 @@
     "name": "Silves Centro",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "VFA092",
+    "ref": "VFA092;FACX05087",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9496727507"
@@ -16806,6 +16807,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "FACX05387",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9510332814"
@@ -20226,6 +20228,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9550729299",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "id": "node/9550729299"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3669836,
+      37.10295
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9550729305",
   "properties": {
     "MCC": "268",
@@ -20378,6 +20401,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "FACX01168",
     "id": "node/9551856433"
   },
   "geometry": {
@@ -23192,6 +23216,29 @@
     "coordinates": [
       -6.7655388,
       41.8210486
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9561415801",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9561415801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3766503,
+      37.10455
     ]
   }
 },
