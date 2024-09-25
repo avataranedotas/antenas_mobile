@@ -2333,12 +2333,14 @@
   "lon": -7.3519639,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;DIGI;MEO;Bombeiros",
+    "operator": "vodafone P;DIGI;NOS;MEO;Bombeiros",
     "owner": "Cellnex",
+    "ref": "NGR123",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
@@ -27808,6 +27810,21 @@
 },
 {
   "type": "node",
+  "id": 9685377330,
+  "lat": 40.9856162,
+  "lon": -8.5407302,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
   "id": 9685377333,
   "lat": 40.9855230,
   "lon": -8.5827470,
@@ -38293,6 +38310,23 @@
     "man_made": "antenna",
     "operator": "DIGI;NOS",
     "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 9995386944,
+  "lat": 41.0006559,
+  "lon": -8.5414580,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
   }
 },
 {

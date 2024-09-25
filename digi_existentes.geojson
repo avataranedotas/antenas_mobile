@@ -67959,28 +67959,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9685377330",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "id": "node/9685377330"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5407302,
-      40.9856162
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9685377331",
   "properties": {
     "MCC": "268",
@@ -87589,7 +87567,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "Cellnex",
@@ -91810,30 +91787,6 @@
     "coordinates": [
       -8.5139554,
       41.0118005
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9995386944",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "Cellnex",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/9995386944"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.541458,
-      41.0006559
     ]
   }
 },
@@ -149065,6 +149018,31 @@
     "coordinates": [
       -9.3216191,
       38.6963145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12199946563",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "fixme": "Aproximate position, move to exact location",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "VCO077",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12199946563"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1397587,
+      40.0154504
     ]
   }
 }

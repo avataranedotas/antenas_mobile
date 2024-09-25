@@ -50318,22 +50318,6 @@
 },
 {
   "type": "node",
-  "id": 9685377330,
-  "lat": 40.9856162,
-  "lon": -8.5407302,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
   "id": 9685377331,
   "lat": 40.9520720,
   "lon": -8.5157239,
@@ -64676,7 +64660,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "Cellnex",
@@ -67773,24 +67756,6 @@
     "operator": "NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9995386944,
-  "lat": 41.0006559,
-  "lon": -8.5414580,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "Cellnex",
-    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -109843,6 +109808,25 @@
     "man_made": "antenna",
     "material": "metal",
     "operator": "vodafone P"
+  }
+},
+{
+  "type": "node",
+  "id": 12199946563,
+  "lat": 40.0154504,
+  "lon": -8.1397587,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "fixme": "Aproximate position, move to exact location",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "VCO077",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
   }
 }
 

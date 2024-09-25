@@ -7543,12 +7543,14 @@
   "id": "node/5853772614",
   "properties": {
     "MCC": "268",
-    "MNC": "01;02;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;DIGI;MEO;Bombeiros",
+    "operator": "vodafone P;DIGI;NOS;MEO;Bombeiros",
     "owner": "Cellnex",
+    "ref": "NGR123",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/5853772614"
@@ -58036,12 +58038,11 @@
   "id": "node/9685377330",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "id": "node/9685377330"
   },
@@ -81977,27 +81978,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9935378675",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9935378675"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1681767,
-      38.7386229
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9935378676",
   "properties": {
     "MCC": "268",
@@ -89696,7 +89676,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "Cellnex",
@@ -96839,6 +96818,26 @@
     "coordinates": [
       -9.3847718,
       38.7396018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10220614032",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;MEO",
+    "id": "node/10220614032"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1681391,
+      38.7384758
     ]
   }
 },
