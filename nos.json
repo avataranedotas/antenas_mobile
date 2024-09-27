@@ -24751,9 +24751,11 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VSA054",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -28465,6 +28467,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "NPG038",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
@@ -33827,12 +33830,14 @@
   "lon": -7.8055146,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NVR044",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -42266,12 +42271,11 @@
   "lon": -8.4150617,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -52238,6 +52242,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "ref": "MBR009",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -53185,7 +53190,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS;MEO"
+    "operator": "NOS;MEO",
+    "ref": "DPT026"
   }
 },
 {
@@ -80045,6 +80051,24 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12206024037,
+  "lat": 41.6130199,
+  "lon": -7.9307422,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "NVR167",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 }
