@@ -14626,10 +14626,11 @@
   "lon": -7.3777705,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -14656,12 +14657,10 @@
   "lat": 39.3934147,
   "lon": -7.3765696,
   "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "old_operator": "vodafone P",
     "owner": "Vantage Towers"
   }
 },
@@ -15235,24 +15234,6 @@
     "man_made": "mast",
     "operator": "MEO",
     "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9467358197,
-  "lat": 38.8735687,
-  "lon": -8.1492649,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2023-07-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
