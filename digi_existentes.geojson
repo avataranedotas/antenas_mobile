@@ -10503,29 +10503,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8286927403",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/8286927403"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.9418331,
-      41.6387995
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8319652703",
   "properties": {
     "MCC": "268",
@@ -40331,6 +40308,7 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
@@ -128877,27 +128855,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10741879145",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10741879145"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.9466311,
-      41.6401144
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10741879146",
   "properties": {
     "MCC": "268",
@@ -148911,30 +148868,6 @@
     "coordinates": [
       -7.0961717,
       41.863813
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12206024037",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "ref": "NVR167",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/12206024037"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.9307422,
-      41.6130199
     ]
   }
 }
