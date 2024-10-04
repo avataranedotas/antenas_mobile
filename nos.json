@@ -192,6 +192,34 @@
 },
 {
   "type": "node",
+  "id": 1165384201,
+  "lat": 32.6592412,
+  "lon": -17.0053873,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "54",
+    "communications_transponder:frequency": "738 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "500 W",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "material": "metal",
+    "name": "Pico do Galo (Madeira)",
+    "operator": "vodafone P;DIGI;NOS;MEO;PTC",
+    "owner": "PTC",
+    "ref": "MDCX05103",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 1165384215,
   "lat": 38.5483343,
   "lon": -28.6182201,
@@ -36281,8 +36309,8 @@
 {
   "type": "node",
   "id": 9652895509,
-  "lat": 41.8052278,
-  "lon": -8.5046960,
+  "lat": 41.8052765,
+  "lon": -8.5048221,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
@@ -48741,24 +48769,6 @@
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "NOS"
-  }
-},
-{
-  "type": "node",
-  "id": 9725087175,
-  "lat": 32.6591595,
-  "lon": -17.0055026,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
   }
 },
 {
@@ -68261,14 +68271,14 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
-    "check_date": "2023-07-30",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS;MEO",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "NGR092",
+    "ref": "NGR092;22BI018",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
