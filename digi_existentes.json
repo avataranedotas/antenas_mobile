@@ -58493,22 +58493,6 @@
 },
 {
   "type": "node",
-  "id": 9912585144,
-  "lat": 38.7939981,
-  "lon": -9.2282471,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03;06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "NOS;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9912585145,
   "lat": 38.8015751,
   "lon": -9.2173159,
@@ -65394,6 +65378,22 @@
 },
 {
   "type": "node",
+  "id": 9983885810,
+  "lat": 41.1630260,
+  "lon": -8.5885050,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "check_date": "2023-03-30",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
   "id": 9983885812,
   "lat": 41.1688584,
   "lon": -8.6200698,
@@ -69491,23 +69491,6 @@
     "operator": "NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 10032211439,
-  "lat": 38.8012364,
-  "lon": -9.2270050,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03;06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -91384,10 +91367,12 @@
     "MNC": "01;03",
     "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NGR018",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -95649,12 +95634,13 @@
   "lon": -6.8853486,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "NGR007",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
