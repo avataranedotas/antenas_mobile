@@ -3614,7 +3614,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "VFA039",
+    "ref": "VFA039;FACX03526",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/2344897014"
@@ -8836,12 +8836,14 @@
   "id": "node/6522327632",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "02;03;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "MAV197;00PO008",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/6522327632"
@@ -113907,8 +113909,8 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar se as antenas DIGI estão disfarçadas de chaminé",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
