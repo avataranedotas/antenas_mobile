@@ -22120,14 +22120,16 @@
   "id": "node/9501156032",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "check_date": "2023-10-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "VEV100",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9501156032"
@@ -41055,6 +41057,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLR029",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9610764314"
@@ -107987,6 +107990,27 @@
     "coordinates": [
       -8.2973244,
       40.8137693
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12241992154",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar coordenadas exactas e tipo de torre",
+    "man_made": "mast",
+    "operator": "NOS",
+    "tower:type": "communication",
+    "id": "node/12241992154"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.44542,
+      41.54201
     ]
   }
 }
