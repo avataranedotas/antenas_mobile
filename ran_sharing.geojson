@@ -438,11 +438,11 @@
     "MNC": "01;02;03",
     "check_date": "2024-09-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;DIGI;NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
-    "ref": "MDCX02398",
+    "operator": "vodafone P;DIGI;NOS",
+    "ref": "NMA030;MDCX02398",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/1768790580"
@@ -7891,6 +7891,30 @@
     "coordinates": [
       -8.1937422,
       40.0069348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9289010330",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VSA241",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9289010330"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5027313,
+      39.4691538
     ]
   }
 },
@@ -17955,6 +17979,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/9520371958",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "ref": "NPG080",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9520371958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8783319,
+      39.4511383
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9520371963",
   "properties": {
     "MCC": "268",
@@ -26104,6 +26153,30 @@
     "coordinates": [
       -7.8762724,
       39.3322715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9571842796",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "ref": "NPG059",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9571842796"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7343418,
+      39.3502283
     ]
   }
 },
@@ -58462,6 +58535,30 @@
     "coordinates": [
       -7.47855,
       40.29116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11935351788",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:microwave": "yes",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VSA137",
+    "id": "node/11935351788"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3005699,
+      39.5997948
     ]
   }
 },
