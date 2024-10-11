@@ -1122,6 +1122,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/9561425302",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-09-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Ran-sharing NOS/VDF em construção",
+    "man_made": "mast",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9561425302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.8500558,
+      40.3193258
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9563735366",
   "properties": {
     "MCC": "268",
@@ -2000,12 +2024,14 @@
   "id": "node/9681264636",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;02;03;06",
+    "check_date": "2024-09-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar qual a operadora no andar de baixo",
+    "communication:mobile_phone:note": "Falta confirmação no Cellmapper",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
