@@ -8518,13 +8518,14 @@
   "id": "node/6307235195",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe outro operador além da MEO",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VBJ127",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/6307235195"
@@ -95708,8 +95709,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3216964,
-      41.2303246
+      -8.3216724,
+      41.2303048
     ]
   }
 },
@@ -118097,6 +118098,7 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "wall",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
