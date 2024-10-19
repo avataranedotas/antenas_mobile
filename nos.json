@@ -79462,7 +79462,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem VDF",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
@@ -80409,6 +80409,44 @@
     "owner": "Cellnex",
     "ref": "NGR175",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12269921456,
+  "lat": 40.3364794,
+  "lon": -8.2976251,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VCO063",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12269921459,
+  "lat": 39.5266903,
+  "lon": -8.7960608,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VLR139",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 }
