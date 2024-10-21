@@ -17226,6 +17226,7 @@
     "MNC": "02;06",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se além da MEO é mesmo DIGI ou se foi o ran-sharing que se mudou para aqui",
     "location": "roof",
     "man_made": "mast",
     "operator": "DIGI;MEO",
@@ -25116,6 +25117,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VEV101",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -31936,11 +31938,13 @@
   "lon": -7.0027944,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NBG213",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -72343,13 +72347,15 @@
   "lon": -7.1570456,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "wall",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NBG203"
   }
 },
 {
@@ -72395,12 +72401,13 @@
   "lon": -7.0728403,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NBG204",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
