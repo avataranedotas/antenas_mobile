@@ -36304,12 +36304,14 @@
   "lon": -7.8735582,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NVR187",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -108057,6 +108059,20 @@
     "man_made": "mast",
     "material": "metal",
     "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12286328754,
+  "lat": 41.1647465,
+  "lon": -8.5105352,
+  "tags": {
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 }

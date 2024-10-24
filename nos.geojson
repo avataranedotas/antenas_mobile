@@ -44263,12 +44263,14 @@
   "id": "node/9630368306",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NVR187",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9630368306"
@@ -70067,6 +70069,29 @@
     "coordinates": [
       -8.6512171,
       40.6408356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9970940443",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "check_date": "2023-03-30",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "MAV194",
+    "id": "node/9970940443"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6485827,
+      40.630745
     ]
   }
 },
@@ -108283,6 +108308,26 @@
     "coordinates": [
       -8.484022,
       41.747137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12140892585",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS;MEO",
+    "id": "node/12140892585"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6755407,
+      39.6292548
     ]
   }
 },
