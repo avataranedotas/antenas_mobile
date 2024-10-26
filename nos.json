@@ -55272,6 +55272,7 @@
     "MNC": "03",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -78626,17 +78627,18 @@
 {
   "type": "node",
   "id": 11473207566,
-  "lat": 39.8688470,
-  "lon": -8.4460560,
+  "lat": 39.8689252,
+  "lon": -8.4459192,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLR142",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -79133,6 +79135,25 @@
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11631427005,
+  "lat": 39.8046810,
+  "lon": -8.6201050,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VLR146",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -80413,6 +80434,24 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 12070728399,
+  "lat": 39.7227170,
+  "lon": -8.0083660,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VSA262",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
   }
 },
 {
@@ -81896,6 +81935,25 @@
 },
 {
   "type": "node",
+  "id": 12288993558,
+  "lat": 38.6451140,
+  "lon": -28.0004880,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VAC136",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 12289002510,
   "lat": 40.3918256,
   "lon": -7.9758100,
@@ -81908,6 +81966,62 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "ref": "VCO094",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12289004026,
+  "lat": 39.7094000,
+  "lon": -8.2983080,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VSA259",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12289008826,
+  "lat": 39.4971066,
+  "lon": -8.7762639,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VLR147",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12289029894,
+  "lat": 40.4712725,
+  "lon": -7.1152305,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "NGR159",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
