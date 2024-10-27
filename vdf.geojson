@@ -71382,6 +71382,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9978512872",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DBR003",
+    "id": "node/9978512872"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3034706,
+      41.4406489
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9978512876",
   "properties": {
     "MCC": "268",
@@ -77906,6 +77927,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -109235,6 +109257,31 @@
     "coordinates": [
       -8.8563269,
       39.6593243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10772019693",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "check_date": "2023-06-30",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se tem NOS",
+    "highway": "street_lamp",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10772019693"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.315202,
+      41.4389986
     ]
   }
 },
