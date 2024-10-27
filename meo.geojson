@@ -27527,14 +27527,14 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-08-30",
+    "check_date": "2024-09-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "FACX02371",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9510684791"
@@ -33862,13 +33862,14 @@
   "id": "node/9558343210",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
+    "mimics": "chimney",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "FACX01102",
     "id": "node/9558343210"
   },
   "geometry": {
@@ -56574,12 +56575,12 @@
   "id": "node/9681264638",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9681264638"
@@ -120239,6 +120240,30 @@
     "coordinates": [
       -8.5239201,
       41.1750016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12292316776",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "check_date": "2024-09-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;MEO",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12292316776"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3683527,
+      40.567769
     ]
   }
 }
