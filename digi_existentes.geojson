@@ -138589,6 +138589,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NBG167",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/11905064707"
@@ -139081,11 +139082,14 @@
   "id": "node/11933505998",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Vantage Towers",
+    "ref": "NBR074",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/11933505998"
@@ -142031,11 +142035,16 @@
   "type": "Feature",
   "id": "node/12084116667",
   "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
     "colour": "gray",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NGR149",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/12084116667"
@@ -145621,6 +145630,32 @@
     "coordinates": [
       -9.3631317,
       39.3456849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12294801300",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NCB123",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12294801300"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6610241,
+      39.9321877
     ]
   }
 },
