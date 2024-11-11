@@ -566,6 +566,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/6997376826",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/6997376826"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.611437,
+      40.857631
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7044383876",
   "properties": {
     "MCC": "268",
@@ -4958,6 +4982,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9685377323",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "id": "node/9685377323"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6234339,
+      40.8640055
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9690181813",
   "properties": {
     "MCC": "268",
@@ -6633,31 +6679,6 @@
     "coordinates": [
       -8.5533337,
       41.338538
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9995386936",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
-    "communication:radio": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS;Bombeiros",
-    "tower:construction": "guyed_lattice",
-    "tower:type": "communication",
-    "id": "node/9995386936"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6532941,
-      41.0491855
     ]
   }
 },
@@ -9122,12 +9143,12 @@
   "id": "node/11065339302",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece ter mais dois operadores além da MEO (provavelmente DIGI e NOS). Investigar",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
