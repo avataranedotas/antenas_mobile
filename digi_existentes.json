@@ -55653,10 +55653,11 @@
     "MNC": "06",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -57502,6 +57503,7 @@
     "MNC": "06",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
@@ -67721,6 +67723,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -79953,21 +79956,6 @@
 },
 {
   "type": "node",
-  "id": 10189132989,
-  "lat": 38.7495833,
-  "lon": -9.2130792,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
   "id": 10189240665,
   "lat": 38.7504256,
   "lon": -9.2032208,
@@ -80651,21 +80639,6 @@
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 10200638590,
-  "lat": 38.7434698,
-  "lon": -9.2181365,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
   }
 },
 {
@@ -81487,12 +81460,12 @@
   "lon": -9.1492626,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;NOS"
   }
 },
 {

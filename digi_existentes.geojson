@@ -75158,10 +75158,11 @@
     "MNC": "06",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9740328398"
@@ -77703,6 +77704,7 @@
     "MNC": "06",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
@@ -91678,6 +91680,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -108364,27 +108367,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10189132989",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10189132989"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2130792,
-      38.7495833
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10189240665",
   "properties": {
     "MCC": "268",
@@ -109319,27 +109301,6 @@
     "coordinates": [
       -9.2088543,
       38.7453447
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10200638590",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10200638590"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2181365,
-      38.7434698
     ]
   }
 },
@@ -110466,12 +110427,12 @@
   "id": "node/10218662549",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
+    "operator": "vodafone P;NOS",
     "id": "node/10218662549"
   },
   "geometry": {
