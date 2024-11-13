@@ -9929,13 +9929,15 @@
   "id": "node/9026854752",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "check_date": "2023-07-30",
     "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO;SIRESP",
+    "operator": "vodafone P;NOS;MEO;SIRESP",
     "owner": "Cellnex",
+    "ref": "NCB071",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9026854752"
@@ -62363,12 +62365,13 @@
   "id": "node/9690650956",
   "properties": {
     "MCC": "268",
-    "MNC": "01;02;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;DIGI;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "MBR150",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9690650956"
@@ -63994,6 +63997,7 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB164",
     "id": "node/9705782092"
   },
   "geometry": {
@@ -99678,13 +99682,14 @@
   "id": "node/10283967855",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "reinforced_concrete",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NCB092",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10283967855"
@@ -103618,6 +103623,7 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "DPT062",
     "id": "node/10684203116"
   },
   "geometry": {
@@ -104276,6 +104282,28 @@
     "coordinates": [
       -6.546797,
       41.6347878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10738173881",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NBG021",
+    "id": "node/10738173881"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.0106761,
+      41.1503071
     ]
   }
 },
