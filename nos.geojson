@@ -70225,23 +70225,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/9972205068",
+  "id": "node/9972205069",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2024-04-28",
+    "MNC": "01;03;06",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
-    "id": "node/9972205068"
+    "operator": "vodafone P;NOS;MEO",
+    "id": "node/9972205069"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.605484,
-      41.1533262
+      -8.6056418,
+      41.1532717
     ]
   }
 },
@@ -76328,13 +76328,13 @@
   "id": "node/10019166163",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "check_date": "2023-03-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "id": "node/10019166163"
   },
   "geometry": {
@@ -105024,6 +105024,7 @@
     "MNC": "03",
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
