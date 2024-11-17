@@ -78772,27 +78772,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9936230529",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9936230529"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1574317,
-      38.7188557
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9936230530",
   "properties": {
     "MCC": "268",
@@ -91427,6 +91406,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -91551,6 +91531,7 @@
     "MNC": "03",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -91584,30 +91565,6 @@
     "coordinates": [
       -9.1321222,
       38.7267993
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10059423688",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/10059423688"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1580508,
-      38.7176466
     ]
   }
 },
@@ -135907,8 +135864,15 @@
   "type": "Feature",
   "id": "node/11942825880",
   "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
     "id": "node/11942825880"
   },
   "geometry": {
