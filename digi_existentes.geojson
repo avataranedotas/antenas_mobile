@@ -50736,6 +50736,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -50757,6 +50758,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "operator": "NOS",
@@ -79038,27 +79040,6 @@
     "coordinates": [
       -9.3807444,
       38.9711689
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9940958151",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "id": "node/9940958151"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.851617,
-      40.1604435
     ]
   }
 },
@@ -141943,6 +141924,26 @@
     "coordinates": [
       -8.5545677,
       40.7661989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12355095729",
+  "properties": {
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/12355095729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6263463,
+      41.1537454
     ]
   }
 }
