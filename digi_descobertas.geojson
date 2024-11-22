@@ -11104,10 +11104,12 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "98LS003",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9434211243"
@@ -65044,6 +65046,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/10167660128",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Rio Arda",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10167660128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3461369,
+      41.0254501
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10171878793",
   "properties": {
     "MCC": "268",
@@ -73914,6 +73945,29 @@
     "coordinates": [
       -8.6136614,
       41.1374808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12301798416",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/12301798416"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1302133,
+      38.7267778
     ]
   }
 },
