@@ -6603,6 +6603,7 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
@@ -54634,14 +54635,14 @@
   "lon": -8.9584840,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;03;06",
+    "MNC": "01;02;03",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;DIGI;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "ref": "VLB141",
     "tower:construction": "guyed_lattice",
@@ -83633,7 +83634,7 @@
     "material": "metal",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
-    "ref": "PT-TIMS-108013",
+    "ref:owner": "PT-TIMS-108013",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -84716,7 +84717,8 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
-    "ref": "VSA261;PT-TIMS-102988",
+    "ref": "VSA261",
+    "ref:owner": "PT-TIMS-102988",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -85458,7 +85460,8 @@
     "man_made": "mast",
     "operator": "vodafone P; NOS;MEO",
     "owner": "Vantage Towers",
-    "ref": "VBJ132;21AL026;PT-TIMS-78002",
+    "ref": "VBJ132;21AL026",
+    "ref:owner": "PT-TIMS-78002",
     "tower:type": "communication"
   }
 },
@@ -85550,7 +85553,8 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
-    "ref": "VBJ136;PT-TIMS-103040",
+    "ref": "VBJ136",
+    "ref:owner": "PT-TIMS-103040",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
