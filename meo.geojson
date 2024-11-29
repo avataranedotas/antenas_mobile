@@ -766,7 +766,7 @@
   "id": "node/1165292643",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -778,8 +778,8 @@
     "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Penedo da Saudade",
-    "operator": "PTC;MEO",
-    "owner": "PTC",
+    "operator": "DIGI;MEO;PTC",
+    "owner": "Cellnex",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
     "tower:type": "communication",
@@ -42819,12 +42819,12 @@
   "id": "node/9611707551",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9611707551"
@@ -42842,10 +42842,9 @@
   "id": "node/9611707560",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-05-30",
+    "MNC": "02;06",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:modulation": "COFDM",
@@ -42853,8 +42852,8 @@
     "communications_transponder:service": "TV",
     "man_made": "mast",
     "name": "Vinhais",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9611707560"
@@ -67864,12 +67863,11 @@
   "id": "node/9711722992",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2024-10-28",
+    "MNC": "02;06",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -102289,6 +102287,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03;06",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
@@ -112640,12 +112639,13 @@
   "id": "node/11538146297",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "reinforced_concrete",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11538146297"
@@ -120722,6 +120722,30 @@
     "coordinates": [
       -6.254641,
       41.632752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12384868351",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-10-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12384868351"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.674339,
+      41.870019
     ]
   }
 }
