@@ -65,6 +65,33 @@
 },
 {
   "type": "node",
+  "id": 1280403611,
+  "lat": 39.2787500,
+  "lon": -8.0719170,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Aparenta ter antenas novas no topo. Investigar se tem DIGI",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "material": "metal",
+    "name": "Bufão",
+    "operator": "MEO;PTC",
+    "owner": "PTC",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 1623963793,
   "lat": 41.4161578,
   "lon": -8.4044915,
@@ -848,24 +875,6 @@
     "communication:mobile_phone:note": "Verificar se ainda emite NOS",
     "man_made": "mast",
     "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9321703411,
-  "lat": 39.2947289,
-  "lon": -7.6442036,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -2343,7 +2352,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
-    "check_date": "2023-11-03",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
@@ -6894,6 +6903,25 @@
     "man_made": "mast",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10249957743,
+  "lat": 41.3962300,
+  "lon": -6.7321810,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing também",
+    "man_made": "mast",
+    "material": "reinforced_concrete",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }

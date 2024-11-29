@@ -72,6 +72,39 @@
 },
 {
   "type": "Feature",
+  "id": "node/1280403611",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Aparenta ter antenas novas no topo. Investigar se tem DIGI",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "material": "metal",
+    "name": "Bufão",
+    "operator": "MEO;PTC",
+    "owner": "PTC",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/1280403611"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.071917,
+      39.27875
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1623963793",
   "properties": {
     "MCC": "268",
@@ -1115,30 +1148,6 @@
     "coordinates": [
       -7.9590976,
       39.2390896
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9321703411",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9321703411"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.6442036,
-      39.2947289
     ]
   }
 },
@@ -3110,7 +3119,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
-    "check_date": "2023-11-03",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
@@ -9194,6 +9203,31 @@
     "coordinates": [
       -7.7004672,
       37.9658541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10249957743",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing também",
+    "man_made": "mast",
+    "material": "reinforced_concrete",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10249957743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.732181,
+      41.39623
     ]
   }
 },
