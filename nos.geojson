@@ -30244,6 +30244,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2023-08-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
@@ -30251,6 +30252,7 @@
     "mimics": "chimney",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VFA120",
     "id": "node/9552093364"
   },
   "geometry": {
@@ -30274,6 +30276,7 @@
     "mimics": "chimney",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VFA117",
     "id": "node/9552093365"
   },
   "geometry": {
@@ -104925,7 +104928,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "VFA348",
+    "ref": "VFA348;FACX01114",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11053902120"
@@ -111388,6 +111391,27 @@
     "coordinates": [
       -8.9740008,
       38.9802957
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12386912728",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DFA049",
+    "id": "node/12386912728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6775309,
+      37.085952
     ]
   }
 }
