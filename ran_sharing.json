@@ -10478,7 +10478,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;02;03",
-    "check_date": "2024-08-24",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
@@ -11679,11 +11679,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;02;03",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VSA070",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -21945,13 +21947,14 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;02;03",
-    "check_date": "2023-11-03",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "VSA066"
   }
 },
 {
@@ -30795,6 +30798,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;02;03;06",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
@@ -35879,6 +35883,22 @@
   "id": 10157359856,
   "lat": 39.2664336,
   "lon": -9.1605680,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers"
+  }
+},
+{
+  "type": "node",
+  "id": 10157359857,
+  "lat": 39.2209625,
+  "lon": -8.8935104,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
@@ -47298,6 +47318,24 @@
     "owner": "Vantage Towers",
     "ref": "NVI241",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12304303139,
+  "lat": 37.5197656,
+  "lon": -7.7160877,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "fixme": "Move to exact location",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "ref": "VBJ130",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },

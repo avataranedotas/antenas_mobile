@@ -63933,12 +63933,13 @@
   "lon": -8.4798038,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "MAV219"
   }
 },
 {
@@ -66655,22 +66656,6 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
-  "id": 10121279969,
-  "lat": 41.1903435,
-  "lon": -8.5100065,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -70555,12 +70540,12 @@
   "lon": -8.8935104,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers"
   }
 },
@@ -96736,9 +96721,14 @@
   "lat": 37.5197656,
   "lon": -7.7160877,
   "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "fixme": "Move to exact location",
     "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "ref": "VBJ130",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
