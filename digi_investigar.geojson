@@ -6040,7 +6040,9 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:note": "Existe equipamento NOS mas não está a emitir",
     "location": "roof",
     "man_made": "antenna",
@@ -9213,6 +9215,33 @@
     "coordinates": [
       -8.0323653,
       41.2689211
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10314528192",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2023-07-30",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "NGR009",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10314528192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.97736,
+      40.6606769
     ]
   }
 },
