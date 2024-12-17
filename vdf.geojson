@@ -43117,11 +43117,14 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03;06",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "45",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "NVI152",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9626471961"
@@ -47917,10 +47920,12 @@
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "45",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "NVR094",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9631985506"
@@ -73406,7 +73411,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
-    "check_date": "2024-08-28",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -88439,27 +88444,6 @@
     "coordinates": [
       -8.6276923,
       41.1515529
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10148115347",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10148115347"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.626578,
-      41.1542406
     ]
   }
 },
@@ -118368,6 +118352,30 @@
     "coordinates": [
       -9.3250269,
       38.674573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12355095729",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/12355095729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6263463,
+      41.1537454
     ]
   }
 },

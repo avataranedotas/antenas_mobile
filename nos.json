@@ -34882,10 +34882,12 @@
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "45",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "NVR094",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -39580,6 +39582,7 @@
     "MNC": "03",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
@@ -52796,7 +52799,6 @@
     "MNC": "03;06",
     "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS;MEO",
@@ -53047,12 +53049,11 @@
   "lon": -8.3428673,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "NOS;MEO",
     "ref": "DBR005"
   }
 },
@@ -54329,13 +54330,12 @@
   "lon": -8.6257326,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
-    "check_date": "2024-08-28",
+    "MNC": "02;03;06",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex"
   }
 },
@@ -58741,13 +58741,13 @@
   "lon": -8.6203744,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "MPT405"
   }
 },
 {

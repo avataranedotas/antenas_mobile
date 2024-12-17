@@ -49363,6 +49363,7 @@
     "MNC": "06",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -60035,10 +60036,11 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9690580046"
@@ -60221,7 +60223,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
-    "check_date": "2024-08-28",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -87152,7 +87154,6 @@
     "MNC": "03;06",
     "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS;MEO",
@@ -88295,10 +88296,11 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/9975870551"
@@ -88475,22 +88477,22 @@
 },
 {
   "type": "Feature",
-  "id": "node/9978512866",
+  "id": "node/9978512865",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9978512866"
+    "operator": "NOS;MEO",
+    "ref": "DBR005",
+    "id": "node/9978512865"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3436129,
-      41.4486207
+      -8.3428673,
+      41.448791
     ]
   }
 },
@@ -94227,13 +94229,12 @@
   "id": "node/9983992026",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
-    "check_date": "2024-08-28",
+    "MNC": "02;03;06",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "id": "node/9983992026"
   },
@@ -109044,12 +109045,11 @@
   "id": "node/10857010524",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece ter DIGI, confirmar",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
