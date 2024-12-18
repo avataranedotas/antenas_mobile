@@ -149,7 +149,7 @@
     "man_made": "mast",
     "material": "metal",
     "old_operator": "NOS",
-    "tower:construction": "freestanding",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -12602,19 +12602,6 @@
 },
 {
   "type": "node",
-  "id": 9459086409,
-  "lat": 37.2614945,
-  "lon": -8.8203265,
-  "tags": {
-    "communication:mobile_phone": "no",
-    "man_made": "mast",
-    "old_operator": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9459116371,
   "lat": 37.1819467,
   "lon": -8.8903674,
@@ -17678,24 +17665,6 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "ref": "VSA057"
-  }
-},
-{
-  "type": "node",
-  "id": 9500755079,
-  "lat": 38.9783175,
-  "lon": -8.8057381,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-04-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
   }
 },
 {
@@ -95415,6 +95384,38 @@
     "material": "metal",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12431595994,
+  "lat": 37.1756265,
+  "lon": -8.4166753,
+  "tags": {
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se é MEO",
+    "location": "roof",
+    "man_made": "antenna"
+  }
+},
+{
+  "type": "node",
+  "id": 12431721319,
+  "lat": 37.0965534,
+  "lon": -7.6893380,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "colour": "gray",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P; NOS",
+    "owner": "Vantage Towers",
+    "ref": "VFA357",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 }
