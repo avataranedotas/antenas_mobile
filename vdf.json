@@ -369,6 +369,7 @@
     "MNC": "01;06",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda emite VDF",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "56",
@@ -76353,6 +76354,26 @@
     "operator": "vodafone P",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10438042143,
+  "lat": 38.5678068,
+  "lon": -7.8978892,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "VEV036;EVCX01075",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
