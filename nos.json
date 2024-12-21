@@ -43525,6 +43525,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VLB167",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -44636,6 +44637,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLB163",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -51034,7 +51036,8 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB080;DLB081;DLB082;DLB083"
   }
 },
 {
@@ -51265,6 +51268,7 @@
     "man_made": "mast",
     "material": "reinforced_concrete",
     "operator": "NOS;MEO",
+    "ref": "MLB519",
     "tower:construction": "freestanding",
     "tower:type": "lighting"
   }
@@ -51284,6 +51288,7 @@
     "man_made": "mast",
     "material": "reinforced_concrete",
     "operator": "NOS;MEO",
+    "ref": "MLB517",
     "tower:construction": "freestanding",
     "tower:type": "lighting"
   }
@@ -51783,7 +51788,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB198"
   }
 },
 {
@@ -62909,6 +62915,7 @@
     "material": "reinforced_concrete",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MLB518",
     "tower:construction": "freestanding",
     "tower:type": "lighting"
   }
@@ -64951,7 +64958,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS"
+    "owner": "Cellnex",
+    "ref": "MLB263"
   }
 },
 {
@@ -67434,7 +67442,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS"
+    "operator": "vodafone P;NOS",
+    "ref": "DLB059"
   }
 },
 {
@@ -67682,7 +67691,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB062"
   }
 },
 {
@@ -71335,12 +71345,12 @@
   "lon": -9.4184214,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "MEO"
+    "operator": "NOS;MEO",
+    "ref": "DLB121"
   }
 },
 {
@@ -78093,7 +78103,8 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS"
+    "owner": "NOS",
+    "ref": "DLB096"
   }
 },
 {
@@ -79599,6 +79610,25 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11538123921,
+  "lat": 40.6197440,
+  "lon": -8.5135220,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -81524,7 +81554,8 @@
     "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "wall",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB186"
   }
 },
 {
@@ -83462,6 +83493,21 @@
     "ref": "NVC116",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12439575337,
+  "lat": 38.7397935,
+  "lon": -9.1895042,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DLB187"
   }
 }
 

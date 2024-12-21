@@ -58134,6 +58134,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VLB167",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9668772721"
@@ -59617,6 +59618,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLB163",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9672767089"
@@ -68248,6 +68250,7 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB080;DLB081;DLB082;DLB083",
     "id": "node/9921435072"
   },
   "geometry": {
@@ -68562,6 +68565,7 @@
     "man_made": "mast",
     "material": "reinforced_concrete",
     "operator": "NOS;MEO",
+    "ref": "MLB519",
     "tower:construction": "freestanding",
     "tower:type": "lighting",
     "id": "node/9921534652"
@@ -68587,6 +68591,7 @@
     "man_made": "mast",
     "material": "reinforced_concrete",
     "operator": "NOS;MEO",
+    "ref": "MLB517",
     "tower:construction": "freestanding",
     "tower:type": "lighting",
     "id": "node/9921534653"
@@ -69279,6 +69284,7 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB198",
     "id": "node/9935835922"
   },
   "geometry": {
@@ -84412,6 +84418,7 @@
     "material": "reinforced_concrete",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "MLB518",
     "tower:construction": "freestanding",
     "tower:type": "lighting",
     "id": "node/10058514813"
@@ -87216,7 +87223,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
+    "ref": "MLB263",
     "id": "node/10059463186"
   },
   "geometry": {
@@ -90570,6 +90578,7 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
+    "ref": "DLB059",
     "id": "node/10184429152"
   },
   "geometry": {
@@ -90902,6 +90911,7 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB062",
     "id": "node/10202834797"
   },
   "geometry": {
@@ -95772,12 +95782,12 @@
   "id": "node/10316832051",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "MEO",
+    "operator": "NOS;MEO",
+    "ref": "DLB121",
     "id": "node/10316832051"
   },
   "geometry": {
@@ -104787,6 +104797,7 @@
     "man_made": "antenna",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "DLB096",
     "id": "node/10846606229"
   },
   "geometry": {
@@ -106806,6 +106817,31 @@
     "coordinates": [
       -8.8256787,
       40.1599774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11538123921",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/11538123921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.513522,
+      40.619744
     ]
   }
 },
@@ -109364,6 +109400,7 @@
     "location": "wall",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "DLB186",
     "id": "node/12122734430"
   },
   "geometry": {
@@ -111932,6 +111969,27 @@
     "coordinates": [
       -8.3768579,
       41.837494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12439575337",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DLB187",
+    "id": "node/12439575337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1895042,
+      38.7397935
     ]
   }
 }
