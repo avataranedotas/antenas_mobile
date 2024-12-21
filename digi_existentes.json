@@ -29430,6 +29430,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NBG125",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -32950,17 +32951,18 @@
 {
   "type": "node",
   "id": 9631505545,
-  "lat": 40.7259854,
-  "lon": -6.9069243,
+  "lat": 40.7260052,
+  "lon": -6.9069712,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "NGR001"
   }
 },
 {
@@ -32976,22 +32978,6 @@
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "MEO"
-  }
-},
-{
-  "type": "node",
-  "id": 9631505547,
-  "lat": 40.7260107,
-  "lon": -6.9069730,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
   }
 },
 {
@@ -61596,6 +61582,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VCO058",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -83466,14 +83453,14 @@
   "lon": -6.8737829,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "Cellnex",
+    "ref": "NGR021",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -88423,6 +88410,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "height": "10",
     "man_made": "mast",
     "operator": "NOS",
