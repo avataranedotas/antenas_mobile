@@ -3,6 +3,65 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/1082801651",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/1082801651"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -17.1373537,
+      32.7260023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1082804860",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:microwave": "yes",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "54",
+    "communications_transponder:frequency": "738 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "501 W",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Pico Arco da Calheta",
+    "operator": "PTC;MEO",
+    "owner": "PTC",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/1082804860"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -17.1369115,
+      32.7258534
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1165292408",
   "properties": {
     "MCC": "268",
@@ -5663,32 +5722,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9705477626",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "Cellnex",
-    "ref": "NMA096",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9705477626"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.9552115,
-      32.6436284
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9705477633",
   "properties": {
     "MCC": "268",
@@ -5708,6 +5741,28 @@
     "coordinates": [
       -16.8338214,
       32.6611083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711722994",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "owner": "MEO",
+    "id": "node/9711722994"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -17.1056257,
+      32.6803101
     ]
   }
 },
