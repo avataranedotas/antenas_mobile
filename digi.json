@@ -18198,9 +18198,9 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;DIGI;NOS",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
-    "ref": "VFA129;FAVT05083"
+    "ref": "VFA129"
   }
 },
 {
@@ -29024,6 +29024,24 @@
     "man_made": "mast",
     "operator": "DIGI;NOS",
     "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9663321220,
+  "lat": 40.9991488,
+  "lon": -8.5721561,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2024-11-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "MAV036",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -44750,6 +44768,22 @@
 },
 {
   "type": "node",
+  "id": 9979980791,
+  "lat": 41.0082342,
+  "lon": -8.6448676,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "check_date": "2024-11-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
   "id": 9979980797,
   "lat": 40.9246960,
   "lon": -8.5154491,
@@ -51488,6 +51522,24 @@
     "MCC": "268",
     "MNC": "01;02",
     "check_date": "2024-07-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10138484107,
+  "lat": 40.9862675,
+  "lon": -8.5904518,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -59412,6 +59464,23 @@
     "man_made": "antenna",
     "operator": "DIGI",
     "owner": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 12453616192,
+  "lat": 37.1049468,
+  "lon": -8.6875342,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-11-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "DIGI;MEO",
+    "ref": "FACX05083"
   }
 }
 
