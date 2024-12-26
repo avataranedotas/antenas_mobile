@@ -8685,6 +8685,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VLR145",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -41987,13 +41988,15 @@
   "lon": -8.5686388,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "MAV067",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -42004,13 +42007,14 @@
   "lon": -8.5752884,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "MAV072",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -62290,7 +62294,7 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "NOS"
+    "owner": "Cellnex"
   }
 },
 {
@@ -62584,7 +62588,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "MLB044"
   }
 },
 {
@@ -69045,6 +69050,25 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "ref": "VCO017",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10286634515,
+  "lat": 40.0919060,
+  "lon": -7.8933070,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VCO081",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
