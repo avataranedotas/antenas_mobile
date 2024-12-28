@@ -8624,6 +8624,7 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "35",
     "man_made": "mast",
@@ -17580,6 +17581,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "MEO",
@@ -22754,6 +22756,7 @@
     "MNC": "03;06",
     "check_date": "2024-05-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -26681,9 +26684,10 @@
     "MNC": "06",
     "check_date": "2023-07-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -31324,10 +31328,11 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -32196,14 +32201,13 @@
   "lon": -8.5335633,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex"
   }
 },
 {
@@ -32229,14 +32233,13 @@
   "lon": -8.5651106,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex"
   }
 },
@@ -44307,10 +44310,11 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -58425,6 +58429,7 @@
     "MNC": "03;06",
     "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS;MEO",
@@ -77885,12 +77890,12 @@
   "lon": -7.7459740,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -87275,11 +87280,11 @@
   "lon": -8.5864000,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -89339,6 +89344,22 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 12188760353,
+  "lat": 38.7270713,
+  "lon": -9.1659240,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "MEO",
+    "owner": "Cellnex"
   }
 },
 {
