@@ -3295,35 +3295,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5375162292",
-  "properties": {
-    "MCC": "268",
-    "MNC": "02",
-    "check_date": "2024-06-28",
-    "communication:mobile_phone": "yes",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "mast",
-    "name": "Avis",
-    "operator": "DIGI",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/5375162292"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8846133,
-      39.0468181
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5493469827",
   "properties": {
     "MCC": "268",
@@ -5833,6 +5804,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-10-28",
     "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
@@ -6469,6 +6441,7 @@
     "MCC": "268",
     "MNC": "02;06",
     "check_date": "2024-12-28",
+    "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO;SIRESP",
@@ -6822,7 +6795,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
-    "check_date": "2024-06-28",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO",
@@ -9106,6 +9079,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-10-28",
     "communication:emergency": "yes",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
@@ -11800,7 +11774,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
-    "check_date": "2024-10-28",
+    "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO",
@@ -13244,11 +13218,13 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;02;03",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VSA101",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9467387924"
@@ -17907,6 +17883,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO",
@@ -78251,6 +78228,30 @@
     "coordinates": [
       -8.6252399,
       39.9640456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11126252082",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2024-10-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/11126252082"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8846136,
+      39.046814
     ]
   }
 },
