@@ -2279,7 +2279,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03;06",
-    "check_date": "2023-03-30",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -2294,6 +2294,7 @@
     "name": "Azóia, Sintra",
     "operator": "vodafone P;NOS;MEO;PTC",
     "owner": "Cellnex",
+    "ref": "99LO287",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -27236,28 +27237,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9510424535",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:microwave": "no",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9510424535"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5537408,
-      37.2856521
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9510424537",
   "properties": {
     "MCC": "268",
@@ -44694,30 +44673,6 @@
     "coordinates": [
       -8.3351174,
       40.6592678
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9630280362",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9630280362"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3124366,
-      40.6734025
     ]
   }
 },
@@ -109308,10 +109263,11 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10871319764"
@@ -113902,10 +113858,12 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "LICX03531",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11739885358"
@@ -121271,6 +121229,30 @@
     "coordinates": [
       -8.6875342,
       37.1049468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12474218492",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-12-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12474218492"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5534606,
+      37.2854799
     ]
   }
 }
