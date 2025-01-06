@@ -72487,10 +72487,11 @@
   "id": "node/9980067055",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -116620,6 +116621,26 @@
     "coordinates": [
       -7.85,
       40.121364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12144969190",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "id": "node/12144969190"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5911423,
+      41.1039282
     ]
   }
 },
