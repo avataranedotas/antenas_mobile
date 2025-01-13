@@ -1986,38 +1986,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1712510351",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-06-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "mast",
-    "material": "metal",
-    "name": "Campo Maior",
-    "operator": "MEO",
-    "owner": "MEO",
-    "source": "Portugal Telecom",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/1712510351"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.0858843,
-      39.0272392
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1713444607",
   "properties": {
     "MCC": "268",
@@ -15786,30 +15754,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9461293548",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2020-08-30",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9461293548"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.3925989,
-      39.2979031
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9461293549",
   "properties": {
     "MCC": "268",
@@ -27916,6 +27860,78 @@
     "coordinates": [
       -8.2789652,
       37.0803742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9551856425",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-01-12",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "MEO",
+    "owner": "MEO",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/9551856425"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4692238,
+      37.1042003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9551856426",
+  "properties": {
+    "check_date": "2024-01-12",
+    "communication:mobile_phone": "no",
+    "location": "roof",
+    "man_made": "mast",
+    "old_operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/9551856426"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4692103,
+      37.1041981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9551856427",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2024-01-12",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "ref": "VFA105",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/9551856427"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4691457,
+      37.1042527
     ]
   }
 },
