@@ -20764,14 +20764,13 @@
   "lon": -9.1693784,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
-    "check_date": "2024-05-28",
+    "MNC": "02;03;06",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -51294,7 +51293,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;03;06",
-    "check_date": "2024-08-28",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
@@ -51962,22 +51961,6 @@
 },
 {
   "type": "node",
-  "id": 9935867688,
-  "lat": 38.7072108,
-  "lon": -9.1680392,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03;06",
-    "check_date": "2024-08-28",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS;MEO",
-    "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
   "id": 9936230532,
   "lat": 38.7103770,
   "lon": -9.1622952,
@@ -52000,6 +51983,7 @@
     "MCC": "268",
     "MNC": "03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar sem tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS;MEO",
@@ -64641,12 +64625,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "03",
-    "check_date": "2024-05-28",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS"
+    "owner": "Cellnex",
+    "ref": "MLB146"
   }
 },
 {
@@ -83729,6 +83714,23 @@
     "man_made": "antenna",
     "operator": "NOS",
     "ref": "DLB187"
+  }
+},
+{
+  "type": "node",
+  "id": 12494974659,
+  "lat": 38.7080941,
+  "lon": -9.1650867,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2024-12-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX00731;MLB481"
   }
 },
 {

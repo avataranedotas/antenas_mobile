@@ -27633,14 +27633,13 @@
   "id": "node/9538687722",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
-    "check_date": "2024-05-28",
+    "MNC": "02;03;06",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
@@ -68531,7 +68530,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02;03;06",
-    "check_date": "2024-08-28",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
@@ -69453,28 +69452,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9935867688",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03;06",
-    "check_date": "2024-08-28",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS;MEO",
-    "owner": "Cellnex",
-    "id": "node/9935867688"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1680392,
-      38.7072108
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9936230532",
   "properties": {
     "MCC": "268",
@@ -69501,6 +69478,7 @@
     "MCC": "268",
     "MNC": "03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar sem tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS;MEO",
@@ -86714,12 +86692,13 @@
   "properties": {
     "MCC": "268",
     "MNC": "03",
-    "check_date": "2024-05-28",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
+    "ref": "MLB146",
     "id": "node/10059405491"
   },
   "geometry": {
@@ -112199,6 +112178,29 @@
     "coordinates": [
       -9.1895042,
       38.7397935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12494974659",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2024-12-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX00731;MLB481",
+    "id": "node/12494974659"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1650867,
+      38.7080941
     ]
   }
 },
