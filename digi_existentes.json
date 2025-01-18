@@ -10481,7 +10481,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "MEO",
@@ -10498,7 +10498,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "tower:construction": "lattice",
@@ -22372,14 +22372,15 @@
   "lon": -8.2982111,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "6",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VFA091",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -87170,20 +87171,6 @@
 },
 {
   "type": "node",
-  "id": 12119208727,
-  "lat": 37.0736863,
-  "lon": -8.2981968,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "man_made": "utility_pole",
-    "operator": "MEO",
-    "utility": "telecom"
-  }
-},
-{
-  "type": "node",
   "id": 12121010990,
   "lat": 37.5633045,
   "lon": -8.7784222,
@@ -89686,39 +89673,6 @@
     "material": "wood",
     "operator": "MEO",
     "utility": "telecom"
-  }
-},
-{
-  "type": "node",
-  "id": 12410281912,
-  "lat": 37.2786864,
-  "lon": -8.0522624,
-  "tags": {
-    "colour": "green",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 12410356023,
-  "lat": 37.3363003,
-  "lon": -8.0187602,
-  "tags": {
-    "colour": "green",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "ref": "VFA346",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
   }
 },
 {
