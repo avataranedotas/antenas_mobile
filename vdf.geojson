@@ -1552,9 +1552,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;02;03;06",
-    "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
@@ -2018,11 +2016,13 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VBJ060",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/2924843786"
@@ -33115,29 +33115,6 @@
     "coordinates": [
       -7.9125649,
       37.8869563
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9556368442",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;02;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9556368442"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8759657,
-      37.9376357
     ]
   }
 },
@@ -64487,6 +64464,7 @@
     "MCC": "268",
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar no local se tem mesmo DIGI",
     "location": "wall",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS",
@@ -77249,6 +77227,7 @@
     "MCC": "268",
     "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se os pórticos da PVG têm mesmo DIGI",
     "location": "overhead",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS;MEO",
