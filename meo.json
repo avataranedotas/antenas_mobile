@@ -32398,6 +32398,24 @@
 },
 {
   "type": "node",
+  "id": 9625182600,
+  "lat": 37.2818012,
+  "lon": -8.2643637,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "FACX03691",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9625182601,
   "lat": 37.1109472,
   "lon": -8.6727450,
@@ -60453,8 +60471,8 @@
 {
   "type": "node",
   "id": 9934563943,
-  "lat": 38.7448960,
-  "lon": -9.1603433,
+  "lat": 38.7448604,
+  "lon": -9.1605203,
   "tags": {
     "MCC": "268",
     "MNC": "06",
@@ -61215,6 +61233,21 @@
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 9934680940,
+  "lat": 38.7437768,
+  "lon": -9.1476296,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "wall",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "owner": "Cellnex"
   }
 },
 {
@@ -83960,14 +83993,13 @@
 {
   "type": "node",
   "id": 11544708534,
-  "lat": 38.6880525,
-  "lon": -7.4059392,
+  "lat": 38.6889904,
+  "lon": -7.4065239,
   "tags": {
     "MCC": "268",
     "MNC": "06",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "fixme": "Move to exact location",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -84190,12 +84222,13 @@
 {
   "type": "node",
   "id": 11595127359,
-  "lat": 38.6890859,
-  "lon": -7.4065397,
+  "lat": 38.6890817,
+  "lon": -7.4065558,
   "tags": {
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a micro ainda existe e emite depois de ter entrado ao serviço a torre nova",
     "man_made": "mast",
     "material": "reinforced_concrete",
     "operator": "MEO",
@@ -87547,8 +87580,8 @@
 {
   "type": "node",
   "id": 12032151750,
-  "lat": 40.5692618,
-  "lon": -7.2186144,
+  "lat": 40.5689358,
+  "lon": -7.2184079,
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
@@ -90114,6 +90147,39 @@
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12521710612,
+  "lat": 38.2843196,
+  "lon": -8.4143874,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 12521783119,
+  "lat": 38.7449974,
+  "lon": -9.1602789,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 }
