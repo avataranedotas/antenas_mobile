@@ -47558,12 +47558,13 @@
   "lon": -16.8340051,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -55006,6 +55007,7 @@
     "material": "metal",
     "operator": "NOS",
     "owner": "Cellnex",
+    "ref": "NVI303",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -70493,6 +70495,23 @@
 },
 {
   "type": "node",
+  "id": 10294215213,
+  "lat": 32.6422049,
+  "lon": -16.9204406,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NMA117"
+  }
+},
+{
+  "type": "node",
   "id": 10294215215,
   "lat": 32.6487624,
   "lon": -16.9081695,
@@ -77680,6 +77699,21 @@
 },
 {
   "type": "node",
+  "id": 10776571681,
+  "lat": 32.6436560,
+  "lon": -16.9205493,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS;MEO",
+    "ref": "DMA013"
+  }
+},
+{
+  "type": "node",
   "id": 10776662259,
   "lat": 39.8161057,
   "lon": -7.5196105,
@@ -79014,6 +79048,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NPG099",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -80281,7 +80316,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS"
+    "operator": "NOS",
+    "ref": "DMA011"
   }
 },
 {
@@ -80309,7 +80345,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DMA011"
   }
 },
 {

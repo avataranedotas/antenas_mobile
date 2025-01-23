@@ -6681,10 +6681,11 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/5010926188"
@@ -65454,7 +65455,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -65500,12 +65500,12 @@
   "id": "node/9705477635",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9705477635"
@@ -100762,11 +100762,14 @@
   "id": "node/10294215213",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NMA117",
     "id": "node/10294215213"
   },
   "geometry": {
@@ -106083,12 +106086,12 @@
   "id": "node/10776571681",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "NOS;MEO",
+    "ref": "DMA013",
     "id": "node/10776571681"
   },
   "geometry": {
@@ -111574,6 +111577,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NPG099",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11157711665"
@@ -113747,6 +113751,7 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "DMA011",
     "id": "node/11643149633"
   },
   "geometry": {

@@ -42360,12 +42360,13 @@
   "id": "node/9705483273",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -51368,6 +51369,29 @@
     "coordinates": [
       -16.8868594,
       32.6543202
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10294215213",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NMA117",
+    "id": "node/10294215213"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.9204406,
+      32.6422049
     ]
   }
 },

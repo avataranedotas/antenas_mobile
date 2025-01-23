@@ -5206,10 +5206,11 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -48925,7 +48926,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -48959,12 +48959,12 @@
   "lon": -16.8040207,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -74795,11 +74795,14 @@
   "lon": -16.9204406,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NMA117"
   }
 },
 {
@@ -78754,12 +78757,12 @@
   "lon": -16.9205493,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "NOS;MEO",
+    "ref": "DMA013"
   }
 },
 {
@@ -82835,6 +82838,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NPG099",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -84443,7 +84447,8 @@
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DMA011"
   }
 },
 {
