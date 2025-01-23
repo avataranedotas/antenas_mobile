@@ -9009,7 +9009,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:note": "Investigar se tem DIGI ou outras operadoras",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -9081,14 +9081,16 @@
   "id": "node/11065196730",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "check_date": "2024-04-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLR150",
     "id": "node/11065196730"
   },
   "geometry": {
@@ -9334,31 +9336,6 @@
     "coordinates": [
       -7.0115071,
       41.020981
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11929557375",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS",
-    "owner": "Cellnex",
-    "ref": "345S4;DLB170",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/11929557375"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3136229,
-      39.1099802
     ]
   }
 },
@@ -9669,6 +9646,26 @@
     "coordinates": [
       -8.5239201,
       41.1750016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12527560038",
+  "properties": {
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar quais as operadoras",
+    "man_made": "mast",
+    "material": "metal",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12527560038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2022944,
+      39.2739519
     ]
   }
 }
