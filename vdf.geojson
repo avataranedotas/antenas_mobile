@@ -64198,31 +64198,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9705477631",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "check_date": "2024-12-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9705477631"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.8316364,
-      32.6450506
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9705477634",
   "properties": {
     "MCC": "268",
@@ -69300,13 +69275,13 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;02;06",
-    "check_date": "2024-05-28",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se também tem NOS",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;DIGI;MEO",
+    "ref": "LICX02083",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9921503489"
@@ -69895,6 +69870,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -94496,9 +94472,8 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
-    "check_date": "2024-08-28",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -94540,8 +94515,8 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -96877,13 +96852,14 @@
   "id": "node/10218662551",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT03878",
     "id": "node/10218662551"
   },
   "geometry": {
@@ -116262,14 +116238,14 @@
   "id": "node/12046510038",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
-    "check_date": "2024-07-28",
+    "MNC": "01;02",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar sem tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
+    "ref": "LIVT03909",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/12046510038"
@@ -119524,6 +119500,33 @@
     "coordinates": [
       -9.423501,
       38.7549938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12514438750",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "check_date": "2024-12-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "fixme": "Move to exact location",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12514438750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.8317112,
+      32.6450484
     ]
   }
 },

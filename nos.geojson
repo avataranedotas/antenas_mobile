@@ -63399,31 +63399,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9705477631",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "check_date": "2024-12-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9705477631"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.8316364,
-      32.6450506
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9705477634",
   "properties": {
     "MCC": "268",
@@ -81539,14 +81514,14 @@
   "id": "node/10032211436",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2024-07-28",
+    "MNC": "02;03",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX00842",
     "id": "node/10032211436"
   },
   "geometry": {
@@ -82755,7 +82730,7 @@
     "material": "metal",
     "old_operator": "NOS",
     "operator": "DIGI;NOS",
-    "ref": "MLB066",
+    "ref": "LICX02202;MLB066",
     "removed:man_made": "antenna",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
@@ -112423,6 +112398,33 @@
     "coordinates": [
       -9.1948989,
       38.7079398
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12514438750",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "check_date": "2024-12-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "fixme": "Move to exact location",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12514438750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.8317112,
+      32.6450484
     ]
   }
 },
