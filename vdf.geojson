@@ -69233,6 +69233,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -69588,12 +69589,13 @@
   "id": "node/9923280655",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT04071",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9923280655"
@@ -69868,13 +69870,14 @@
   "id": "node/9934563942",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT03946",
     "id": "node/9934563942"
   },
   "geometry": {
@@ -76289,13 +76292,14 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
+    "ref": "VLB014",
     "id": "node/10028374384"
   },
   "geometry": {
@@ -92164,13 +92168,14 @@
   "id": "node/10174509858",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT01020",
     "id": "node/10174509858"
   },
   "geometry": {
@@ -93690,14 +93695,14 @@
   "id": "node/10184309138",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
-    "check_date": "2024-11-28",
+    "MNC": "01;02;06",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar no local quais as operadores presentes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;DIGI;MEO",
     "owner": "Vantage Towers",
+    "ref": "LIVT04164",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10184309138"
@@ -93758,6 +93763,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -93825,14 +93831,15 @@
   "id": "node/10184429159",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT00883",
     "id": "node/10184429159"
   },
   "geometry": {
@@ -93995,13 +94002,14 @@
   "id": "node/10184429167",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT04060",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10184429167"
@@ -94793,6 +94801,7 @@
     "MCC": "268",
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se há cobertura indoor da DIGI",
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
