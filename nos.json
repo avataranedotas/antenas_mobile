@@ -58924,21 +58924,6 @@
 },
 {
   "type": "node",
-  "id": 10027342515,
-  "lat": 41.1587295,
-  "lon": -8.6307076,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
-  }
-},
-{
-  "type": "node",
   "id": 10027342516,
   "lat": 41.1566333,
   "lon": -8.6302596,
@@ -58949,7 +58934,8 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS"
+    "owner": "NOS",
+    "ref": "DPT060"
   }
 },
 {
@@ -63612,10 +63598,11 @@
     "MNC": "03",
     "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS"
+    "owner": "Cellnex"
   }
 },
 {
@@ -66590,6 +66577,21 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 10148299300,
+  "lat": 41.1587998,
+  "lon": -8.6307911,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DPT059"
   }
 },
 {
@@ -83950,6 +83952,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar visualmente a localização da antena",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -84104,6 +84107,22 @@
     "ref": "VSA281",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12554706811,
+  "lat": 41.1589530,
+  "lon": -8.6317810,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "owner": "NOS",
+    "ref": "DPT064"
   }
 }
 

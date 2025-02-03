@@ -78887,27 +78887,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10027342515",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
-    "id": "node/10027342515"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6307076,
-      41.1587295
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10027342516",
   "properties": {
     "MCC": "268",
@@ -78917,6 +78896,7 @@
     "man_made": "antenna",
     "operator": "NOS",
     "owner": "NOS",
+    "ref": "DPT060",
     "id": "node/10027342516"
   },
   "geometry": {
@@ -85277,10 +85257,11 @@
     "MNC": "03",
     "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "id": "node/10058722682"
   },
   "geometry": {
@@ -89336,6 +89317,27 @@
     "coordinates": [
       -8.6047326,
       41.150084
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10148299300",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "ref": "DPT059",
+    "id": "node/10148299300"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6307911,
+      41.1587998
     ]
   }
 },
@@ -112455,6 +112457,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar visualmente a localização da antena",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -112664,6 +112667,28 @@
     "coordinates": [
       -8.4768363,
       39.0382817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12554706811",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "owner": "NOS",
+    "ref": "DPT064",
+    "id": "node/12554706811"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.631781,
+      41.158953
     ]
   }
 }
