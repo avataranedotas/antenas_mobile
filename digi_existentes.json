@@ -22614,20 +22614,6 @@
 },
 {
   "type": "node",
-  "id": 9559215799,
-  "lat": 40.2653371,
-  "lon": -7.5028625,
-  "tags": {
-    "communication:mobile_phone": "no",
-    "location": "roof",
-    "man_made": "antenna",
-    "mimics": "chimney",
-    "old_operator": "vodafone P",
-    "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
   "id": 9559221777,
   "lat": 40.5588004,
   "lon": -7.2609784,
@@ -47918,24 +47904,6 @@
 },
 {
   "type": "node",
-  "id": 9923227802,
-  "lat": 38.7644050,
-  "lon": -9.1686742,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9923227805,
   "lat": 38.7612260,
   "lon": -9.1601837,
@@ -54804,23 +54772,6 @@
   "id": 10032151260,
   "lat": 38.7844007,
   "lon": -9.3140730,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 10032151261,
-  "lat": 38.7878007,
-  "lon": -9.3199575,
   "tags": {
     "MCC": "268",
     "MNC": "03",
@@ -65143,21 +65094,6 @@
   "id": 10174420768,
   "lat": 38.7858515,
   "lon": -9.3137661,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
-  "id": 10174420769,
-  "lat": 38.7877221,
-  "lon": -9.3192561,
   "tags": {
     "MCC": "268",
     "MNC": "01",
@@ -77341,13 +77277,14 @@
   "lon": -8.2797097,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "tower",
     "material": "reinforced_concrete",
-    "operator": "IPMA;NOS",
+    "operator": "IPMA;vodafone P;NOS",
     "owner": "IPMA",
+    "ref": "NAV014",
     "tower:construction": "freestanding",
     "tower:type": "radar"
   }
