@@ -3338,12 +3338,13 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
+    "ref": "NVR051",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/3810713681"
@@ -98517,31 +98518,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10739916721",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2024-10-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "ref": "NBG144",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10739916721"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -6.7666326,
-      41.939359
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10739916722",
   "properties": {
     "MCC": "268",
@@ -110842,8 +110818,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -6.6981102,
-      41.8846163
+      -6.7090053,
+      41.8993795
     ]
   }
 },
@@ -112764,6 +112740,31 @@
     "coordinates": [
       -9.1768107,
       38.6735401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12580172418",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2024-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "NBG144",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12580172418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.7612149,
+      41.938008
     ]
   }
 }
