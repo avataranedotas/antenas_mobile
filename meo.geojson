@@ -31482,7 +31482,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -112004,7 +112004,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "fixme": "Move to exact location",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "Cellnex",
@@ -112015,8 +112014,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4468072,
-      40.4983877
+      -8.4454017,
+      40.4981266
     ]
   }
 },
@@ -122030,6 +122029,73 @@
     "coordinates": [
       -6.7605427,
       41.936085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582929002",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12582929002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.177948,
+      41.9672813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582929003",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12582929003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1858605,
+      41.9523074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12583031276",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "fixme": "Move to correct location",
+    "man_made": "mast",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12583031276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.887053,
+      41.792778
     ]
   }
 }
