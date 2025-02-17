@@ -29063,8 +29063,8 @@
 {
   "type": "node",
   "id": 9631489849,
-  "lat": 40.8485816,
-  "lon": -8.0027197,
+  "lat": 40.8485420,
+  "lon": -8.0027371,
   "tags": {
     "MCC": "268",
     "MNC": "06",
@@ -29080,17 +29080,17 @@
 {
   "type": "node",
   "id": 9631489850,
-  "lat": 40.8485084,
-  "lon": -8.0027433,
+  "lat": 40.8484272,
+  "lon": -8.0026977,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "NVI035",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -48475,11 +48475,11 @@
   "lon": -8.7032416,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Investigar se existe DIGI",
     "man_made": "mast",
-    "operator": "MEO",
+    "operator": "NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -69221,12 +69221,14 @@
   "lon": -31.2093050,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VAC138"
   }
 },
 {
@@ -84276,11 +84278,14 @@
   "lon": -8.2654194,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Vantage Towers",
+    "ref": "NAV029",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
