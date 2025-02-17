@@ -107864,7 +107864,6 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
@@ -115780,6 +115779,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se tem ran-sharing e se o eNb é o 342532",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
@@ -115791,8 +115791,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.1127706,
-      39.5842683
+      -8.11335,
+      39.5846156
     ]
   }
 },
@@ -115994,7 +115994,6 @@
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "fixme": "Aproximate position, move to exact location",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS",
@@ -116007,8 +116006,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3332435,
-      37.7080934
+      -8.3309266,
+      37.7084868
     ]
   }
 },
@@ -119961,6 +119960,30 @@
     "coordinates": [
       -7.7702552,
       40.5418258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12596586018",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "NCB152",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12596586018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9713401,
+      39.8124203
     ]
   }
 }
