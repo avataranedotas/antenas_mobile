@@ -7816,6 +7816,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VST018;STCX03141",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -7828,8 +7829,8 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2025-01-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -10240,12 +10241,14 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2025-01-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "wall",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers"
+    "owner": "Vantage Towers",
+    "ref": "VST028"
   }
 },
 {
@@ -11560,6 +11563,7 @@
     "MCC": "268",
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão DIGI e qual o eNb",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
@@ -16293,14 +16297,14 @@
   "lon": -8.7323429,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2023-09-30",
+    "MNC": "01;02;03",
+    "check_date": "2025-01-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "VST022;STCX03145",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -16543,6 +16547,7 @@
     "man_made": "tower",
     "material": "metal",
     "operator": "vodafone P;NOS",
+    "ref": "VST023",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -20989,6 +20994,25 @@
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9573444979,
+  "lat": 39.5944973,
+  "lon": -8.5287658,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2025-01-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VSA280",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },
