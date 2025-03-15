@@ -15290,15 +15290,15 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;02;03",
+    "check_date": "2025-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar a emissão DIGI e qual o eNb",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
-    "ref": "VBJ071",
+    "ref": "VBJ071;BJCX05545",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9499383820"
@@ -51406,13 +51406,13 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
-    "check_date": "2024-03-03",
+    "check_date": "2025-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VBJ081",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10292380774"
@@ -57551,6 +57551,31 @@
     "coordinates": [
       -7.5819048,
       38.9672755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10762240111",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2025-02-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VEV060",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10762240111"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6829088,
+      38.2283916
     ]
   }
 },
