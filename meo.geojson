@@ -9473,7 +9473,7 @@
     "communication:mobile_phone:note": "Confirmar se tem SIRESP",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/7044383876"
@@ -18503,12 +18503,14 @@
   "id": "node/9461293572",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NPG054",
     "id": "node/9461293572"
   },
   "geometry": {
@@ -19120,6 +19122,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "PACX02448;NPG070",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9467199968"
@@ -19144,7 +19147,7 @@
     "man_made": "antenna",
     "mimics": "chimney",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "id": "node/9467199986"
   },
   "geometry": {
@@ -19165,6 +19168,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "PACX02447",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9467199995"
@@ -40492,6 +40496,7 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS;MEO",
+    "ref": "NPG017",
     "id": "node/9586511649"
   },
   "geometry": {
@@ -40534,7 +40539,7 @@
     "man_made": "mast",
     "mimics": "pine",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9586561966"
@@ -108038,6 +108043,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "PACX00285",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/10822786496"

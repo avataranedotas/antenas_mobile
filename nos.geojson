@@ -15731,24 +15731,24 @@
 },
 {
   "type": "Feature",
-  "id": "node/9461293571",
+  "id": "node/9461293572",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9461293571"
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NPG054",
+    "id": "node/9461293572"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.3777705,
-      39.3945803
+      -7.3765604,
+      39.3934082
     ]
   }
 },
@@ -16334,6 +16334,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "PACX02448;NPG070",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9467199968"
@@ -16359,6 +16360,7 @@
     "mimics": "pine",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "PACX02436;NPG069",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9467199974"
@@ -16384,6 +16386,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "PACX02435;NPG066",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9467199985"
@@ -16408,6 +16411,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NPG068",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9467200004"
@@ -38667,29 +38671,6 @@
     "coordinates": [
       -7.4713231,
       39.1547546
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9581803091",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite NOS",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/9581803091"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.3793137,
-      39.0234818
     ]
   }
 },

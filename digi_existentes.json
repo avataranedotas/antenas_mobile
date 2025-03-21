@@ -5656,7 +5656,7 @@
     "communication:mobile_phone:note": "Confirmar se tem SIRESP",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -11415,47 +11415,19 @@
 },
 {
   "type": "node",
-  "id": 9461293571,
-  "lat": 39.3945803,
-  "lon": -7.3777705,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9461293572,
   "lat": 39.3934082,
   "lon": -7.3765604,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
-  }
-},
-{
-  "type": "node",
-  "id": 9461293573,
-  "lat": 39.3934147,
-  "lon": -7.3765696,
-  "tags": {
-    "communication:mobile_phone": "no",
-    "location": "roof",
-    "man_made": "antenna",
-    "old_operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "NPG054"
   }
 },
 {
@@ -11854,7 +11826,7 @@
     "man_made": "antenna",
     "mimics": "chimney",
     "operator": "MEO",
-    "owner": "MEO"
+    "owner": "Cellnex"
   }
 },
 {
@@ -11871,6 +11843,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "NOS",
+    "ref": "NPG068",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -24899,23 +24872,6 @@
 },
 {
   "type": "node",
-  "id": 9581803091,
-  "lat": 39.0234818,
-  "lon": -7.3793137,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite NOS",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9583807914,
   "lat": 40.3551110,
   "lon": -6.9634950,
@@ -25017,7 +24973,7 @@
     "man_made": "mast",
     "mimics": "pine",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
