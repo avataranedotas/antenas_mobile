@@ -3685,32 +3685,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9631505542",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2023-06-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9631505542"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.264375,
-      40.9587224
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9631960945",
   "properties": {
     "MCC": "268",
@@ -5509,32 +5483,6 @@
     "coordinates": [
       -8.1966242,
       41.8640699
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9677069031",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-06-30",
-    "communication:microwave": "yes",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "tower",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/9677069031"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.2624967,
-      40.9678123
     ]
   }
 },
@@ -10532,7 +10480,7 @@
     "advertising": "billboard",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:note": "Investigar se tem MEO e NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
@@ -10928,6 +10876,29 @@
     "coordinates": [
       -7.9253977,
       41.1725331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12089699724",
+  "properties": {
+    "check_date": "2024-10-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12089699724"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.0818231,
+      41.3168677
     ]
   }
 },

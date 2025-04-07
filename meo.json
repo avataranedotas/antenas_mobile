@@ -40951,7 +40951,6 @@
     "check_date": "2023-06-30",
     "communication:microwave": "yes",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "tower",
     "material": "metal",
     "operator": "MEO",
@@ -75270,14 +75269,14 @@
   "lon": -8.4559214,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-06-30",
+    "MNC": "02;06",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex"
   }
 },
 {
@@ -89602,6 +89601,24 @@
     "communication:mobile_phone": "yes",
     "man_made": "antenna",
     "operator": "MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 12179121543,
+  "lat": 41.3517340,
+  "lon": -8.5077100,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 },
 {
