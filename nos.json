@@ -6225,13 +6225,12 @@
   "lon": -7.7428820,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
-    "communication:gsm": "yes",
-    "communication:lte": "yes",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
+    "ref": "NCB039",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -66652,20 +66651,6 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "ref": "MPT480"
-  }
-},
-{
-  "type": "node",
-  "id": 10148229857,
-  "lat": 41.1500840,
-  "lon": -8.6047326,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:mobile_phone": "yes",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
   }
 },
 {
