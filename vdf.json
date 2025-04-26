@@ -7079,22 +7079,6 @@
 },
 {
   "type": "node",
-  "id": 8385635692,
-  "lat": 40.5733366,
-  "lon": -8.4484867,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "vodafone P;MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 8395536306,
   "lat": 42.0291241,
   "lon": -8.3746574,
@@ -13353,12 +13337,11 @@
   "lon": -6.8784389,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -42252,11 +42235,12 @@
 {
   "type": "node",
   "id": 9663321224,
-  "lat": 40.9685886,
-  "lon": -8.5175724,
+  "lat": 40.9686200,
+  "lon": -8.5176100,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;02;06",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -42266,7 +42250,7 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Lourosa",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;DIGI;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -44077,6 +44061,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -57684,6 +57669,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -66429,11 +66415,11 @@
   "lon": -8.6059273,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;MEO",
     "owner": "Vantage Towers"
   }
 },
@@ -68760,13 +68746,15 @@
   "lon": -9.4089565,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;DIGI",
+    "owner": "Vantage Towers",
+    "ref": "LIVT00973"
   }
 },
 {
@@ -82441,12 +82429,13 @@
   "lon": -8.3955851,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02",
+    "MNC": "01;02;03",
     "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;DIGI",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers"
   }
 },
@@ -83370,15 +83359,17 @@
 {
   "type": "node",
   "id": 10947828913,
-  "lat": 41.1489996,
-  "lon": -8.6053562,
+  "lat": 41.1491723,
+  "lon": -8.6045421,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
-    "location": "indoor",
+    "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;MEO"
+    "operator": "vodafone P",
+    "owner": "Vantage Towers"
   }
 },
 {
@@ -87608,12 +87599,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
+    "ref": "PT-TIMS-103005",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }

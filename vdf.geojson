@@ -9336,28 +9336,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8385635692",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;06",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "vodafone P;MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/8385635692"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4484867,
-      40.5733366
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8395536306",
   "properties": {
     "MCC": "268",
@@ -17744,12 +17722,11 @@
   "id": "node/9467388082",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -56385,7 +56362,8 @@
   "id": "node/9663321224",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;02;06",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
@@ -56395,7 +56373,7 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Lourosa",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;DIGI;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9663321224"
@@ -56403,8 +56381,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5175724,
-      40.9685886
+      -8.51761,
+      40.96862
     ]
   }
 },
@@ -58812,6 +58790,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -77267,6 +77246,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -89132,11 +89112,11 @@
   "id": "node/10148229860",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;MEO",
     "owner": "Vantage Towers",
     "id": "node/10148229860"
   },
@@ -92297,13 +92277,15 @@
   "id": "node/10174402682",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT00973",
     "id": "node/10174402682"
   },
   "geometry": {
@@ -110664,12 +110646,13 @@
   "id": "node/10774004752",
   "properties": {
     "MCC": "268",
-    "MNC": "01;02",
+    "MNC": "01;02;03",
     "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;DIGI",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "id": "node/10774004752"
   },
@@ -111921,18 +111904,20 @@
   "id": "node/10947828913",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
-    "location": "indoor",
+    "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
     "id": "node/10947828913"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6053562,
-      41.1489996
+      -8.6045421,
+      41.1491723
     ]
   }
 },
@@ -117571,12 +117556,13 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
+    "ref": "PT-TIMS-103005",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/12183720484"

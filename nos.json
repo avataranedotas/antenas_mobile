@@ -12603,12 +12603,11 @@
   "lon": -6.8784389,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -41386,11 +41385,12 @@
   "tags": {
     "MCC": "268",
     "MNC": "03",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "NOS",
     "operator:wikidata": "Q136331",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -62142,6 +62142,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
@@ -77679,25 +77680,6 @@
 },
 {
   "type": "node",
-  "id": 10771900020,
-  "lat": 40.7088750,
-  "lon": -8.4933382,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS",
-    "operator:wikidata": "Q136331",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 10771900021,
   "lat": 39.6593243,
   "lon": -8.8563269,
@@ -77838,6 +77820,23 @@
     "ref": "MBR134",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10774004752,
+  "lat": 39.6091519,
+  "lon": -8.3955851,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "check_date": "2025-03-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers"
   }
 },
 {
@@ -78591,6 +78590,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "03",
+    "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -84665,6 +84665,26 @@
     "location": "underground",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS;MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 12790164240,
+  "lat": 40.7088842,
+  "lon": -8.4933972,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2025-03-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "AVCX00063;MAV163",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 }
 
