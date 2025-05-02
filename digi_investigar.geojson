@@ -559,6 +559,36 @@
 },
 {
   "type": "Feature",
+  "id": "node/2502903494",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "check_date": "2024-06-30",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a NOS tem aqui uma Multi-Beam",
+    "emergency": "siren",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "siren:purpose": "tsunami",
+    "siren:type": "electronic",
+    "source:emergency": "survey;https://www.lisboa.pt/fileadmin/cidade_temas/seguranca/documentos/Risco_Tsunami_SMariaMaior_Misericordia.pdf",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/2502903494"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1383122,
+      38.7072032
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2518081980",
   "properties": {
     "communication:mobile_phone:note": "Investigar onde fica a antena da VDF",
@@ -961,30 +991,6 @@
     "coordinates": [
       -25.3911199,
       37.8238866
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7171900791",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/7171900791"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8860463,
-      41.571934
     ]
   }
 },
