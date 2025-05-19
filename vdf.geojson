@@ -92288,13 +92288,14 @@
   "id": "node/10174402680",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2025-04-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "mimics": "chimney",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT03841",
     "id": "node/10174402680"
   },
   "geometry": {
@@ -93681,6 +93682,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01",
+    "check_date": "2025-04-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
@@ -93692,8 +93694,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3733374,
-      38.6975294
+      -9.3732831,
+      38.6975163
     ]
   }
 },
@@ -93747,13 +93749,14 @@
   "id": "node/10181605217",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
+    "check_date": "2025-04-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "location": "wall",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT03842",
     "id": "node/10181605217"
   },
   "geometry": {
@@ -113975,7 +113978,7 @@
     "material": "metal",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
-    "ref:owner": "PT-TIMS-108013",
+    "owner:ref": "PT-TIMS-108013",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/11387556402"
@@ -116543,8 +116546,8 @@
     "man_made": "mast",
     "operator": "vodafone P; NOS;MEO",
     "owner": "Vantage Towers",
+    "owner:ref": "PT-TIMS-78002",
     "ref": "VBJ132;21AL026",
-    "ref:owner": "PT-TIMS-78002",
     "tower:type": "communication",
     "id": "node/12026782227"
   },
@@ -116666,8 +116669,8 @@
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "owner:ref": "PT-TIMS-103040",
     "ref": "VBJ136",
-    "ref:owner": "PT-TIMS-103040",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/12040532772"
