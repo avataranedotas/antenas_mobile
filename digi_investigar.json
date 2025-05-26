@@ -450,6 +450,29 @@
 },
 {
   "type": "node",
+  "id": 1958895801,
+  "lat": 37.7781198,
+  "lon": -25.1687417,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se a DIGI está nesta torre ou na que tem NOS/VDF",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Pico Bartolomeu",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 2502903494,
   "lat": 38.7072032,
   "lon": -9.1383122,
@@ -534,24 +557,6 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "ref": "VBJ060",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 3118038976,
-  "lat": 37.7640306,
-  "lon": -25.3195368,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:emergency": "yes",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "operator": "MEO;SIRESP",
-    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -835,6 +840,35 @@
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 7264856504,
+  "lat": 37.1053395,
+  "lon": -8.6774330,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-03-17",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "43",
+    "communications_transponder:frequency": "646-654 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Lagos Norte",
+    "operator": "MEO",
+    "owner": "MEO",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -1397,24 +1431,6 @@
     "operator": "vodafone P;NOS",
     "owner": "Cellnex",
     "ref": "NCB057",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9490019866,
-  "lat": 37.7640507,
-  "lon": -25.3193983,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -4870,23 +4886,6 @@
 },
 {
   "type": "node",
-  "id": 9709012155,
-  "lat": 37.7463910,
-  "lon": -25.5742702,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9709033730,
   "lat": 37.7634633,
   "lon": -25.7025200,
@@ -4990,6 +4989,38 @@
 },
 {
   "type": "node",
+  "id": 9718290481,
+  "lat": 32.6525869,
+  "lon": -16.9227675,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 9718494734,
+  "lat": 32.6508198,
+  "lon": -16.9097809,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
   "id": 9718494736,
   "lat": 32.6526378,
   "lon": -16.9137740,
@@ -5006,9 +5037,9 @@
 },
 {
   "type": "node",
-  "id": 9718494739,
-  "lat": 32.6554674,
-  "lon": -16.9137338,
+  "id": 9718494741,
+  "lat": 32.6602095,
+  "lon": -16.9195341,
   "tags": {
     "MCC": "268",
     "MNC": "06",
@@ -7956,23 +7987,6 @@
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 11908169978,
-  "lat": 37.8621906,
-  "lon": -25.7060798,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 },

@@ -559,6 +559,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/1958895801",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se a DIGI está nesta torre ou na que tem NOS/VDF",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Pico Bartolomeu",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/1958895801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.1687417,
+      37.7781198
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2502903494",
   "properties": {
     "MCC": "268",
@@ -674,30 +703,6 @@
     "coordinates": [
       -7.7628753,
       37.7006165
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3118038976",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:emergency": "yes",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "operator": "MEO;SIRESP",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/3118038976"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -25.3195368,
-      37.7640306
     ]
   }
 },
@@ -1070,6 +1075,41 @@
     "coordinates": [
       -7.1377327,
       41.651963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7264856504",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-03-17",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "43",
+    "communications_transponder:frequency": "646-654 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Lagos Norte",
+    "operator": "MEO",
+    "owner": "MEO",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/7264856504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.677433,
+      37.1053395
     ]
   }
 },
@@ -1819,30 +1859,6 @@
     "coordinates": [
       -7.7064531,
       39.9920955
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9490019866",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9490019866"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -25.3193983,
-      37.7640507
     ]
   }
 },
@@ -6419,29 +6435,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9709012155",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9709012155"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -25.5742702,
-      37.746391
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9709033730",
   "properties": {
     "MCC": "268",
@@ -6581,6 +6574,50 @@
 },
 {
   "type": "Feature",
+  "id": "node/9718290481",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "id": "node/9718290481"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.9227675,
+      32.6525869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9718494734",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "id": "node/9718494734"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.9097809,
+      32.6508198
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9718494736",
   "properties": {
     "MCC": "268",
@@ -6603,7 +6640,7 @@
 },
 {
   "type": "Feature",
-  "id": "node/9718494739",
+  "id": "node/9718494741",
   "properties": {
     "MCC": "268",
     "MNC": "06",
@@ -6613,13 +6650,13 @@
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "Cellnex",
-    "id": "node/9718494739"
+    "id": "node/9718494741"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -16.9137338,
-      32.6554674
+      -16.9195341,
+      32.6602095
     ]
   }
 },
@@ -10531,29 +10568,6 @@
     "coordinates": [
       -25.3749176,
       37.7190107
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11908169978",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/11908169978"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -25.7060798,
-      37.8621906
     ]
   }
 },
