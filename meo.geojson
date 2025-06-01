@@ -91254,12 +91254,11 @@
     "MNC": "06",
     "check_date": "2023-03-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9980615378"
@@ -92043,12 +92042,11 @@
   "id": "node/9982307274",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se existe DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "id": "node/9982307274"
   },
@@ -92158,7 +92156,6 @@
     "MNC": "06",
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "height": "4",
     "location": "roof",
     "man_made": "mast",
@@ -93031,13 +93028,13 @@
   "id": "node/9983405692",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
@@ -108552,7 +108549,6 @@
     "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:extra_tube": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
@@ -121065,7 +121061,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI e se a NOS moveu-se para aqui",
+    "communication:mobile_phone:note": "Investigar se a DIGI e NOS se moveram para aqui",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -122576,6 +122572,31 @@
     "coordinates": [
       -6.9565129,
       41.2724707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12879818560",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12879818560"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.7761951,
+      32.6930308
     ]
   }
 }
