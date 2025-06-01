@@ -8691,29 +8691,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9214987852",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;02;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS;MEO",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9214987852"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.78196,
-      37.7283978
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9216851730",
   "properties": {
     "MCC": "268",
@@ -10668,24 +10645,26 @@
 },
 {
   "type": "Feature",
-  "id": "node/9370601341",
+  "id": "node/9370545799",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "01;02;03",
+    "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;MEO",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
-    "ref": "STCX03535",
+    "ref": "VST035;STCX03535",
     "tower:construction": "lattice",
     "tower:type": "communication",
-    "id": "node/9370601341"
+    "id": "node/9370545799"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7191168,
-      37.7949749
+      -8.7107894,
+      37.7912595
     ]
   }
 },
@@ -51839,6 +51818,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9703837095",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9703837095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.3537663,
+      33.0535643
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9703896374",
   "properties": {
     "MCC": "268",
@@ -54280,6 +54282,28 @@
     "coordinates": [
       -16.9137338,
       32.6554674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9718494740",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9718494740"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.9104132,
+      32.6598268
     ]
   }
 },
@@ -77511,6 +77535,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10237943699",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2024-11-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10237943699"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.181142,
+      37.7083292
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10238792701",
   "properties": {
     "MCC": "268",
@@ -89112,6 +89160,39 @@
     "coordinates": [
       -8.6096951,
       41.1527609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12726847829",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2025-04-03",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "43",
+    "communications_transponder:frequency": "646-654 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Albufeira",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "FACX00510",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12726847829"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2526958,
+      37.0919215
     ]
   }
 },
