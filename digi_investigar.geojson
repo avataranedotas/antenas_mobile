@@ -6532,31 +6532,24 @@
 },
 {
   "type": "Feature",
-  "id": "node/9708984223",
+  "id": "node/9708984231",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "tower",
-    "name": "Ribeira Grande",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "MEO",
+    "man_made": "mast",
+    "operator": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
-    "id": "node/9708984223"
+    "id": "node/9708984231"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -25.5218115,
-      37.8220249
+      -25.2337879,
+      37.7456921
     ]
   }
 },
@@ -6580,6 +6573,30 @@
     "coordinates": [
       -25.70252,
       37.7634633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9709033732",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar que tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9709033732"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.6572926,
+      37.760711
     ]
   }
 },
