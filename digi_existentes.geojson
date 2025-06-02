@@ -4880,28 +4880,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4671982139",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/4671982139"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8610295,
-      40.0448606
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4682628051",
   "properties": {
     "MCC": "268",
@@ -11804,14 +11782,12 @@
   "type": "Feature",
   "id": "node/9368901244",
   "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "man_made": "mast",
     "material": "metal",
+    "note": "O site encontra-se sem emissão",
     "old_operator": "NOS",
-    "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9368901244"
@@ -97067,9 +97043,10 @@
     "MNC": "06",
     "check_date": "2024-04-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10295418449"
