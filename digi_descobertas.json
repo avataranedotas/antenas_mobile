@@ -45275,7 +45275,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;MEO",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "LICX02027"
   }
 },
 {
@@ -46854,6 +46855,21 @@
     "check_date": "2024-05-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 9922569486,
+  "lat": 38.7492858,
+  "lon": -9.1766109,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
     "man_made": "antenna",
     "operator": "DIGI;MEO",
     "owner": "Cellnex"
@@ -59399,6 +59415,23 @@
 },
 {
   "type": "node",
+  "id": 10189240679,
+  "lat": 38.7696540,
+  "lon": -9.1924845,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "check_date": "2025-05-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI",
+    "owner": "Vantage Towers",
+    "ref": "LIVT03934"
+  }
+},
+{
+  "type": "node",
   "id": 10189240681,
   "lat": 38.7643834,
   "lon": -9.2001702,
@@ -67986,6 +68019,20 @@
 },
 {
   "type": "node",
+  "id": 12125475485,
+  "lat": 38.7912622,
+  "lon": -9.1874221,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO"
+  }
+},
+{
+  "type": "node",
   "id": 12138575774,
   "lat": 40.5277394,
   "lon": -7.1990946,
@@ -69147,6 +69194,27 @@
     "owner": "Cellnex",
     "ref": "MPT151",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12886752707,
+  "lat": 38.7558484,
+  "lon": -9.1985607,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2025-05-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar que tem MEO e qual o eNb",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO;DIGI",
+    "owner": "Cellnex",
+    "ref": "LICX00813",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 }
