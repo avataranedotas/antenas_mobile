@@ -2076,22 +2076,6 @@
 },
 {
   "type": "node",
-  "id": 9922492709,
-  "lat": 38.7945921,
-  "lon": -9.1506645,
-  "tags": {
-    "MCC": "268",
-    "MNC": "02;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar se tem mesmo DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "DIGI;MEO",
-    "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
   "id": 9934564090,
   "lat": 38.7486515,
   "lon": -9.1475666,
@@ -2288,22 +2272,6 @@
 },
 {
   "type": "node",
-  "id": 10030285235,
-  "lat": 38.8360865,
-  "lon": -9.0998843,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
   "id": 10057081594,
   "lat": 38.7921686,
   "lon": -9.1063345,
@@ -2326,30 +2294,13 @@
   "lon": -9.1492073,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
-  "id": 10058609613,
-  "lat": 38.7924017,
-  "lon": -9.1544167,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-04-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS",
+    "operator": "DIGI;NOS",
     "owner": "Cellnex"
   }
 },
@@ -3348,24 +3299,6 @@
 },
 {
   "type": "node",
-  "id": 11065339302,
-  "lat": 40.9498894,
-  "lon": -8.6354048,
-  "tags": {
-    "MCC": "268",
-    "MNC": "02;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "DIGI;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 11065599904,
   "lat": 39.0524237,
   "lon": -8.9147200,
@@ -3812,10 +3745,15 @@
   "lat": 41.0599886,
   "lon": -8.6233955,
   "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Confirmar quais as operadoras",
     "location": "roof",
-    "man_made": "antenna"
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube"
   }
 },
 {
