@@ -181,6 +181,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/4064818895",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "NOS",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/4064818895"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.0909365,
+      36.9829436
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4179041215",
   "properties": {
     "communication:mobile_phone:note": "Investigar se existe um local VDF eNb 511262 nesta zona",
@@ -811,6 +835,39 @@
     "coordinates": [
       -9.2082645,
       38.6618973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9490483456",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "55",
+    "communications_transponder:frequency": "746 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "3330",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "name": "Pico Alto",
+    "operator": "PTC;MEO",
+    "owner": "PTC",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9490483456"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -25.0906419,
+      36.9830634
     ]
   }
 },
