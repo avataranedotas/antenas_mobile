@@ -56028,7 +56028,7 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "id": "node/9703837093"
   },
   "geometry": {
@@ -56041,35 +56041,12 @@
 },
 {
   "type": "Feature",
-  "id": "node/9703837094",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9703837094"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.3587794,
-      33.0429694
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9703837096",
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
@@ -56094,6 +56071,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "67",
@@ -84926,30 +84904,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10148115339",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/10148115339"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6180651,
-      41.1528134
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10148115340",
   "properties": {
     "MCC": "268",
@@ -105114,6 +105068,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:radio": "yes",
     "man_made": "mast",
     "material": "metal",

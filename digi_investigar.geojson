@@ -2156,25 +2156,58 @@
 },
 {
   "type": "Feature",
-  "id": "node/9703837094",
+  "id": "node/9703837096",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "Cellnex",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
-    "id": "node/9703837094"
+    "id": "node/9703837096"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -16.3587794,
-      33.0429694
+      -16.3199839,
+      33.0710496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9703837097",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "67",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Porto Santo",
+    "operator": "PTC;MEO",
+    "owner": "MEO",
+    "source": "http://tdt.telecom.pt/",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9703837097"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.3192031,
+      33.0703472
     ]
   }
 },
@@ -4419,6 +4452,31 @@
     "coordinates": [
       -6.9664747,
       40.7852989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10776571684",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:radio": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "MEO",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/10776571684"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.3232106,
+      33.084474
     ]
   }
 },
