@@ -2291,63 +2291,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9703837096",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9703837096"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.3199839,
-      33.0710496
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9703837097",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:channel": "67",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "mast",
-    "material": "metal",
-    "name": "Porto Santo",
-    "operator": "PTC;MEO",
-    "owner": "MEO",
-    "source": "http://tdt.telecom.pt/",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9703837097"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.3192031,
-      33.0703472
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9703896376",
   "properties": {
     "MCC": "268",
@@ -2491,6 +2434,55 @@
     "coordinates": [
       -16.8628791,
       32.6487342
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9705714530",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9705714530"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.3450341,
+      33.0864056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9705714531",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9705714531"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.3450049,
+      33.0863134
     ]
   }
 },
@@ -3501,31 +3493,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10213095715",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/10213095715"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1233755,
-      38.7645703
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10218662549",
   "properties": {
     "MCC": "268",
@@ -4427,7 +4394,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/10776571684"
@@ -4655,6 +4622,27 @@
     "coordinates": [
       -8.615525,
       39.1713816
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11764837532",
+  "properties": {
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem MEO",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/11764837532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9798302,
+      38.7123231
     ]
   }
 },

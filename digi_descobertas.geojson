@@ -54134,6 +54134,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "MDCX02362",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9703837094"
@@ -54157,6 +54158,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "MDCX02367",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9703837095"
@@ -54166,6 +54168,31 @@
     "coordinates": [
       -16.3537663,
       33.0535643
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9703837096",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers",
+    "ref": "MDVT03925",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9703837096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.3199839,
+      33.0710496
     ]
   }
 },
@@ -74086,30 +74113,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10027732613",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;02;03",
-    "check_date": "2024-11-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;DIGI;NOS",
-    "owner": "Cellnex",
-    "ref": "VLB164",
-    "id": "node/10027732613"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0090774,
-      39.054496
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10028309971",
   "properties": {
     "MCC": "268",
@@ -79687,6 +79690,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "LIVT00590",
     "id": "node/10174420770"
   },
   "geometry": {
@@ -80725,6 +80729,32 @@
     "coordinates": [
       -9.2196802,
       38.7165649
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10213095715",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "check_date": "2025-05-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI",
+    "owner": "Vantage Towers",
+    "ref": "LIVT01015",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/10213095715"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1233755,
+      38.7645703
     ]
   }
 },
@@ -93520,6 +93550,7 @@
     "man_made": "antenna",
     "operator": "DIGI",
     "owner": "Cellnex",
+    "ref": "MDCX02409",
     "id": "node/12919686550"
   },
   "geometry": {
