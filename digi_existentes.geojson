@@ -1830,6 +1830,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/1646826566",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:microwave": "yes",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem operadoras de comunicações móveis",
+    "man_made": "tower",
+    "material": "metal",
+    "operator": "vodafone P",
+    "source": "Bing",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/1646826566"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6357492,
+      40.9177972
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1654270441",
   "properties": {
     "MCC": "268",
@@ -4911,7 +4936,7 @@
     "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -8319,7 +8344,7 @@
     "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
@@ -8647,7 +8672,7 @@
     "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -26706,6 +26731,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar qual a outra operadora além da vodafone",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -38127,7 +38153,7 @@
     "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -38219,7 +38245,7 @@
     "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -38242,7 +38268,7 @@
     "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -40797,7 +40823,7 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
@@ -43270,7 +43296,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -43335,30 +43361,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9652803608",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "Vodafone Portugal",
-    "operator:wikidata": "Q3562042",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9652803608"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4719114,
-      40.8051934
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9652803609",
   "properties": {
     "MCC": "268",
@@ -43366,7 +43368,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -43575,7 +43577,7 @@
     "MNC": "01",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -55823,7 +55825,7 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
@@ -66216,27 +66218,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9941082439",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9941082439"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.7065688,
-      40.7185621
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9941082441",
   "properties": {
     "MCC": "268",
@@ -70870,7 +70851,7 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_lattice",
@@ -77263,27 +77244,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10078293862",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10078293862"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.7065537,
-      40.7185087
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10078293863",
   "properties": {
     "MCC": "268",
@@ -77774,7 +77734,7 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_lattice",
@@ -77958,7 +77918,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -77983,7 +77943,7 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
@@ -78462,7 +78422,7 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_lattice",
@@ -78487,7 +78447,7 @@
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
@@ -83928,7 +83888,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -118722,7 +118682,7 @@
     "man_made": "mast",
     "mapillary": "1702519647254094",
     "material": "metal",
-    "operator": "Vodafone Portugal",
+    "operator": "vodafone P",
     "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
@@ -120006,30 +119966,6 @@
     "coordinates": [
       -8.0157454,
       39.5918474
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12851915506",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "colour": "white",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/12851915506"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4633444,
-      40.8054583
     ]
   }
 },
