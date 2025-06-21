@@ -5899,7 +5899,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO;Bombeiros",
     "owner": "Cellnex",
-    "ref": "NGR123",
+    "ref": "GUCX04505;NGR123",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
@@ -11450,11 +11450,12 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -13678,13 +13679,14 @@
   "lon": -9.2071560,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2025-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex"
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "STCX03217"
   }
 },
 {
@@ -16604,6 +16606,21 @@
     "ref": "STCX03218",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9482370432,
+  "lat": 38.6625214,
+  "lon": -9.2079856,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-05-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI;NOS;MEO"
   }
 },
 {
@@ -22064,8 +22081,8 @@
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
+    "check_date": "2025-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se foi reparada após ter ficado com danos em 20-3-2025",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
@@ -54779,7 +54796,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS;MEO",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "LICX02149"
   }
 },
 {
@@ -85860,12 +85878,13 @@
   "lon": -7.6960501,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2024-05-30",
+    "MNC": "02;06",
+    "check_date": "2025-05-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO"
+    "operator": "DIGI;MEO",
+    "ref": "GUCX04450"
   }
 },
 {
