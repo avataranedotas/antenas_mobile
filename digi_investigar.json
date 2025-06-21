@@ -210,29 +210,6 @@
 },
 {
   "type": "node",
-  "id": 5651611117,
-  "lat": 32.7241804,
-  "lon": -16.7590696,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:television": "yes",
-    "communications_transponder:access": "Public",
-    "communications_transponder:modulation": "COFDM",
-    "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:service": "TV",
-    "man_made": "tower",
-    "name": "Pico do Facho",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 5946714010,
   "lat": 38.4189106,
   "lon": -28.0532600,
@@ -690,6 +667,44 @@
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9510892530,
+  "lat": 37.1795234,
+  "lon": -7.4497942,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2023-12-30",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "MEO",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9510892531,
+  "lat": 37.1796473,
+  "lon": -7.4493870,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VFA292"
   }
 },
 {
@@ -1157,7 +1172,7 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
