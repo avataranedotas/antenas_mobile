@@ -27374,7 +27374,7 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "ref": "NPG059",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -57517,13 +57517,13 @@
   "lon": -8.5779385,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2024-08-28",
+    "MNC": "02;03",
+    "check_date": "2025-05-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -73846,6 +73846,25 @@
 },
 {
   "type": "node",
+  "id": 10741950768,
+  "lat": 41.7453552,
+  "lon": -7.6240426,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NVR045",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10741979000,
   "lat": 40.6758491,
   "lon": -7.4717541,
@@ -73875,6 +73894,24 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10741979002,
+  "lat": 40.8663706,
+  "lon": -7.2120157,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NGR114",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -84845,6 +84882,36 @@
     "ref": "NPG089",
     "tower:construction": "lattice",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12942200577,
+  "lat": 38.8885443,
+  "lon": -9.0434915,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DLB183"
+  }
+},
+{
+  "type": "node",
+  "id": 12942256847,
+  "lat": 38.3053663,
+  "lon": -8.7796198,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DST026"
   }
 }
 

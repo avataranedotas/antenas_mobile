@@ -37606,7 +37606,7 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "ref": "NPG059",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -105923,13 +105923,14 @@
   "id": "node/10741950768",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NVR045",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10741950768"
@@ -105994,12 +105995,13 @@
   "id": "node/10741979002",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NGR114",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10741979002"
@@ -121025,6 +121027,31 @@
     "coordinates": [
       -8.3191434,
       42.0995622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12942181829",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NPG089",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/12942181829"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.731438,
+      39.3082669
     ]
   }
 }

@@ -36433,7 +36433,7 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "ref": "NPG059",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -76920,13 +76920,13 @@
   "id": "node/10019253233",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
-    "check_date": "2024-08-28",
+    "MNC": "02;03",
+    "check_date": "2025-05-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
@@ -98957,6 +98957,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/10741950768",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NVR045",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10741950768"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6240426,
+      41.7453552
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10741979000",
   "properties": {
     "MCC": "268",
@@ -98999,6 +99024,30 @@
     "coordinates": [
       -7.3894686,
       40.8073417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10741979002",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NGR114",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10741979002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.2120157,
+      40.8663706
     ]
   }
 },
@@ -113591,6 +113640,48 @@
     "coordinates": [
       -7.731438,
       39.3082669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12942200577",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DLB183",
+    "id": "node/12942200577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0434915,
+      38.8885443
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12942256847",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DST026",
+    "id": "node/12942256847"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7796198,
+      38.3053663
     ]
   }
 }

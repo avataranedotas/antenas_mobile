@@ -100346,13 +100346,14 @@
   "id": "node/10741950768",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NVR045",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10741950768"
@@ -100417,12 +100418,13 @@
   "id": "node/10741979002",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NGR114",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10741979002"
@@ -119541,8 +119543,7 @@
   "type": "Feature",
   "id": "node/12865286674",
   "properties": {
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar se ainda existe e qual a operadora",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -119694,6 +119695,44 @@
     "coordinates": [
       -7.731438,
       39.3082669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12942256847",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "ref": "DST026",
+    "id": "node/12942256847"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7796198,
+      38.3053663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12942275047",
+  "properties": {
+    "communication:mobile_phone": "no",
+    "man_made": "antenna",
+    "material": "metal",
+    "id": "node/12942275047"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5856897,
+      41.1677783
     ]
   }
 }
