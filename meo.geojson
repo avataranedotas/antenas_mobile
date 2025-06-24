@@ -58507,30 +58507,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9685377338",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;06",
-    "check_date": "2023-04-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se a torre antiga ainda existe",
-    "man_made": "mast",
-    "operator": "vodafone P;MEO",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9685377338"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.626988,
-      41.0701733
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9685377339",
   "properties": {
     "MCC": "268",
@@ -90246,13 +90222,13 @@
   "id": "node/9980067057",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;02;06",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;DIGI;MEO",
     "owner": "Vantage Towers",
+    "ref": "06PO026;POVT04091",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9980067057"
@@ -114712,14 +114688,15 @@
   "id": "node/11869875880",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
+    "check_date": "2025-05-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "POCX04662;20PO041",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11869875880"
@@ -118108,6 +118085,31 @@
     "coordinates": [
       -7.8347471,
       40.9118933
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12038291447",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "POCX01066",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12038291447"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6269531,
+      41.0701435
     ]
   }
 },
