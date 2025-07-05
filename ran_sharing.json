@@ -48018,12 +48018,13 @@
   "lon": -8.3856520,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;03;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;DIGI;NOS;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "ref": "NVC117",
     "tower:construction": "freestanding",
@@ -49386,6 +49387,25 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "ref": "NPG089",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12979521733,
+  "lat": 41.6556000,
+  "lon": -7.2603000,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2024-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "NVR174",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
