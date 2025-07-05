@@ -88791,10 +88791,16 @@
   "lat": 41.3440780,
   "lon": -8.0752370,
   "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "owner": "Cellnex",
+    "ref": "NBR060",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -90251,6 +90257,20 @@
     "note": "Estrutura temporária montada numa grua",
     "operator": "NOS",
     "owner": "Cellnex",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 12979471103,
+  "lat": 41.3022225,
+  "lon": -7.9946753,
+  "tags": {
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se ainda existe e quais as operadoras",
+    "man_made": "mast",
+    "material": "metal",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
