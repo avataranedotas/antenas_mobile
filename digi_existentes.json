@@ -15945,11 +15945,12 @@
   "lon": -27.3182677,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -15962,7 +15963,7 @@
   "lon": -27.3191544,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "communication:radio": "no",
     "communication:television": "yes",
@@ -15975,9 +15976,9 @@
     "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Santa Bárbara",
-    "operator": "vodafone P;MEO;PTC",
+    "operator": "MEO;PTC",
     "owner": "PTC",
-    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -44027,10 +44028,11 @@
   "lon": -27.2067967,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
