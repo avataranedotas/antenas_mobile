@@ -37287,24 +37287,6 @@
 },
 {
   "type": "node",
-  "id": 9663321244,
-  "lat": 40.8474923,
-  "lon": -8.4024863,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2023-03-30",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "NOS",
-    "operator:wikidata": "Q136331",
-    "owner": "NOS",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9663321245,
   "lat": 40.8426275,
   "lon": -8.3770796,
@@ -44918,21 +44900,6 @@
   "id": 9718494741,
   "lat": 32.6602095,
   "lon": -16.9195341,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
-  "id": 9720586916,
-  "lat": 32.6491904,
-  "lon": -16.9024538,
   "tags": {
     "MCC": "268",
     "MNC": "06",
@@ -90094,16 +90061,39 @@
 },
 {
   "type": "node",
-  "id": 13015384875,
-  "lat": 40.8478606,
-  "lon": -8.4022984,
+  "id": 13019496779,
+  "lat": 39.5613227,
+  "lon": -8.8271941,
   "tags": {
-    "communication:5g": "yes",
-    "communication:digi": "yes",
+    "MCC": "268",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI",
-    "tower:construction": "metal",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "owner:ref": "PT-TIMS-103013",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13019533964,
+  "lat": 38.0238341,
+  "lon": -8.0349924,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar a posição exacta",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "VBJ124",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 }
