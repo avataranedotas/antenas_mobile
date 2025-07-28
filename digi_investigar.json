@@ -129,24 +129,6 @@
 },
 {
   "type": "node",
-  "id": 3468109928,
-  "lat": 39.4514947,
-  "lon": -31.1363901,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "Vantage Towers",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 3566906634,
   "lat": 41.2908686,
   "lon": -8.6690787,
@@ -158,24 +140,6 @@
     "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 3900317100,
-  "lat": 41.8955086,
-  "lon": -8.5580170,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -442,21 +406,6 @@
     "communication:mobile_phone:note": "Verificar se ainda emite NOS",
     "man_made": "mast",
     "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9490172947,
-  "lat": 39.4512660,
-  "lon": -31.1370078,
-  "tags": {
-    "communication:mobile_phone": "no",
-    "communication:mobile_phone:note": "Investigar qual das duas tem DIGI",
-    "man_made": "mast",
-    "old_operator": "NOS",
     "owner": "NOS",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -901,25 +850,6 @@
     "operator": "vodafone P;NOS",
     "owner": "NOS",
     "ref": "NBG125",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9606153469,
-  "lat": 41.8055107,
-  "lon": -8.7755388,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "Cellnex",
-    "ref": "NVC085",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -1808,24 +1738,6 @@
 },
 {
   "type": "node",
-  "id": 9717966929,
-  "lat": 32.6510108,
-  "lon": -16.8879332,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2025-04-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Parece ter DIGI, falta confirmar quando terminarem a obra",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "tower:construction": "guyed_lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9730932580,
   "lat": 37.1622553,
   "lon": -8.5724419,
@@ -2300,6 +2212,22 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
+    "owner": "Vantage Towers"
+  }
+},
+{
+  "type": "node",
+  "id": 10200638590,
+  "lat": 38.7434698,
+  "lon": -9.2181365,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers"
   }
 },
