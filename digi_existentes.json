@@ -28587,25 +28587,6 @@
 },
 {
   "type": "node",
-  "id": 9609919559,
-  "lat": 39.5738515,
-  "lon": -9.0361487,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2024-04-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "ref": "VLR098",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9609919570,
   "lat": 39.5709986,
   "lon": -9.0231306,
@@ -67124,6 +67105,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -92784,6 +92766,20 @@
     "owner": "Cellnex",
     "ref": "NMA112",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13062468753,
+  "lat": 41.1105877,
+  "lon": -8.6493919,
+  "tags": {
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 }
