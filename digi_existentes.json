@@ -45114,12 +45114,12 @@
   "lon": -17.0214458,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "NOS;MEO",
+    "owner": "Cellnex"
   }
 },
 {
@@ -77838,21 +77838,6 @@
 },
 {
   "type": "node",
-  "id": 10742483599,
-  "lat": 32.6481731,
-  "lon": -16.9071042,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
-  }
-},
-{
-  "type": "node",
   "id": 10742510570,
   "lat": 32.6484005,
   "lon": -16.9752489,
@@ -92631,6 +92616,49 @@
     "material": "metal",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13085509867,
+  "lat": 32.6944111,
+  "lon": -17.1257275,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "underground",
+    "man_made": "antenna",
+    "operator": "NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 13085539012,
+  "lat": 32.7526280,
+  "lon": -16.8181318,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "overhead",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "owner": "NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 13085540060,
+  "lat": 32.6819965,
+  "lon": -17.1024393,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "underground",
+    "man_made": "antenna",
+    "operator": "NOS"
   }
 }
 
