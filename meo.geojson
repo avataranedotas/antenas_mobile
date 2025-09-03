@@ -9119,13 +9119,13 @@
   "id": "node/6710549960",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
-    "ref": "VAC022",
+    "ref": "VAC022;AZVT03928",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/6710549960"
@@ -65970,6 +65970,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "AZCX03624",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9708834092"
@@ -65987,11 +65988,11 @@
   "id": "node/9708835436",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
     "ref": "VAC015",
     "tower:construction": "freestanding",
@@ -66011,13 +66012,13 @@
   "id": "node/9708835437",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
-    "ref": "VAC016",
+    "ref": "VAC016;AZVT03929",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9708835437"
@@ -69742,12 +69743,13 @@
   "id": "node/9726567713",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "AZCX03753",
     "id": "node/9726567713"
   },
   "geometry": {
@@ -77922,13 +77924,13 @@
   "id": "node/9921491187",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "id": "node/9921491187"
   },
@@ -79684,12 +79686,13 @@
   "id": "node/9922584955",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "LICX02033",
     "id": "node/9922584955"
   },
   "geometry": {
@@ -84395,12 +84398,12 @@
   "id": "node/9938091030",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "02;03;06",
     "check_date": "2024-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "id": "node/9938091030"
   },
@@ -84453,27 +84456,6 @@
     "coordinates": [
       -9.1350118,
       38.7103567
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9938091036",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9938091036"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.137175,
-      38.7124156
     ]
   }
 },
@@ -99750,11 +99732,12 @@
   "id": "node/10268653859",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "AZCX03625",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10268653859"
@@ -106826,13 +106809,14 @@
   "id": "node/10778452920",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-05-30",
+    "MNC": "02;06",
+    "check_date": "2025-08-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "VSCX03595",
     "id": "node/10778452920"
   },
   "geometry": {
@@ -121301,6 +121285,27 @@
     "coordinates": [
       -8.0560235,
       39.2085748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12258374446",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "id": "node/12258374446"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1372133,
+      38.7124052
     ]
   }
 },
