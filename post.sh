@@ -10,3 +10,4 @@ osmtogeojson digi_ferros.json >| digi_ferros.geojson
 osmtogeojson digi_descobertas.json >| digi_descobertas.geojson
 osmtogeojson digi_existentes.json >| digi_existentes.geojson
 osmtogeojson ran_sharing.json >| ran_sharing.geojson
+osmtogeojson todos.json >| todos.geojson
