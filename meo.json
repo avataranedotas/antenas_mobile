@@ -1928,7 +1928,7 @@
   "lon": -9.3141126,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
@@ -1942,8 +1942,8 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Vale Verde, Peniche",
-    "operator": "PTC;MEO",
-    "owner": "PTC",
+    "operator": "DIGI;MEO;PTC",
+    "owner": "Cellnex",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -8120,19 +8120,20 @@
 {
   "type": "node",
   "id": 8010904718,
-  "lat": 37.1185901,
-  "lon": -8.6543190,
+  "lat": 37.1186019,
+  "lon": -8.6543767,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "15",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VFA125;FAVT03822",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -11062,14 +11063,14 @@
   "lon": -8.5451623,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
@@ -23465,8 +23466,8 @@
 {
   "type": "node",
   "id": 9547294087,
-  "lat": 38.6471798,
-  "lon": -9.2183445,
+  "lat": 38.6471683,
+  "lon": -9.2182935,
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
@@ -32550,9 +32551,8 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2024-11-28",
+    "check_date": "2025-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
@@ -65351,6 +65351,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "BRCX00552",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -66786,13 +66787,12 @@
   "lon": -8.3109838,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
