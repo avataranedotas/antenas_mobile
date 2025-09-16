@@ -87271,11 +87271,11 @@
   "id": "node/9973450532",
   "properties": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "ref": "DAV006",
     "id": "node/9973450532"
   },
@@ -91677,12 +91677,11 @@
   "id": "node/9982273121",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "id": "node/9982273121"
   },
   "geometry": {
@@ -104451,6 +104450,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/10721224208",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS;MEO",
+    "owner": "NOS",
+    "id": "node/10721224208"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.610819,
+      41.1515297
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10724537984",
   "properties": {
     "MCC": "268",
@@ -111836,21 +111856,20 @@
   "id": "node/11201002943",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:gsm": "yes",
     "communication:lte": "yes",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "id": "node/11201002943"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9096479,
-      38.5330544
+      -8.9097273,
+      38.533051
     ]
   }
 },
