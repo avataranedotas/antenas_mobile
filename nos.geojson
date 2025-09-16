@@ -74380,11 +74380,11 @@
   "id": "node/9991635841",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "NOS",
     "ref": "DBR009",
     "id": "node/9991635841"
@@ -74392,8 +74392,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4223431,
-      41.552807
+      -8.4225019,
+      41.5528423
     ]
   }
 },
@@ -114623,6 +114623,51 @@
     "coordinates": [
       -7.4868051,
       37.1787296
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13147889590",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "owner": "NOS",
+    "id": "node/13147889590"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.422563,
+      41.5491882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13147914385",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "NOS",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/13147914385"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3046473,
+      41.439751
     ]
   }
 }
