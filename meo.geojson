@@ -104878,13 +104878,13 @@
   "id": "node/10738740753",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "POCX04640",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10738740753"
@@ -111635,6 +111635,26 @@
     "coordinates": [
       -8.4451054,
       40.2416624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11155049743",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO",
+    "id": "node/11155049743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1718613,
+      38.6578479
     ]
   }
 },

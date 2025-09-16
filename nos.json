@@ -26362,19 +26362,19 @@
 {
   "type": "node",
   "id": 9561377548,
-  "lat": 41.8116204,
-  "lon": -6.7705530,
+  "lat": 41.8110586,
+  "lon": -6.7702365,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "old_ref": "NBG030",
-    "operator": "vodafone P;NOS",
+    "old_ref": "NBG030;BNVT04326",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "ref": "NBG135"
   }
@@ -40801,12 +40801,12 @@
   "lon": -8.5773688,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -64035,12 +64035,13 @@
   "lon": -9.1300147,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX00268"
   }
 },
 {
@@ -74846,6 +74847,7 @@
     "MNC": "01;03",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI no prédio ao lado",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -79525,16 +79527,15 @@
 {
   "type": "node",
   "id": 11155049743,
-  "lat": 38.6578885,
-  "lon": -9.1715003,
+  "lat": 38.6578479,
+  "lon": -9.1718613,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "vodafone P;NOS;MEO"
   }
 },
 {
@@ -85715,6 +85716,22 @@
     "owner": "NOS",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13148038182,
+  "lat": 32.7444094,
+  "lon": -16.8129119,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "level": "-1",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "owner": "NOS"
   }
 }
 

@@ -35047,15 +35047,15 @@
   "id": "node/9561377548",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "old_ref": "NBG030",
-    "operator": "vodafone P;NOS",
+    "old_ref": "NBG030;BNVT04326",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "ref": "NBG135",
     "id": "node/9561377548"
@@ -35063,8 +35063,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -6.770553,
-      41.8116204
+      -6.7702365,
+      41.8110586
     ]
   }
 },
@@ -54300,12 +54300,12 @@
   "id": "node/9663148299",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9663148299"
@@ -85742,12 +85742,13 @@
   "id": "node/10058722694",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX00268",
     "id": "node/10058722694"
   },
   "geometry": {
@@ -100225,6 +100226,7 @@
     "MNC": "01;03",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI no prédio ao lado",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -106462,19 +106464,18 @@
   "id": "node/11155049743",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS;MEO",
     "id": "node/11155049743"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1715003,
-      38.6578885
+      -9.1718613,
+      38.6578479
     ]
   }
 },
@@ -114689,6 +114690,28 @@
     "coordinates": [
       -8.3046473,
       41.439751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13148038182",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "level": "-1",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "NOS",
+    "owner": "NOS",
+    "id": "node/13148038182"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.8129119,
+      32.7444094
     ]
   }
 }

@@ -21735,8 +21735,8 @@
 {
   "type": "node",
   "id": 9538687348,
-  "lat": 38.5331034,
-  "lon": -8.9098036,
+  "lat": 38.5329658,
+  "lon": -8.9097457,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
@@ -27338,19 +27338,19 @@
 {
   "type": "node",
   "id": 9561377548,
-  "lat": 41.8116204,
-  "lon": -6.7705530,
+  "lat": 41.8110586,
+  "lon": -6.7702365,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "old_ref": "NBG030",
-    "operator": "vodafone P;NOS",
+    "old_ref": "NBG030;BNVT04326",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "ref": "NBG135"
   }
@@ -62842,12 +62842,13 @@
   "lon": -8.4214305,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "POVT04686",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -77434,12 +77435,13 @@
   "lon": -8.6828403,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "POVT04606",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -79884,6 +79886,7 @@
     "MNC": "01;03",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI no prédio ao lado",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -84634,6 +84637,20 @@
 },
 {
   "type": "node",
+  "id": 11155049743,
+  "lat": 38.6578479,
+  "lon": -9.1718613,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO"
+  }
+},
+{
+  "type": "node",
   "id": 11156530283,
   "lat": 41.1682040,
   "lon": -8.6863182,
@@ -84772,6 +84789,22 @@
     "ref": "VST071",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 11201002943,
+  "lat": 38.5330510,
+  "lon": -8.9097273,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:gsm": "yes",
+    "communication:lte": "yes",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO"
   }
 },
 {
@@ -85005,8 +85038,8 @@
 {
   "type": "node",
   "id": 11350821338,
-  "lat": 38.6599997,
-  "lon": -9.1754669,
+  "lat": 38.6592802,
+  "lon": -9.1744865,
   "tags": {
     "MCC": "268",
     "MNC": "01",
@@ -85742,14 +85775,14 @@
   "lon": -8.2973771,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:microwave": "no",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
+    "ref": "BRVT04320",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -91037,6 +91070,23 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "ref": "VFA294",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13148055360,
+  "lat": 38.7693887,
+  "lon": -9.2200466,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
