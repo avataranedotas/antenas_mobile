@@ -550,13 +550,16 @@
   "lat": 40.4885661,
   "lon": -7.1597841,
   "tags": {
+    "MNC": "01;03",
     "check_date": "2025-03-28",
     "colour": "gray",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se já emite",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NGR162",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -790,6 +793,22 @@
   "tags": {
     "communication:mobile_phone": "yes",
     "man_made": "mast",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13182018487,
+  "lat": 37.5708413,
+  "lon": -7.6695782,
+  "tags": {
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "fixme": "Move to correct location",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 }

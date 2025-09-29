@@ -765,13 +765,16 @@
   "type": "Feature",
   "id": "node/12718766675",
   "properties": {
+    "MNC": "01;03",
     "check_date": "2025-03-28",
     "colour": "gray",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se já emite",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "NGR162",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/12718766675"
@@ -1109,6 +1112,28 @@
     "coordinates": [
       -7.747455,
       41.1197726
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13182018487",
+  "properties": {
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "fixme": "Move to correct location",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/13182018487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6695782,
+      37.5708413
     ]
   }
 }
