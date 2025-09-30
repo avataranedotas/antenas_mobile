@@ -1391,9 +1391,8 @@
   "lon": -8.6584508,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:television": "yes",
     "communications_transponder:access": "Public",
     "communications_transponder:channel": "56",
@@ -1406,8 +1405,8 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Porto - Pedro Escobar",
-    "operator": "PTC;MEO",
-    "owner": "PTC",
+    "operator": "DIGI;MEO;PTC",
+    "owner": "Cellnex",
     "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -114112,13 +114111,12 @@
   "lon": -8.5075882,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2023-03-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex"
   }
 },
@@ -114362,12 +114360,11 @@
   "lon": -8.5291098,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers"
   }
 },
@@ -116762,7 +116759,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -120350,12 +120346,11 @@
     "MNC": "03",
     "check_date": "2023-04-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -136050,13 +136045,12 @@
   "lon": -8.6603702,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -136069,13 +136063,12 @@
   "lon": -8.6510972,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -137703,7 +137696,6 @@
     "MNC": "01;02",
     "check_date": "2025-07-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que tem mesmo DIGI e qual o eNb",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI",
@@ -168768,12 +168760,11 @@
     "MNC": "03",
     "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
     "operator": "NOS",
-    "owner": "NOS"
+    "owner": "Cellnex"
   }
 },
 {
@@ -179005,6 +178996,7 @@
     "MCC": "268",
     "MNC": "02",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",

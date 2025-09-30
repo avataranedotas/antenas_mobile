@@ -441,6 +441,40 @@
 },
 {
   "type": "Feature",
+  "id": "node/1165383655",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "1151",
+    "communications_transponder:service": "TV",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Porto - Pedro Escobar",
+    "operator": "DIGI;MEO;PTC",
+    "owner": "Cellnex",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/1165383655"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6584508,
+      41.1503744
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1165383676",
   "properties": {
     "MCC": "268",
@@ -72988,6 +73022,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9980615376",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2023-03-30",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "id": "node/9980615376"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5075882,
+      41.1515122
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9980615377",
   "properties": {
     "MCC": "268",
@@ -73098,6 +73154,27 @@
     "coordinates": [
       -8.5402147,
       41.2352695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9981936084",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI",
+    "owner": "Vantage Towers",
+    "id": "node/9981936084"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5291098,
+      41.1595017
     ]
   }
 },
@@ -82792,6 +82869,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/10078507345",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10078507345"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6845422,
+      41.4311341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10078507346",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NVR023",
+    "id": "node/10078507346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4843341,
+      41.7329802
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10080728823",
   "properties": {
     "MCC": "268",
@@ -83439,6 +83564,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/10138397163",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI",
+    "owner": "Vantage Towers",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/10138397163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6603702,
+      41.1902612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10138397164",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI",
+    "owner": "Vantage Towers",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/10138397164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6510972,
+      41.1888983
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10138448065",
   "properties": {
     "MCC": "268",
@@ -83800,7 +83973,6 @@
     "MNC": "01;02",
     "check_date": "2025-07-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que tem mesmo DIGI e qual o eNb",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI",
@@ -98641,6 +98813,7 @@
     "MCC": "268",
     "MNC": "02",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
