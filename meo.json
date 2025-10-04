@@ -13570,6 +13570,27 @@
 },
 {
   "type": "node",
+  "id": 9439567564,
+  "lat": 38.6550498,
+  "lon": -9.0777145,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;06",
+    "check_date": "2025-05-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se já montaram as antenas",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "99LS052",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9439567573,
   "lat": 38.5895133,
   "lon": -9.0156860,
@@ -83125,9 +83146,10 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
-    "communication:gsm": "yes",
-    "communication:lte": "yes",
+    "communication:gsm": "yes;yes;yes",
+    "communication:lte": "yes;yes;yes",
     "communication:mobile_phone": "yes",
+    "communication:nr": "yes;yes;no",
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO"
