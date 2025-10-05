@@ -19887,12 +19887,14 @@
   "lon": -7.9341372,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VFA069"
   }
 },
 {
@@ -28532,12 +28534,13 @@
   "lon": -8.4350905,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VBJ135",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -28566,11 +28569,11 @@
   "lon": -8.4399752,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem mais operadoras",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -33380,25 +33383,6 @@
     "man_made": "antenna",
     "operator": "NOS",
     "owner": "NOS"
-  }
-},
-{
-  "type": "node",
-  "id": 9634516284,
-  "lat": 40.6356143,
-  "lon": -8.6480052,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "operator:wikidata": "Q3562042",
-    "owner": "Vantage Towers",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication"
   }
 },
 {
@@ -52635,22 +52619,6 @@
     "man_made": "antenna",
     "operator": "vodafone P",
     "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
-  "id": 9970940444,
-  "lat": 40.6365936,
-  "lon": -8.6519099,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2023-03-30",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
   }
 },
 {
@@ -95487,6 +95455,22 @@
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13196753328,
+  "lat": 37.1860529,
+  "lon": -8.6936845,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex"
   }
 }
 
