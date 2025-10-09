@@ -1627,6 +1627,7 @@
     "MCC": "268",
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se o ran-sharing saiu desta torre",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
@@ -107564,13 +107565,14 @@
   "id": "node/11481206275",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "10",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "NAV009",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/11481206275"
@@ -114943,6 +114945,31 @@
     "coordinates": [
       -7.862084,
       39.841593
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205537526",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "NAV028",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/13205537526"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.134808,
+      40.8774804
     ]
   }
 }
