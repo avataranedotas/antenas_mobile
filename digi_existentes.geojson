@@ -32814,7 +32814,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
+    "ref": "VFA194",
     "id": "node/9557523598"
   },
   "geometry": {
@@ -43872,7 +43873,6 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -44083,29 +44083,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9632024764",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "ref": "99TM048",
-    "id": "node/9632024764"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.513772,
-      41.291439
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9632024771",
   "properties": {
     "MCC": "268",
@@ -44302,31 +44279,6 @@
     "coordinates": [
       -7.7153551,
       40.2991075
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9632163043",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "ref": "NVI065",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9632163043"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8083755,
-      41.1043142
     ]
   }
 },
@@ -128914,6 +128866,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
     "location": "roof",
     "man_made": "antenna",
     "material": "metal",
@@ -128944,6 +128897,48 @@
     "coordinates": [
       -7.583684,
       41.156129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205300500",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P",
+    "id": "node/13205300500"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.850086,
+      40.0915485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205370275",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-09-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "utility_pole",
+    "material": "wood",
+    "operator": "MEO",
+    "utility": "telecom",
+    "id": "node/13205370275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0960655,
+      38.5807701
     ]
   }
 }

@@ -543,24 +543,25 @@
 },
 {
   "type": "Feature",
-  "id": "node/9569867741",
+  "id": "node/9563292497",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;06",
+    "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/9569867741"
+    "communication:mobile_phone:note": "Verificar se mudou de eNb MEO",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "FACX01183",
+    "id": "node/9563292497"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9882293,
-      40.4397567
+      -8.5079697,
+      37.1421727
     ]
   }
 },
@@ -893,53 +894,6 @@
     "coordinates": [
       -7.0945203,
       41.7671207
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9631985497",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "ref": "NVR001",
-    "id": "node/9631985497"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.5138448,
-      41.291377
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9632024764",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "ref": "99TM048",
-    "id": "node/9632024764"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.513772,
-      41.291439
     ]
   }
 },
@@ -3072,6 +3026,29 @@
     "coordinates": [
       -9.1524911,
       38.7720999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13196753328",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "id": "node/13196753328"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6936845,
+      37.1860529
     ]
   }
 }

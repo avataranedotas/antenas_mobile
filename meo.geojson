@@ -36810,6 +36810,7 @@
     "MNC": "02;06",
     "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se mudou de eNb MEO",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;MEO",
@@ -45976,12 +45977,11 @@
   "id": "node/9632024764",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "ref": "99TM048",
     "id": "node/9632024764"
@@ -53629,10 +53629,11 @@
   "id": "node/9674155746",
   "properties": {
     "MCC": "268",
-    "MNC": "02;03;06",
+    "MNC": "02;06",
+    "check_date": "2025-09-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "DIGI;NOS;MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -55492,11 +55493,15 @@
   "id": "node/9677288807",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-09-28",
+    "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "DIGI;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NVI253",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9677288807"
@@ -121927,13 +121932,14 @@
   "id": "node/12398726703",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2024-11-28",
+    "MNC": "01;03;06",
+    "check_date": "2025-09-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -123569,6 +123575,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
     "location": "roof",
     "man_made": "antenna",
     "material": "metal",
@@ -123581,6 +123588,28 @@
     "coordinates": [
       -8.6936845,
       37.1860529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205370275",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-09-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "utility_pole",
+    "material": "wood",
+    "operator": "MEO",
+    "utility": "telecom",
+    "id": "node/13205370275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0960655,
+      38.5807701
     ]
   }
 }

@@ -410,19 +410,20 @@
 },
 {
   "type": "node",
-  "id": 9569867741,
-  "lat": 40.4397567,
-  "lon": -7.9882293,
+  "id": 9563292497,
+  "lat": 37.1421727,
+  "lon": -8.5079697,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;06",
+    "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
+    "communication:mobile_phone:note": "Verificar se mudou de eNb MEO",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "FACX01183"
   }
 },
 {
@@ -671,41 +672,6 @@
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9631985497,
-  "lat": 41.2913770,
-  "lon": -7.5138448,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "ref": "NVR001"
-  }
-},
-{
-  "type": "node",
-  "id": 9632024764,
-  "lat": 41.2914390,
-  "lon": -7.5137720,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "ref": "99TM048"
   }
 },
 {
@@ -2303,6 +2269,23 @@
     "man_made": "antenna",
     "mimics": "chimney",
     "operator": "DIGI",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 13196753328,
+  "lat": 37.1860529,
+  "lon": -8.6936845,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex"
   }
 }
