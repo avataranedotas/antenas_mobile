@@ -9401,12 +9401,9 @@
   "lat": 38.6660070,
   "lon": -8.9309602,
   "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
+    "communication:mobile_phone": "no",
     "man_made": "mast",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -9419,11 +9416,10 @@
   "lon": -8.9264065,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -13410,13 +13406,10 @@
   "lat": 38.6591271,
   "lon": -9.0672261,
   "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "mast",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "NOS",
     "ref": "MST167",
     "tower:construction": "guyed_tube",
@@ -13432,7 +13425,6 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
     "location": "roof",
     "man_made": "mast",
     "operator": "vodafone P",
@@ -14832,12 +14824,10 @@
   "lat": 38.5588572,
   "lon": -9.0828050,
   "tags": {
-    "MCC": "268",
-    "MNC": "03",
     "check_date": "2023-07-30",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "man_made": "mast",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -14850,10 +14840,10 @@
   "lon": -9.0800431,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -20303,14 +20293,12 @@
   "lat": 38.6228417,
   "lon": -9.1145592,
   "tags": {
-    "MCC": "268",
-    "MNC": "03",
     "check_date": "2024-04-21",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "NOS",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -20323,13 +20311,13 @@
   "lon": -9.1142824,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "check_date": "2024-04-21",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
@@ -83281,11 +83269,10 @@
   "lon": -9.1510076,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -95432,6 +95419,24 @@
     "material": "metal",
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13238691074,
+  "lat": 38.6593072,
+  "lon": -9.0667114,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "NOS",
+    "owner": "NOS",
+    "ref": "MST219",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 }
