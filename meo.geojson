@@ -105499,12 +105499,12 @@
   "id": "node/10761494312",
   "properties": {
     "MCC": "268",
-    "MNC": "01;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -118972,6 +118972,31 @@
     "coordinates": [
       -9.4429408,
       38.7246272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12089699724",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2024-10-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12089699724"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.0817031,
+      41.3168268
     ]
   }
 },
