@@ -153194,12 +153194,12 @@
   "lon": -7.3576051,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -159503,12 +159503,12 @@
   "lon": -7.1404803,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -172917,12 +172917,12 @@
   "lon": -7.5686896,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -186018,9 +186018,14 @@
   "lat": 41.0422411,
   "lon": -7.3970324,
   "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
     "material": "metal",
+    "operator": "DIGI",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
