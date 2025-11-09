@@ -29649,7 +29649,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
-    "ref": "VST058",
+    "ref": "VST058;STVT04081",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -54835,11 +54835,11 @@
   "lon": -8.6297983,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO"
+    "operator": "vodafone P;DIGI;NOS;MEO"
   }
 },
 {
@@ -59875,12 +59875,13 @@
   "lon": -9.0935645,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "03",
     "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se a VDF se mudou para este local junto da NOS. Verificar se existe um site DIGI independente no prédio a sul.",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;NOS",
+    "operator": "NOS",
     "owner": "Cellnex"
   }
 },
