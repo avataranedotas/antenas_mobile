@@ -140641,6 +140641,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Haverá uma DIGI noutro prédio perto deste. Investigar",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -161002,7 +161003,6 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se há DIGI aqui ou ao lado/perto",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -175788,11 +175788,11 @@
   "lon": -8.5730617,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "location": "underground",
     "man_made": "antenna",
-    "operator": "NOS;MEO",
+    "operator": "DIGI;NOS;MEO",
     "ref": "DPT075"
   }
 },
@@ -186344,6 +186344,21 @@
     "man_made": "antenna",
     "operator": "DIGI",
     "owner": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 13302530253,
+  "lat": 40.9766617,
+  "lon": -8.5362878,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se está junto com a VDF/NOS ou ao lado",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI"
   }
 }
 
