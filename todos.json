@@ -48812,7 +48812,6 @@
     "MNC": "06",
     "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Vigiar se já foram reparados os danos da tempestade de Março 2025",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "Cellnex",
@@ -99883,6 +99882,7 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "mimics": "chimney",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "ref": "LICX01842"
@@ -152980,12 +152980,12 @@
   "lon": -9.1545618,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -165545,6 +165545,7 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "mimics": "chimney",
     "operator": "vodafone P",
     "owner": "Vantage Towers"
   }
@@ -186366,6 +186367,70 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 13308217235,
+  "lat": 38.7447412,
+  "lon": -9.3048875,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "NOS",
+    "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 13308289877,
+  "lat": 38.7668910,
+  "lon": -9.3051253,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "ref": "LI05165"
+  }
+},
+{
+  "type": "node",
+  "id": 13308291719,
+  "lat": 39.4048951,
+  "lon": -9.1359672,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 13308312648,
+  "lat": 38.7837907,
+  "lon": -9.1077441,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI"
   }
 }
 

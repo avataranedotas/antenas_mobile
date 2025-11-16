@@ -64371,6 +64371,7 @@
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
+    "mimics": "chimney",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "ref": "LICX01842",
@@ -89377,6 +89378,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10560224346",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10560224346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1545618,
+      39.4107745
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10560443258",
   "properties": {
     "MCC": "268",
@@ -102234,6 +102259,72 @@
     "coordinates": [
       -8.5362878,
       40.9766617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13308289877",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "ref": "LI05165",
+    "id": "node/13308289877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3051253,
+      38.766891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13308291719",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "id": "node/13308291719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1359672,
+      39.4048951
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13308312648",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "id": "node/13308312648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1077441,
+      38.7837907
     ]
   }
 }
