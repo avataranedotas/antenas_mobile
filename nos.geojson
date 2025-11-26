@@ -39976,7 +39976,8 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
+    "ref": "NGR025",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9606091038"
@@ -44227,9 +44228,10 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda emite",
     "man_made": "mast",
     "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9630262566"
@@ -44367,12 +44369,14 @@
   "id": "node/9630263990",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "NVC098",
     "id": "node/9630263990"
   },
   "geometry": {
@@ -104968,6 +104972,7 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS;MEO",
+    "ref": "NGR024",
     "id": "node/10778216371"
   },
   "geometry": {
@@ -114820,6 +114825,32 @@
     "coordinates": [
       -7.2603,
       41.6556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13011495513",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2025-07-19",
+    "colour": "gray",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/13011495513"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9306217,
+      38.9337905
     ]
   }
 },
