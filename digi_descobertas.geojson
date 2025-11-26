@@ -9353,14 +9353,15 @@
   "id": "node/9130690604",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
-    "check_date": "2023-11-03",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-10-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "NBG183",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9130690604"
@@ -9368,8 +9369,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -6.832702,
-      41.2689538
+      -6.8326933,
+      41.2689296
     ]
   }
 },
@@ -37130,6 +37131,29 @@
     "coordinates": [
       -8.0937234,
       41.2389408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9626548457",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9626548457"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3545744,
+      41.1961973
     ]
   }
 },
