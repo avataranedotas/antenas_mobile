@@ -13675,23 +13675,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/9481632386",
+  "id": "node/9481632388",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "owner": "NOS",
-    "id": "node/9481632386"
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "id": "node/9481632388"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8694752,
-      37.9560878
+      -8.8695114,
+      37.9560777
     ]
   }
 },
@@ -27770,11 +27770,12 @@
   "id": "node/9573071396",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
     "ref": "VLR091",
     "tower:construction": "freestanding",
@@ -40410,14 +40411,15 @@
   "id": "node/9668842656",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VLB006;LIVT04826",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9668842656"
@@ -56236,12 +56238,12 @@
     "MNC": "01;03",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI no prédio ao lado",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLB018",
     "id": "node/10760220260"
   },
   "geometry": {
