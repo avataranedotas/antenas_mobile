@@ -122509,9 +122509,8 @@
   "tags": {
     "MCC": "268",
     "MNC": "01",
-    "check_date": "2024-11-28",
+    "check_date": "2025-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI no prédio ao lado",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -126026,13 +126025,13 @@
   "lon": -9.1621841,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
-    "ref": "MLB005"
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX04890;MLB005"
   }
 },
 {
@@ -186489,6 +186488,26 @@
     "material": "metal",
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13343197694,
+  "lat": 38.8749768,
+  "lon": -9.0937185,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-11-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "ref": "LI05183",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
