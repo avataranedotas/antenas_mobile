@@ -121119,16 +121119,38 @@
 },
 {
   "type": "Feature",
-  "id": "node/12179121543",
+  "id": "node/12179121542",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "03;06",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
-    "operator:wikidata": "Q1365938",
+    "operator": "NOS;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12179121542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.495579,
+      41.421366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12179121543",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -123054,6 +123076,31 @@
     "coordinates": [
       -7.4978873,
       37.1706633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12752849487",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2025-03-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator:wikidata": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12752849487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4995685,
+      41.4520571
     ]
   }
 },
