@@ -8058,6 +8058,7 @@
     "material": "reinforced_concrete",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VST030",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/7264919846"
@@ -77849,11 +77850,11 @@
   "id": "node/10054720153",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "id": "node/10054720153"
   },
@@ -123403,6 +123404,28 @@
     "coordinates": [
       -7.1466634,
       40.9722105
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13376542890",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;MEO",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/13376542890"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7047492,
+      40.7160907
     ]
   }
 }

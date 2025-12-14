@@ -8616,6 +8616,7 @@
     "material": "reinforced_concrete",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VST030",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/7264919846"
@@ -85635,11 +85636,11 @@
   "id": "node/10054720153",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "id": "node/10054720153"
   },
@@ -85655,14 +85656,12 @@
   "type": "Feature",
   "id": "node/10054720154",
   "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
+    "old_operator": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/10054720154"
@@ -139422,27 +139421,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13343184391",
-  "properties": {
-    "colour": "gray",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
-    "owner": "Vantage Towers",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/13343184391"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8423818,
-      37.9537706
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13345641473",
   "properties": {
     "MCC": "268",
@@ -139530,6 +139508,28 @@
     "coordinates": [
       -7.3968244,
       40.874564
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13376542890",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;MEO",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/13376542890"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7047492,
+      40.7160907
     ]
   }
 }
