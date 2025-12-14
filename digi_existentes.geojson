@@ -20607,27 +20607,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9481517230",
-  "properties": {
-    "communication:mobile_phone": "no",
-    "man_made": "mast",
-    "name": "Moncarapacho",
-    "old_operator": "NOS",
-    "ref": "035S3",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9481517230"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.7920903,
-      37.0953153
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9481517231",
   "properties": {
     "MCC": "268",
@@ -138553,10 +138532,14 @@
   "type": "Feature",
   "id": "node/13099120670",
   "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
     "colour": "gray",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P; NOS",
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
     "tower:type": "communication",
