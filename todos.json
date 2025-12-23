@@ -42199,7 +42199,6 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se há DIGI por perto noutro prédio",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -186207,16 +186206,15 @@
 {
   "type": "node",
   "id": 13300122961,
-  "lat": 41.1497783,
-  "lon": -8.6058445,
+  "lat": 41.1497827,
+  "lon": -8.6057603,
   "tags": {
     "MCC": "268",
-    "MNC": "02",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
     "location": "underground",
     "man_made": "antenna",
-    "operator": "DIGI",
-    "owner": "DIGI"
+    "operator": "vodafone P;DIGI"
   }
 },
 {
@@ -186784,6 +186782,37 @@
     "owner": "Vantage Towers",
     "ref": "NVR145",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13396437631,
+  "lat": 38.6714025,
+  "lon": -9.1571494,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 13396474632,
+  "lat": 38.6439258,
+  "lon": -9.2052719,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "DIGI",
+    "owner": "DIGI",
     "tower:type": "communication"
   }
 }
