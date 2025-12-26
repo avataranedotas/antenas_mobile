@@ -22782,6 +22782,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9499337007",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9499337007"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.101961,
+      41.267623
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9499365653",
   "properties": {
     "MCC": "268",
@@ -28925,6 +28948,7 @@
     "communication:gsm": "yes;yes;yes",
     "communication:lte": "yes;yes;yes",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "communication:nr": "yes;yes;no",
     "man_made": "mast",
     "operator": "vodafone P;NOS;MEO",
@@ -122602,6 +122626,7 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "owner:ref": "PT-TIMS-103013",
+    "ref": "VLR148",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/13019496779"

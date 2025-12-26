@@ -32483,11 +32483,11 @@
   "lon": -8.1019610,
   "tags": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "01;02;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;MEO",
+    "operator": "vodafone P;DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -98460,6 +98460,7 @@
     "MNC": "02;03;06",
     "check_date": "2024-09-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem VDF",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS;MEO",
@@ -111320,6 +111321,7 @@
     "MCC": "268",
     "MNC": "02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem VDF",
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI;NOS",
@@ -117941,6 +117943,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem VDF",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
@@ -177109,6 +177112,7 @@
     "MCC": "268",
     "MNC": "02;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar onde ficam as antenas outdoor da MEO",
     "location": "indoor",
     "man_made": "antenna",
     "operator": "DIGI;MEO"
@@ -184340,6 +184344,7 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "owner:ref": "PT-TIMS-103013",
+    "ref": "VLR148",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -186904,6 +186909,25 @@
     "man_made": "mast",
     "material": "metal",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13408475910,
+  "lat": 38.8693375,
+  "lon": -9.0571882,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a localização exacta",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 }
