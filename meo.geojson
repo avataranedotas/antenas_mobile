@@ -32116,14 +32116,15 @@
   "id": "node/9551856429",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
+    "check_date": "2025-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar se tem ou não tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VFA110;FACX01299",
     "id": "node/9551856429"
   },
   "geometry": {
@@ -32140,7 +32141,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;02;03;06",
-    "check_date": "2023-08-18",
+    "check_date": "2025-12-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
@@ -80853,44 +80854,21 @@
 },
 {
   "type": "Feature",
-  "id": "node/9923304306",
+  "id": "node/9923304305",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9923304306"
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "id": "node/9923304305"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0967014,
-      38.7676751
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9923304307",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "level": "0",
-    "location": "indoor",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO",
-    "id": "node/9923304307"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0990684,
-      38.7678733
+      -9.0966344,
+      38.7677248
     ]
   }
 },
@@ -122278,6 +122256,27 @@
     "coordinates": [
       -8.5534606,
       37.2854799
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12477679269",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "communication:mobile_phone": "yes",
+    "level": "0",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS;MEO",
+    "id": "node/12477679269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0990705,
+      38.7678465
     ]
   }
 },
