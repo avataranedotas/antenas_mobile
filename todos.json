@@ -27477,13 +27477,12 @@
 {
   "type": "node",
   "id": 9478176062,
-  "lat": 38.6285004,
-  "lon": -9.0346404,
+  "lat": 38.6285306,
+  "lon": -9.0346447,
   "tags": {
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se há DIGI por perto noutro prédio",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -126317,12 +126316,12 @@
   "lon": -9.1874423,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex"
   }
 },
 {
@@ -186901,6 +186900,39 @@
     "man_made": "antenna",
     "operator": "DIGI",
     "owner": "Cellnex"
+  }
+},
+{
+  "type": "node",
+  "id": 13411842024,
+  "lat": 38.7515280,
+  "lon": -9.1590126,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "underground",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 13411876003,
+  "lat": 38.6294245,
+  "lon": -9.0347568,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
   }
 }
 
