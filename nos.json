@@ -282,7 +282,7 @@
   "lon": -9.4760411,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
@@ -296,10 +296,10 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Azóia, Sintra",
-    "operator": "vodafone P;NOS;MEO;PTC",
+    "operator": "vodafone P;DIGI;NOS;MEO;PTC",
     "owner": "Cellnex",
     "ref": "99LO287",
-    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -26331,13 +26331,13 @@
   "lon": -6.7625834,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "ref": "NBG034"
   }
@@ -74634,6 +74634,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "wall",
     "man_made": "antenna",
     "operator": "NOS",
@@ -74650,6 +74651,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
