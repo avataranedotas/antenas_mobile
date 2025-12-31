@@ -184,31 +184,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9222587272",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:gsm": "yes",
-    "communication:lte": "yes",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
-    "communication:nr": "no",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/9222587272"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8624366,
-      38.5146639
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9374731804",
   "properties": {
     "MCC": "268",
@@ -416,29 +391,6 @@
     "coordinates": [
       -8.5079697,
       37.1421727
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9569851752",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03;06",
-    "check_date": "2023-03-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "wall",
-    "man_made": "antenna",
-    "operator": "NOS;MEO",
-    "owner": "Cellnex",
-    "id": "node/9569851752"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3782831,
-      40.3847057
     ]
   }
 },
@@ -1388,13 +1340,13 @@
   "id": "node/10030285236",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Verificar se a VDF se mudou para este local junto da NOS. Verificar se existe um site DIGI eNb 105177 por perto.",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
+    "operator": "DIGI;NOS",
     "owner": "Cellnex",
     "id": "node/10030285236"
   },
@@ -1426,30 +1378,6 @@
     "coordinates": [
       -9.1924858,
       38.7923637
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10064008681",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que existe DIGI no prédio ao lado",
-    "location": "roof",
-    "man_made": "mast",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10064008681"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.836095,
-      39.7297017
     ]
   }
 },
@@ -1591,32 +1519,6 @@
     "coordinates": [
       -8.5964818,
       41.2348099
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10157993129",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "check_date": "2024-12-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se o eNb DIGI 105177 está próximo.",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/10157993129"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0935164,
-      38.8316725
     ]
   }
 },
@@ -1879,52 +1781,6 @@
     "coordinates": [
       -8.0827323,
       41.5942411
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10742517918",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "wall",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
-    "ref": "DMA016",
-    "id": "node/10742517918"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.9047541,
-      32.6492389
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10742517919",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
-    "ref": "DMA009",
-    "id": "node/10742517919"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.9040577,
-      32.6485366
     ]
   }
 },
