@@ -26893,21 +26893,16 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "material": "metal",
+    "man_made": "antenna",
     "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
     "id": "node/9509230197"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.447722,
-      37.3967148
+      -7.4483255,
+      37.3967393
     ]
   }
 },
@@ -103960,11 +103955,13 @@
   "id": "node/10689435703",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VFA340",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10689435703"
@@ -124054,6 +124051,26 @@
     "coordinates": [
       -8.7441913,
       41.3737577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13430911288",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/13430911288"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5491953,
+      37.2086041
     ]
   }
 }
