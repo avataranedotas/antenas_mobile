@@ -77931,6 +77931,7 @@
     "MNC": "02;03",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a DIGI emite e qual o eNb",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS",
@@ -80386,7 +80387,7 @@
     "MNC": "02;03",
     "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se a VDF se mudou para este local junto da NOS. Verificar se existe um site DIGI eNb 105177 por perto.",
+    "communication:mobile_phone:note": "Verificar se a VDF se mudou para este local junto da NOS.",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS",
@@ -100292,6 +100293,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/12003629124",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/12003629124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4320862,
+      41.3884355
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12003634495",
   "properties": {
     "MCC": "268",
@@ -104509,8 +104531,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1571494,
-      38.6714025
+      -9.1571655,
+      38.6714088
     ]
   }
 },
@@ -104520,6 +104542,7 @@
   "properties": {
     "MCC": "268",
     "MNC": "02",
+    "check_date": "2025-09-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
@@ -104723,6 +104746,50 @@
     "coordinates": [
       -8.4293706,
       40.2105457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13430169444",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "ref": "POCX04251",
+    "id": "node/13430169444"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7441913,
+      41.3737577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13430223396",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-09-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI",
+    "id": "node/13430223396"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4985109,
+      40.9023138
     ]
   }
 }

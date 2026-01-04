@@ -57976,6 +57976,7 @@
     "MNC": "02;03",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se a DIGI emite e qual o eNb",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS",
@@ -59777,7 +59778,7 @@
     "MNC": "02;03",
     "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se a VDF se mudou para este local junto da NOS. Verificar se existe um site DIGI eNb 105177 por perto.",
+    "communication:mobile_phone:note": "Verificar se a VDF se mudou para este local junto da NOS.",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS",
@@ -74599,6 +74600,21 @@
 },
 {
   "type": "node",
+  "id": 12003629124,
+  "lat": 41.3884355,
+  "lon": -8.4320862,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 12003634495,
   "lat": 41.4476287,
   "lon": -8.4676652,
@@ -77699,8 +77715,8 @@
 {
   "type": "node",
   "id": 13396437631,
-  "lat": 38.6714025,
-  "lon": -9.1571494,
+  "lat": 38.6714088,
+  "lon": -9.1571655,
   "tags": {
     "MCC": "268",
     "MNC": "02",
@@ -77719,6 +77735,7 @@
   "tags": {
     "MCC": "268",
     "MNC": "02",
+    "check_date": "2025-09-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
@@ -77860,6 +77877,38 @@
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
+    "operator": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 13430169444,
+  "lat": 41.3737577,
+  "lon": -8.7441913,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "ref": "POCX04251"
+  }
+},
+{
+  "type": "node",
+  "id": 13430223396,
+  "lat": 40.9023138,
+  "lon": -8.4985109,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2025-09-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
     "operator": "DIGI"
   }
 }
