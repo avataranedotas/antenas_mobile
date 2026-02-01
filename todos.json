@@ -7845,15 +7845,15 @@
   "lon": -7.5722736,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "check_date": "2025-12-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "40",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VFA289;FAVT04824",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -40290,15 +40290,15 @@
   "lon": -8.0379508,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "15",
     "man_made": "mast",
     "mimics": "palm",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VFA227",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -40681,14 +40681,14 @@
   "lon": -8.0429146,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "40",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
-    "ref": "VFA216",
+    "ref": "VFA216;FAVT04665",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -187279,6 +187279,23 @@
     "material:de": "metal",
     "owner": "Cellnex",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13517022110,
+  "lat": 37.0381289,
+  "lon": -8.0379126,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "FACX01161"
   }
 }
 
