@@ -3077,12 +3077,11 @@
   "id": "node/3566906634",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -61837,6 +61836,30 @@
     "coordinates": [
       -8.5292141,
       40.892724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9685377336",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "check_date": "2026-01-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "MAV239;99BL049",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/9685377336"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6102718,
+      40.9127849
     ]
   }
 },
