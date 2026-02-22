@@ -47020,12 +47020,13 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
-    "check_date": "2023-10-30",
+    "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
+    "ref": "VEV117",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -49152,13 +49153,13 @@
   "lon": -7.5029733,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2024-03-30",
+    "MNC": "01;02;03",
+    "check_date": "2026-01-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "ref": "NCB032",
     "tower:construction": "guyed_tube",
@@ -90058,7 +90059,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
-    "tower:construction": "freestanding",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
 },
@@ -138248,6 +138249,7 @@
     "material": "metal",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLB190",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -138492,6 +138494,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda existe",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -187410,6 +187413,42 @@
     "material": "metal",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13591238376,
+  "lat": 38.6505038,
+  "lon": -9.1509846,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13591323382,
+  "lat": 39.2121058,
+  "lon": -8.8879696,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2024-06-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "ref": "VLB191",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
 }
