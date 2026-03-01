@@ -40818,14 +40818,14 @@
   "id": "node/9606178531",
   "properties": {
     "MCC": "268",
-    "MNC": "01;02;03",
-    "check_date": "2025-04-28",
+    "MNC": "01;03;06",
+    "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem MEO",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "NVR010",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9606178531"
@@ -69472,19 +69472,20 @@
   "id": "node/9923280662",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "LICX01977",
     "id": "node/9923280662"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0916258,
-      38.7747951
+      -9.0916271,
+      38.7747742
     ]
   }
 },
@@ -82826,13 +82827,14 @@
   "id": "node/10042414669",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
+    "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX04946",
     "id": "node/10042414669"
   },
   "geometry": {
@@ -115135,13 +115137,12 @@
   "id": "node/12942200577",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "ref": "DLB183",
+    "operator": "DIGI;NOS",
+    "ref": "LICXi04516;DLB183",
     "id": "node/12942200577"
   },
   "geometry": {

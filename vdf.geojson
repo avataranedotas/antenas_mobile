@@ -42074,14 +42074,14 @@
   "id": "node/9606178531",
   "properties": {
     "MCC": "268",
-    "MNC": "01;02;03",
-    "check_date": "2025-04-28",
+    "MNC": "01;03;06",
+    "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem MEO",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "NVR010",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9606178531"
@@ -70437,8 +70437,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0916123,
-      38.7747462
+      -9.0916264,
+      38.774753
     ]
   }
 },
@@ -124268,6 +124268,26 @@
     "coordinates": [
       -7.5733835,
       41.6560563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13610578781",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P",
+    "id": "node/13610578781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6101477,
+      41.1492747
     ]
   }
 }

@@ -57705,14 +57705,14 @@
   "lon": -7.5920978,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;03",
-    "check_date": "2025-04-28",
+    "MNC": "01;03;06",
+    "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem MEO",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "NVR010",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -104108,23 +104108,24 @@
 {
   "type": "node",
   "id": 9923280662,
-  "lat": 38.7747951,
-  "lon": -9.0916258,
+  "lat": 38.7747742,
+  "lon": -9.0916271,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "location": "wall",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "LICX01977"
   }
 },
 {
   "type": "node",
   "id": 9923280663,
-  "lat": 38.7747462,
-  "lon": -9.0916123,
+  "lat": 38.7747530,
+  "lon": -9.0916264,
   "tags": {
     "MCC": "268",
     "MNC": "01",
@@ -104133,22 +104134,6 @@
     "man_made": "antenna",
     "operator": "vodafone P",
     "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
-  "id": 9923280664,
-  "lat": 38.7747586,
-  "lon": -9.0916133,
-  "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "wall",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
   }
 },
 {
@@ -124824,13 +124809,14 @@
   "lon": -9.2790836,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
+    "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX04946"
   }
 },
 {
@@ -150736,13 +150722,13 @@
   "lon": -8.0222431,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2024-03-28",
+    "MNC": "02;06",
+    "check_date": "2026-02-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -183855,13 +183841,12 @@
   "lon": -9.0434915,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "NOS",
-    "ref": "DLB183"
+    "operator": "DIGI;NOS",
+    "ref": "LICXi04516;DLB183"
   }
 },
 {
@@ -187502,6 +187487,51 @@
     "operator": "NOS",
     "owner": "Cellnex",
     "ref": "MLB416"
+  }
+},
+{
+  "type": "node",
+  "id": 13610529875,
+  "lat": 40.2172793,
+  "lon": -7.8592249,
+  "tags": {
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13610578781,
+  "lat": 41.1492747,
+  "lon": -8.6101477,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P"
+  }
+},
+{
+  "type": "node",
+  "id": 13610622402,
+  "lat": 41.3654180,
+  "lon": -8.1521280,
+  "tags": {
+    "check_date": "2026-02-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 }
 
