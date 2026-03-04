@@ -255,13 +255,13 @@
   "id": "node/9522535108",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Confirmar que tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "id": "node/9522535108"
   },
@@ -1320,6 +1320,30 @@
     "coordinates": [
       -8.6716267,
       41.7384779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10121279963",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/10121279963"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6228212,
+      41.242949
     ]
   }
 },
