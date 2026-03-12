@@ -1651,6 +1651,41 @@
 },
 {
   "type": "Feature",
+  "id": "node/1165384310",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "check_date": "2024-12-28",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "841",
+    "communications_transponder:service": "TV",
+    "man_made": "mast",
+    "material": "metal",
+    "name": "Azóia, Sintra",
+    "operator": "vodafone P;NOS;MEO;PTC",
+    "owner": "Cellnex",
+    "ref": "99LO287",
+    "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/1165384310"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4759653,
+      38.7795657
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1165384374",
   "properties": {
     "MCC": "268",
@@ -46020,30 +46055,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9627590262",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "check_date": "2024-08-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9627590262"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8020763,
-      39.9063888
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9627590263",
   "properties": {
     "MCC": "268",
@@ -54293,6 +54304,7 @@
     "MNC": "03",
     "check_date": "2023-09-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
@@ -62935,19 +62947,21 @@
   "id": "node/9695427956",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VFA215",
     "id": "node/9695427956"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       -8.0288064,
-      37.0631973
+      37.063238
     ]
   }
 },
@@ -90908,6 +90922,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
@@ -90990,30 +91005,6 @@
     "coordinates": [
       -8.287841,
       41.4579164
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10090544895",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10090544895"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.2783705,
-      41.4533507
     ]
   }
 },

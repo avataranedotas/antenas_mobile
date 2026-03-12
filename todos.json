@@ -1944,11 +1944,11 @@
 {
   "type": "node",
   "id": 1165384310,
-  "lat": 38.7795709,
-  "lon": -9.4760411,
+  "lat": 38.7795657,
+  "lon": -9.4759653,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;03;06",
+    "MNC": "01;03;06",
     "check_date": "2024-12-28",
     "communication:mobile_phone": "yes",
     "communication:television": "yes",
@@ -1962,7 +1962,7 @@
     "man_made": "mast",
     "material": "metal",
     "name": "Azóia, Sintra",
-    "operator": "vodafone P;DIGI;NOS;MEO;PTC",
+    "operator": "vodafone P;NOS;MEO;PTC",
     "owner": "Cellnex",
     "ref": "99LO287",
     "source": "http://tdt.telecom.pt/;http://www.anacom.pt/render.jsp?contentId=1021427",
@@ -4450,14 +4450,14 @@
   "lon": -7.5045208,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
-    "check_date": "2025-06-28",
+    "MNC": "01;02;03;06",
+    "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
-    "ref": "NEV004",
+    "ref": "EVVT04805;NEV004",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -61271,13 +61271,12 @@
   "lon": -8.8020763,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -72246,6 +72245,7 @@
     "MNC": "03",
     "check_date": "2023-09-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
@@ -87626,16 +87626,18 @@
 {
   "type": "node",
   "id": 9695427956,
-  "lat": 37.0631973,
+  "lat": 37.0632380,
   "lon": -8.0288064,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VFA215"
   }
 },
 {
@@ -131300,6 +131302,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
@@ -131384,12 +131387,11 @@
   "lon": -8.2783705,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -141905,7 +141907,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI",
-    "owner": "Vantage Towers"
+    "owner": "Vantage Towers",
+    "ref": "LIVT01818"
   }
 },
 {
@@ -187578,6 +187581,23 @@
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13643589862,
+  "lat": 38.7793736,
+  "lon": -9.4755806,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2026-02-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI",
+    "ref": "LI04196"
   }
 }
 
