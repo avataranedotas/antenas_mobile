@@ -15148,6 +15148,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
@@ -16194,7 +16195,7 @@
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9403416623"
@@ -16215,9 +16216,10 @@
     "MNC": "06",
     "check_date": "2024-04-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9403416636"
@@ -33854,8 +33856,10 @@
   "id": "node/9552215702",
   "properties": {
     "communication:mobile_phone": "no",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
+    "mimics": "chimney",
     "old_operator": "vodafone P",
     "owner": "Vantage Towers",
     "id": "node/9552215702"
@@ -33863,8 +33867,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6927384,
-      38.0108901
+      -8.6927411,
+      38.010869
     ]
   }
 },
@@ -34826,30 +34830,6 @@
     "coordinates": [
       -8.9751583,
       38.7094264
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9555137278",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/9555137278"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9698644,
-      38.7057605
     ]
   }
 },
