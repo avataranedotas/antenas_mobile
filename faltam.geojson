@@ -328,6 +328,7 @@
   "properties": {
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar que tem MEO e qual o eNb",
     "man_made": "mast",
     "material": "metal",
     "owner": "Cellnex",
@@ -1167,6 +1168,45 @@
     "coordinates": [
       -8.7923284,
       41.8963679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13742102170",
+  "properties": {
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "location": "roof",
+    "man_made": "antenna",
+    "id": "node/13742102170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7775143,
+      41.3959181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13742151463",
+  "properties": {
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/13742151463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7110317,
+      41.5537167
     ]
   }
 }
