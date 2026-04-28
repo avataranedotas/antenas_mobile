@@ -8716,6 +8716,7 @@
     "communication:emergency": "yes",
     "communication:microwave": "yes",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "communication:radio": "yes",
     "height": "50",
     "man_made": "tower",
@@ -140416,11 +140417,14 @@
   "type": "Feature",
   "id": "node/13280625351",
   "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "fixme": "Move to exact location",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -140429,8 +140433,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9817283,
-      37.1774025
+      -7.9832244,
+      37.1753087
     ]
   }
 },
@@ -142062,6 +142066,26 @@
     "coordinates": [
       -8.7925588,
       41.8892211
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770758718",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/13770758718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9016001,
+      37.1685546
     ]
   }
 }

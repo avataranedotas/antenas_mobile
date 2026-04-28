@@ -7751,6 +7751,7 @@
     "communication:emergency": "yes",
     "communication:microwave": "yes",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "communication:radio": "yes",
     "height": "50",
     "man_made": "tower",
@@ -30754,6 +30755,25 @@
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "ref": "FACX03450"
+  }
+},
+{
+  "type": "node",
+  "id": 9600134292,
+  "lat": 37.1313775,
+  "lon": -8.5153835,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "height": "30",
+    "man_made": "mast",
+    "operator": "vodafone P;DIGI;NOS;MEO",
+    "owner": "Cellnex",
+    "ref": "VFA202;FACX01189",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 },
 {
@@ -92635,6 +92655,20 @@
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13770758718,
+  "lat": 37.1685546,
+  "lon": -8.9016001,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO"
   }
 }
 
