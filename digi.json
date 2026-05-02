@@ -47234,7 +47234,6 @@
     "MNC": "02;06",
     "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar a emissão DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;MEO",
@@ -70833,6 +70832,25 @@
 },
 {
   "type": "node",
+  "id": 10705349447,
+  "lat": 39.5643453,
+  "lon": -8.4096628,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "check_date": "2024-07-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10711196158,
   "lat": 40.5187561,
   "lon": -7.8738391,
@@ -80491,12 +80509,13 @@
 {
   "type": "node",
   "id": 13419392317,
-  "lat": 32.6494299,
-  "lon": -16.9043467,
+  "lat": 32.6494268,
+  "lon": -16.9045722,
   "tags": {
     "MCC": "268",
     "MNC": "02",
     "communication:mobile_phone": "yes",
+    "location": "indoor",
     "man_made": "antenna",
     "operator": "DIGI",
     "owner": "DIGI"
