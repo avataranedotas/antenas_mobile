@@ -32475,7 +32475,6 @@
     "MNC": "02;06",
     "check_date": "2026-02-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -54514,6 +54513,7 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
@@ -79588,13 +79588,15 @@
   "lon": -8.9809182,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "check_date": "2024-04-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLR018",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -102896,7 +102898,6 @@
     "MCC": "268",
     "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se DIGI ainda emite aqui e se moveu para prédio ao lado",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;MEO",
@@ -103687,12 +103688,11 @@
   "lon": -9.1574894,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "operator": "DIGI;MEO"
   }
 },
 {
@@ -122035,12 +122035,14 @@
   "lon": -8.8673119,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VLB033",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -178724,7 +178726,7 @@
     "MCC": "268",
     "MNC": "02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar a emissão e o eNb",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb, confirmar qual a outra operadora presente",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -188250,6 +188252,24 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P"
+  }
+},
+{
+  "type": "node",
+  "id": 13801475463,
+  "lat": 41.9305740,
+  "lon": -6.7276640,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 }
 
