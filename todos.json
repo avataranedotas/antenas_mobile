@@ -40878,7 +40878,6 @@
     "communication:gsm": "yes;yes;yes;yes",
     "communication:lte": "yes;yes;yes;yes",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI outdoor no telhado",
     "location": "indoor",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS;MEO"
@@ -188289,6 +188288,24 @@
     "operator": "vodafone P",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13812163417,
+  "lat": 38.5374411,
+  "lon": -8.8779223,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:gsm": "yes",
+    "communication:lte": "yes",
+    "communication:mobile_phone": "yes",
+    "communication:nr": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "DIGI",
     "tower:type": "communication"
   }
 }
