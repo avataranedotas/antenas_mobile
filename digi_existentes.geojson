@@ -120266,7 +120266,6 @@
     "MNC": "01",
     "check_date": "2023-06-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar se tem NOS",
     "highway": "street_lamp",
     "man_made": "mast",
     "material": "metal",
@@ -139519,8 +139518,14 @@
   "type": "Feature",
   "id": "node/13011852208",
   "properties": {
+    "MCC": "268",
+    "MNC": "01",
     "communication:mobile_phone": "yes",
-    "man_made": "tower",
+    "man_made": "mast",
+    "material": "reinforced_concrete",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/13011852208"
   },
@@ -142152,6 +142157,29 @@
     "coordinates": [
       -6.727664,
       41.930574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13811874727",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/13811874727"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3228327,
+      41.501257
     ]
   }
 }
