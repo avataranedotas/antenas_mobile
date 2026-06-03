@@ -10192,13 +10192,12 @@
   "id": "node/9025035641",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
-    "check_date": "2026-04-28",
+    "MNC": "01;02",
+    "check_date": "2026-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
     "id": "node/9025035641"
   },
@@ -14301,6 +14300,7 @@
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "VBJ094",
     "id": "node/9373897642"
   },
   "geometry": {
@@ -26283,12 +26283,14 @@
   "id": "node/9512394419",
   "properties": {
     "MCC": "268",
-    "MNC": "01;02;03;06",
-    "check_date": "2025-02-28",
+    "MNC": "01;02;03",
+    "check_date": "2026-05-28",
+    "colour": "green",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS;MEO",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "ref": "VLR083;LECX01526",
     "tower:construction": "freestanding",
@@ -125013,6 +125015,51 @@
     "coordinates": [
       -7.6652365,
       40.4189458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13908220583",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "colour": "gray",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/13908220583"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4249747,
+      40.9560387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13908224423",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "man_made": "utility_pole",
+    "material": "wood",
+    "operator": "vodafone P",
+    "utility": "telecom",
+    "id": "node/13908224423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7903493,
+      37.4996768
     ]
   }
 }

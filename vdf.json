@@ -7733,13 +7733,12 @@
   "lon": -8.6438121,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
-    "check_date": "2026-04-28",
+    "MNC": "01;02",
+    "check_date": "2026-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers"
   }
 },
@@ -10821,7 +10820,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers"
+    "owner": "Vantage Towers",
+    "ref": "VBJ094"
   }
 },
 {
@@ -19804,12 +19804,14 @@
   "lon": -8.6848552,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;03;06",
-    "check_date": "2025-02-28",
+    "MNC": "01;02;03",
+    "check_date": "2026-05-28",
+    "colour": "green",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;NOS;MEO",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "ref": "VLR083;LECX01526",
     "tower:construction": "freestanding",
@@ -93339,6 +93341,39 @@
     "material": "reinforced_concrete",
     "operator": "vodafone P",
     "owner": "Vantage Towers"
+  }
+},
+{
+  "type": "node",
+  "id": 13908220583,
+  "lat": 40.9560387,
+  "lon": -8.4249747,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01",
+    "colour": "gray",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13908224423,
+  "lat": 37.4996768,
+  "lon": -8.7903493,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "man_made": "utility_pole",
+    "material": "wood",
+    "operator": "vodafone P",
+    "utility": "telecom"
   }
 }
 
