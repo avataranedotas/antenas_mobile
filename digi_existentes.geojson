@@ -119799,12 +119799,13 @@
   "id": "node/10767352809",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
+    "colour": "white",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS",
+    "ref": "MAV119",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10767352809"
@@ -142479,6 +142480,50 @@
     "coordinates": [
       -8.8730371,
       38.475252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13929714749",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/13929714749"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3789386,
+      40.4982701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13929730708",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P",
+    "owner": "vodafone P",
+    "id": "node/13929730708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1892575,
+      38.9119524
     ]
   }
 }
