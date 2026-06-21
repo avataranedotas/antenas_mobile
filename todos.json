@@ -123735,12 +123735,12 @@
   "lon": -9.3240678,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -182917,12 +182917,11 @@
   "lon": -8.7048505,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -188229,12 +188228,12 @@
   "lon": -8.4497172,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -188601,13 +188600,28 @@
 {
   "type": "node",
   "id": 13950675644,
-  "lat": 37.9254567,
-  "lon": -8.8064828,
+  "lat": 37.9254485,
+  "lon": -8.8064894,
   "tags": {
     "MCC": "268",
     "MNC": "02",
     "communication:mobile_phone": "yes",
     "location": "wall",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 13954902490,
+  "lat": 37.8953738,
+  "lon": -8.7965673,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar localização",
     "man_made": "antenna",
     "operator": "DIGI",
     "owner": "DIGI"
