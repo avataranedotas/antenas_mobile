@@ -83443,29 +83443,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10028266414",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2024-11-28",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "Cellnex",
-    "ref": "MLB441",
-    "id": "node/10028266414"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0744694,
-      38.861433
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10028266416",
   "properties": {
     "MCC": "268",
@@ -86174,13 +86151,11 @@
   "type": "Feature",
   "id": "node/10058637420",
   "properties": {
-    "MCC": "268",
-    "MNC": "03",
     "check_date": "2024-07-28",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
+    "old_operator": "NOS",
     "owner": "Cellnex",
     "id": "node/10058637420"
   },
@@ -86197,13 +86172,14 @@
   "id": "node/10058637421",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "MLB591",
     "id": "node/10058637421"
   },
   "geometry": {
@@ -86797,13 +86773,14 @@
   "id": "node/10059016983",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;03",
     "check_date": "2024-07-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
+    "ref": "MLB573",
     "id": "node/10059016983"
   },
   "geometry": {
@@ -86818,22 +86795,20 @@
   "type": "Feature",
   "id": "node/10059016984",
   "properties": {
-    "MCC": "268",
-    "MNC": "03",
     "check_date": "2024-07-28",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
+    "old_operator": "NOS",
+    "old_ref": "MLB407",
     "owner": "NOS",
-    "ref": "MLB407",
     "id": "node/10059016984"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1850898,
-      38.7462303
+      -9.1850174,
+      38.7464374
     ]
   }
 },
@@ -99360,6 +99335,7 @@
     "MNC": "01",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se também tem NOS",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
