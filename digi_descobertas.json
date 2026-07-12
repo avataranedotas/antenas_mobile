@@ -5925,6 +5925,7 @@
     "MNC": "02;06",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar em qual torre está a NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI;MEO",
@@ -28640,6 +28641,7 @@
     "MCC": "268",
     "MNC": "02;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar em qual torre está a NOS",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
@@ -41645,6 +41647,7 @@
     "MNC": "02;06",
     "check_date": "2024-09-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar em qual torre está a NOS",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
@@ -56915,6 +56918,21 @@
 },
 {
   "type": "node",
+  "id": 9979980794,
+  "lat": 40.9984069,
+  "lon": -8.5293209,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "vodafone P;DIGI;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9979980797,
   "lat": 40.9246960,
   "lon": -8.5154491,
@@ -57152,11 +57170,11 @@
   "lon": -8.6485709,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02;06",
+    "MNC": "01;02;03;06",
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
