@@ -41543,11 +41543,11 @@
   "lon": -8.5550618,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "03",
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "DIGI;NOS",
+    "operator": "NOS",
     "operator:wikidata": "Q136331",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
@@ -45076,8 +45076,9 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03;06",
-    "check_date": "2024-04-30",
+    "check_date": "2026-06-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
@@ -57129,16 +57130,16 @@
 {
   "type": "node",
   "id": 9995386943,
-  "lat": 41.0118005,
-  "lon": -8.5139554,
+  "lat": 41.0117706,
+  "lon": -8.5139594,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "vodafone P;NOS",
     "operator:wikidata": "Q136331",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -67115,13 +67116,14 @@
   "lon": -8.5675895,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers",
+    "ref": "BRVT04319",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -88066,6 +88068,23 @@
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14029831585,
+  "lat": 37.4040231,
+  "lon": -8.4877488,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "check_date": "2026-06-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers"
   }
 }
 
