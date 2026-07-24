@@ -49410,33 +49410,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9512394419",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;02;03",
-    "check_date": "2026-05-28",
-    "colour": "green",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;DIGI;NOS",
-    "owner": "Cellnex",
-    "ref": "VLR083;LECX01526",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9512394419"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6848552,
-      39.6775037
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9512394430",
   "properties": {
     "MCC": "268",
@@ -235728,11 +235701,11 @@
   "id": "node/12031980082",
   "properties": {
     "MCC": "268",
-    "MNC": "02;03;06",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "location": "underground",
     "man_made": "antenna",
-    "operator": "DIGI;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "ref": "DPT075",
     "id": "node/12031980082"
   },
@@ -236598,12 +236571,16 @@
   "type": "Feature",
   "id": "node/12068664172",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "check_date": "2026-06-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar que tem MEO e qual o eNb",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
+    "ref": "21TM012",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/12068664172"
@@ -253184,14 +253161,16 @@
   "id": "node/13908220582",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "01;02;03;06",
     "check_date": "2026-05-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "VLR083;LECX01526",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/13908220582"
