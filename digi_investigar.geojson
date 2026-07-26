@@ -1355,13 +1355,37 @@
 },
 {
   "type": "Feature",
+  "id": "node/9912764577",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2024-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda tem DIGI e NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "Cellnex",
+    "ref": "LICX00550",
+    "id": "node/9912764577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3002452,
+      38.7638288
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9912764578",
   "properties": {
     "MCC": "268",
     "MNC": "06",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar qual a outra operadora neste local",
+    "communication:mobile_phone:note": "Investigar se é apenas SWAP na MEO ou se há outra operadora presente",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
@@ -2038,28 +2062,6 @@
     "coordinates": [
       -9.1735665,
       38.8267893
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10200638590",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;02",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;DIGI",
-    "owner": "Vantage Towers",
-    "id": "node/10200638590"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2181365,
-      38.7434698
     ]
   }
 },
