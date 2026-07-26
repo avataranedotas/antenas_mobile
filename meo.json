@@ -18173,12 +18173,12 @@
   "lon": -7.8981969,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2024-10-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -39753,6 +39753,24 @@
 },
 {
   "type": "node",
+  "id": 9672724592,
+  "lat": 39.0711413,
+  "lon": -9.2484230,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS;MEO",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9672725907,
   "lat": 39.7447358,
   "lon": -8.9435269,
@@ -49189,6 +49207,7 @@
     "MNC": "06",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se ainda emite",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
@@ -55727,7 +55746,7 @@
     "MNC": "06",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar qual a outra operadora neste local",
+    "communication:mobile_phone:note": "Investigar se é apenas SWAP na MEO ou se há outra operadora presente",
     "location": "roof",
     "man_made": "antenna",
     "operator": "MEO",
@@ -64790,16 +64809,18 @@
 {
   "type": "node",
   "id": 9973390783,
-  "lat": 40.8204223,
-  "lon": -8.2139685,
+  "lat": 40.8204228,
+  "lon": -8.2139584,
   "tags": {
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
+    "man_made": "mast",
+    "material": "concrete",
     "operator": "MEO",
-    "owner": "MEO"
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 },
 {
@@ -82023,6 +82044,21 @@
 },
 {
   "type": "node",
+  "id": 10923971698,
+  "lat": 41.1507347,
+  "lon": -8.5856967,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "communication:mobile_phone": "yes",
+    "level": "-1",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;MEO"
+  }
+},
+{
+  "type": "node",
   "id": 10940498494,
   "lat": 39.3468851,
   "lon": -8.0592548,
@@ -92462,6 +92498,24 @@
     "MCC": "268",
     "MNC": "06",
     "check_date": "2025-09-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13280644343,
+  "lat": 37.1393429,
+  "lon": -7.6776516,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",

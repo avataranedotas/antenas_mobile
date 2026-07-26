@@ -21221,6 +21221,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
@@ -23166,29 +23167,6 @@
     "coordinates": [
       -7.9055974,
       38.5929412
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9494000107",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "check_date": "2024-10-28",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "MEO",
-    "owner": "MEO",
-    "tower:construction": "lattice",
-    "tower:type": "communication",
-    "id": "node/9494000107"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8981969,
-      38.5649714
     ]
   }
 },
@@ -31045,6 +31023,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
@@ -39316,6 +39295,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se também tem MEO",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -58151,12 +58131,12 @@
   "id": "node/9672724592",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -63825,6 +63805,7 @@
     "MNC": "06",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se ainda emite",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
@@ -75880,17 +75861,19 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
+    "man_made": "mast",
+    "material": "concrete",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
     "id": "node/9973390783"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2139685,
-      40.8204223
+      -8.2139584,
+      40.8204228
     ]
   }
 },
@@ -84111,30 +84094,6 @@
     "coordinates": [
       -9.3448008,
       38.7734254
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10032151260",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "mast",
-    "operator": "NOS",
-    "owner": "NOS",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/10032151260"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.314073,
-      38.7844007
     ]
   }
 },
@@ -139949,10 +139908,13 @@
   "type": "Feature",
   "id": "node/13280644343",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
