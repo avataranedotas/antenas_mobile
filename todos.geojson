@@ -1297,6 +1297,39 @@
 },
 {
   "type": "Feature",
+  "id": "node/1165292996",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:microwave": "yes",
+    "communication:mobile_phone": "yes",
+    "communication:television": "yes",
+    "communications_transponder:access": "Public",
+    "communications_transponder:channel": "56",
+    "communications_transponder:frequency": "754 MHz",
+    "communications_transponder:modulation": "COFDM",
+    "communications_transponder:polarisation": "horizontal",
+    "communications_transponder:power": "210",
+    "communications_transponder:service": "TV",
+    "man_made": "tower",
+    "material": "metal",
+    "name": "Bezerra",
+    "operator": "MEO;PTC",
+    "source": "http://tdt.telecom.pt/; http://www.anacom.pt/render.jsp?contentId=1021427",
+    "tower:construction": "lattice",
+    "tower:type": "communication",
+    "id": "node/1165292996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3804833,
+      38.7865789
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1165293009",
   "properties": {
     "MCC": "268",
@@ -185303,27 +185336,6 @@
     "coordinates": [
       -8.5993631,
       41.1528933
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10148368396",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/10148368396"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6142914,
-      41.1430636
     ]
   }
 },
