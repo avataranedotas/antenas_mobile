@@ -44208,7 +44208,6 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
@@ -65990,7 +65989,8 @@
     "man_made": "mast",
     "mapillary": "365548401763930",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "Vodafone Portugal",
+    "operator:wikidata": "Q3562042",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -168310,13 +168310,13 @@
   "lon": -8.7751253,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "02;06",
     "check_date": "2025-02-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -188673,6 +188673,22 @@
     "owner": "DIGI",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14067055664,
+  "lat": 41.2001299,
+  "lon": -8.5140217,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar se está mesmo aqui",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI"
   }
 }
 
