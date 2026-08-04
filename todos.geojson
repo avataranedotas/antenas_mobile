@@ -53859,12 +53859,11 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
     "id": "node/9533621929"
@@ -54220,11 +54219,11 @@
   "id": "node/9535923148",
   "properties": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;NOS",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -55716,7 +55715,6 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
@@ -168439,11 +168437,11 @@
   "id": "node/10054720153",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "id": "node/10054720153"
   },
@@ -253885,6 +253883,48 @@
     "coordinates": [
       -8.5140217,
       41.2001299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14073685706",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI",
+    "id": "node/14073685706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1921529,
+      38.6289402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14073697635",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI",
+    "id": "node/14073697635"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2452705,
+      38.710955
     ]
   }
 }
