@@ -34998,13 +34998,11 @@
   "lon": -8.1637729,
   "tags": {
     "MCC": "268",
-    "MNC": "06",
-    "check_date": "2025-07-28",
+    "MNC": "02;06",
+    "check_date": "2026-07-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
-    "operator": "MEO",
+    "operator": "DIGI;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -67296,6 +67294,7 @@
     "MCC": "268",
     "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem VDF",
     "man_made": "mast",
     "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
@@ -67911,8 +67910,8 @@
 {
   "type": "node",
   "id": 9980615374,
-  "lat": 41.2766130,
-  "lon": -8.6068401,
+  "lat": 41.2766267,
+  "lon": -8.6068297,
   "tags": {
     "MCC": "268",
     "MNC": "01;02;06",
@@ -67923,7 +67922,8 @@
     "owner": "Cellnex",
     "ref": "POCX02488",
     "tower:construction": "freestanding",
-    "tower:type": "communication"
+    "tower:type": "communication",
+    "wikimedia_commons": "File:Telecommunications antenna in Castêlo da Maia, Portugal.jpg"
   }
 },
 {
@@ -81699,6 +81699,24 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10879128348,
+  "lat": 39.7474601,
+  "lon": -8.9137074,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03;06",
+    "check_date": "2026-07-28",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
