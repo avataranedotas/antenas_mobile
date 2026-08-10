@@ -26737,8 +26737,8 @@
 {
   "type": "node",
   "id": 9576517294,
-  "lat": 39.3069183,
-  "lon": -8.6747435,
+  "lat": 39.3069090,
+  "lon": -8.6747033,
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
@@ -37139,10 +37139,10 @@
     "MCC": "268",
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;DIGI;NOS",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -62866,15 +62866,15 @@
 {
   "type": "node",
   "id": 10031864630,
-  "lat": 38.7065603,
-  "lon": -9.3921842,
+  "lat": 38.7066200,
+  "lon": -9.3922097,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "01;02;03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;NOS",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
     "ref": "LICX01820"
   }
@@ -82716,6 +82716,40 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14085683541,
+  "lat": 38.7072041,
+  "lon": -8.9878530,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 14085732342,
+  "lat": 38.7103281,
+  "lon": -8.9852059,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
