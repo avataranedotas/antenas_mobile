@@ -2752,6 +2752,7 @@
     "MNC": "02",
     "check_date": "2026-03-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar as coordenadas exactas da nova torre",
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI",
@@ -62443,23 +62444,6 @@
 },
 {
   "type": "node",
-  "id": 10030285236,
-  "lat": 38.8320054,
-  "lon": -9.0935645,
-  "tags": {
-    "MCC": "268",
-    "MNC": "02;03",
-    "check_date": "2024-12-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se a VDF se mudou para este local junto da NOS.",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "DIGI;NOS",
-    "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
   "id": 10030285237,
   "lat": 38.8293941,
   "lon": -9.1012871,
@@ -67534,6 +67518,25 @@
     "operator": "DIGI;NOS",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10157993129,
+  "lat": 38.8316882,
+  "lon": -9.0935258,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2026-07-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "Vantage Towers",
+    "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
 },
@@ -82920,6 +82923,22 @@
   "id": 14085747123,
   "lat": 38.7153829,
   "lon": -9.4050281,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI",
+    "owner": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 14099834266,
+  "lat": 38.9176367,
+  "lon": -9.0254847,
   "tags": {
     "MCC": "268",
     "MNC": "02",
