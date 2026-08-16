@@ -48332,25 +48332,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9632203234",
-  "properties": {
-    "communication:mobile_phone": "no",
-    "location": "roof",
-    "man_made": "antenna",
-    "old_operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/9632203234"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8604363,
-      40.3625282
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9632203237",
   "properties": {
     "MCC": "268",
@@ -84929,13 +84910,12 @@
   "id": "node/10054720152",
   "properties": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar se também emite VDF neste local",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
     "id": "node/10054720152"
   },
   "geometry": {
@@ -97855,31 +97835,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10157993129",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "check_date": "2024-12-28",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/10157993129"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0935164,
-      38.8316725
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10158173156",
   "properties": {
     "MCC": "268",
@@ -98569,31 +98524,6 @@
     "coordinates": [
       -9.1391712,
       38.8145797
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10167507025",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10167507025"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1211314,
-      38.8183833
     ]
   }
 },
@@ -99918,6 +99848,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda existe",
     "highway": "street_lamp",
     "lamp_type": "electric",
     "man_made": "mast",
@@ -101911,31 +101842,6 @@
     "coordinates": [
       -9.3083723,
       38.8067085
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10200638589",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "roof",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10200638589"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2088543,
-      38.7453447
     ]
   }
 },
@@ -140403,7 +140309,6 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar a localização exacta",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
