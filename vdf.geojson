@@ -1845,14 +1845,14 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;02;03",
+    "check_date": "2026-07-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se o ran-sharing saiu desta torre",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
-    "ref": "VLB085",
-    "tower:construction": "freestanding",
+    "ref": "VLB085;LICX01754",
+    "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/2612513792"
   },
@@ -125857,6 +125857,30 @@
     "coordinates": [
       -9.4483882,
       38.7558575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14109699809",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "colour": "white",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
+    "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/14109699809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3693702,
+      38.8379555
     ]
   }
 }
