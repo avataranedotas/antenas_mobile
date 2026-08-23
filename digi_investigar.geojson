@@ -198,29 +198,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6491942115",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "man_made": "mast",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/6491942115"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6474057,
-      41.1240694
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6900349855",
   "properties": {
     "communication:mobile_phone:note": "Investigar se existe um site da Vodafone disfarçado aqui perto",
@@ -400,28 +377,6 @@
     "coordinates": [
       -8.8551014,
       38.9189399
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9439877010",
-  "properties": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "location": "wall",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS",
-    "id": "node/9439877010"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1036886,
-      38.6485906
     ]
   }
 },
@@ -3259,6 +3214,32 @@
     "coordinates": [
       -8.5140217,
       41.2001299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14113852891",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:gsm": "yes",
+    "communication:lte": "yes",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar localização",
+    "communication:nr": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "tower:construction": "guyed_lattice",
+    "id": "node/14113852891"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9177839,
+      38.584639
     ]
   }
 }
