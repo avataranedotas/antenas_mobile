@@ -46886,7 +46886,7 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;NOS",
-    "owner": "NOS",
+    "owner": "Cellnex",
     "ref": "NVI143"
   }
 },
@@ -86575,7 +86575,6 @@
     "advertising": "billboard",
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;MEO",
@@ -89085,12 +89084,12 @@
   "lon": -7.1389139,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Cellnex",
     "ref": "NBG208",
     "tower:construction": "freestanding",
@@ -93982,6 +93981,23 @@
     "operator": "vodafone P",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14110776042,
+  "lat": 38.8378273,
+  "lon": -9.3381643,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:microwave": "yes",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;Força Aérea",
+    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },

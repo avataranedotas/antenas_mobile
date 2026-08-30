@@ -388,7 +388,7 @@
     "MCC": "268",
     "MNC": "02;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar as coordenadas exactas da nova torre",
+    "communication:mobile_phone:note": "Verificar se as operadoras já se mudaram para a torre nova",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
@@ -2458,6 +2458,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/11104039944",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "check_date": "2024-12-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda emite ou se a DIGI se mudou para a torre nova mais a norte",
+    "man_made": "mast",
+    "operator": "DIGI",
+    "owner": "Cellnex",
+    "ref": "LICX02210",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/11104039944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0932697,
+      38.8128341
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11126448389",
   "properties": {
     "MCC": "268",
@@ -2475,32 +2500,6 @@
     "coordinates": [
       -9.509246,
       39.4152899
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11602245578",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;06",
-    "advertising": "billboard",
-    "check_date": "2024-11-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;MEO",
-    "ref": "VSA282",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/11602245578"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.615525,
-      39.1713816
     ]
   }
 },
