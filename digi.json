@@ -20433,10 +20433,10 @@
   "lon": -8.8404850,
   "tags": {
     "MCC": "268",
-    "MNC": "01;02",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
-    "operator": "vodafone P;DIGI",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -52716,11 +52716,11 @@
   "lon": -9.2167930,
   "tags": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex"
   }
 },
@@ -76763,25 +76763,6 @@
 },
 {
   "type": "node",
-  "id": 11104039944,
-  "lat": 38.8128341,
-  "lon": -9.0932697,
-  "tags": {
-    "MCC": "268",
-    "MNC": "02",
-    "check_date": "2024-12-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se ainda emite ou se a DIGI se mudou para a torre nova mais a norte",
-    "man_made": "mast",
-    "operator": "DIGI",
-    "owner": "Cellnex",
-    "ref": "LICX02210",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 11105786596,
   "lat": 41.7911408,
   "lon": -7.4504390,
@@ -83488,6 +83469,25 @@
     "operator": "DIGI",
     "owner": "DIGI",
     "tower:construction": "guyed_lattice"
+  }
+},
+{
+  "type": "node",
+  "id": 14135839966,
+  "lat": 38.8140322,
+  "lon": -9.0930104,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "check_date": "2026-08-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "Cellnex",
+    "ref": "LICX02210",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 },
 {
