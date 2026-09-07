@@ -139784,12 +139784,12 @@
   "lon": -9.3961661,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers"
   }
 },
@@ -151583,12 +151583,12 @@
   "lon": -9.3976228,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;NOS",
-    "owner": "Cellnex"
+    "operator": "NOS",
+    "owner": "NOS"
   }
 },
 {
@@ -189110,5 +189110,6 @@
   }
 }
 
-  ]
+  ],
+"remark": "runtime error: Query timed out in \"print\" at line 3 after 150 seconds."
 }
