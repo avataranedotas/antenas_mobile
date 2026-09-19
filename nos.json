@@ -14765,22 +14765,6 @@
 },
 {
   "type": "node",
-  "id": 9484702172,
-  "lat": 38.5672178,
-  "lon": -9.0865373,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "check_date": "2023-04-30",
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS;MEO",
-    "tower:construction": "lattice",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9484702193,
   "lat": 38.5550114,
   "lon": -9.0966485,
@@ -60936,6 +60920,7 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Veriificar se a NOS ainda emite deste local ou se se mudou para outro local",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -61193,11 +61178,12 @@
   "lon": -9.3623212,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão e o eNb MEO",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;NOS",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "ref": "LICX01830"
   }
@@ -61261,13 +61247,13 @@
   "lon": -9.3749582,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS",
-    "owner": "NOS",
-    "ref": "MLB376",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "ref": "LICX01826;MLB376",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -62964,6 +62950,7 @@
     "MCC": "268",
     "MNC": "02;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:extra_tube": "yes",
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS",
@@ -88512,6 +88499,24 @@
     "location": "indoor",
     "man_made": "antenna",
     "operator": "NOS"
+  }
+},
+{
+  "type": "node",
+  "id": 14197405656,
+  "lat": 38.5671273,
+  "lon": -9.0864813,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "check_date": "2026-08-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
   }
 }
 
