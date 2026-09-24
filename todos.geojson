@@ -78207,6 +78207,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "operator": "vodafone P;NOS",
@@ -92295,12 +92296,12 @@
   "id": "node/9654377055",
   "properties": {
     "MCC": "268",
-    "MNC": "01;02;03;06",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;DIGI;NOS;MEO",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -140740,7 +140741,6 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -140841,28 +140841,6 @@
     "coordinates": [
       -9.139699,
       38.7615042
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9934573156",
-  "properties": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite e se tem DIGI",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "Cellnex",
-    "id": "node/9934573156"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1494099,
-      38.7586001
     ]
   }
 },
@@ -171706,7 +171684,6 @@
     "MNC": "03",
     "check_date": "2024-06-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -185462,6 +185439,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
@@ -254596,6 +254574,27 @@
     "coordinates": [
       -9.0864813,
       38.5671273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14210195410",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "id": "node/14210195410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1462609,
+      38.7564038
     ]
   }
 }
