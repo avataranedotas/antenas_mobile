@@ -61,7 +61,7 @@
     "communications_transponder:frequency": "738 MHz",
     "communications_transponder:modulation": "COFDM",
     "communications_transponder:polarisation": "horizontal",
-    "communications_transponder:power": "501 W",
+    "communications_transponder:power": "501",
     "communications_transponder:service": "TV",
     "man_made": "tower",
     "name": "Pico Arco da Calheta",
@@ -45342,30 +45342,6 @@
     "coordinates": [
       -9.0681946,
       39.0347779
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9654377055",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;02;03;06",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;DIGI;NOS;MEO",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/9654377055"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.073261,
-      38.9824641
     ]
   }
 },
@@ -112789,6 +112765,27 @@
     "coordinates": [
       -8.6003997,
       41.1610145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14210195410",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "id": "node/14210195410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1462609,
+      38.7564038
     ]
   }
 }
