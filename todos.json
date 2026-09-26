@@ -71018,10 +71018,16 @@
     "MCC": "268",
     "MNC": "03",
     "communication:mobile_phone": "yes",
+    "communication:radio": "yes",
+    "frequency": "91.3 MHz;88 MHz;103 MHz;89.7 MHz;101.1 MHz",
     "man_made": "mast",
     "material": "metal",
-    "operator": "NOS;RDP",
-    "owner": "RDP",
+    "name": "RTP Antena 1;RTP Antena 2;RTP Antena 3;RFM;Rádio Renascença",
+    "operator": "NOS;RTP;Grupo Renascença Multimédia",
+    "owner": "RTP",
+    "rating": "33 kW",
+    "rds:name": "ANTENA 1;ANTENA 2;ANTENA 3;RFM;RR",
+    "rds:pi": "8201;8202;8204;8231;8221",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -189263,6 +189269,20 @@
     "man_made": "antenna",
     "operator": "DIGI",
     "ref": "LI04973"
+  }
+},
+{
+  "type": "node",
+  "id": 14220005916,
+  "lat": 38.7581557,
+  "lon": -9.1496096,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "wall",
+    "man_made": "antenna",
+    "operator": "MEO"
   }
 }
 
