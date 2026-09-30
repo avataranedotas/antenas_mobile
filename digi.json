@@ -6389,6 +6389,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "VRCX04880",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -28364,6 +28365,7 @@
     "name": "Montalegre",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "VRCX00320",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -53776,7 +53778,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;MEO",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "LICX01966"
   }
 },
 {
@@ -57858,6 +57861,23 @@
 },
 {
   "type": "node",
+  "id": 9980009121,
+  "lat": 41.2852463,
+  "lon": -8.3487262,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI;MEO",
+    "owner": "CellNex",
+    "ref": "POCX05452",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 9980011613,
   "lat": 41.2359193,
   "lon": -8.3836261,
@@ -61604,6 +61624,26 @@
 },
 {
   "type": "node",
+  "id": 10013829161,
+  "lat": 41.1301836,
+  "lon": -8.6461288,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "check_date": "2024-08-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "CellNex",
+    "ref": "POCX04283",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
   "id": 10013829163,
   "lat": 41.1251157,
   "lon": -8.6587500,
@@ -61646,11 +61686,11 @@
     "MNC": "02;03",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar no terreno",
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "POCX05417",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -61665,12 +61705,12 @@
     "MNC": "02;03",
     "check_date": "2023-04-30",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar no terreno",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "POCX05570",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -65685,6 +65725,23 @@
 },
 {
   "type": "node",
+  "id": 10059016986,
+  "lat": 38.7628634,
+  "lon": -9.1201432,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03",
+    "check_date": "2026-09-28",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI;NOS",
+    "owner": "CellNex",
+    "ref": "LICX05434"
+  }
+},
+{
+  "type": "node",
   "id": 10059016989,
   "lat": 38.7628377,
   "lon": -9.1088200,
@@ -68219,12 +68276,12 @@
     "MCC": "268",
     "MNC": "01;02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar no terreno",
     "location": "roof",
     "man_made": "antenna",
     "mimics": "chimney",
     "operator": "vodafone P;DIGI",
-    "owner": "Vantage Towers"
+    "owner": "Vantage Towers",
+    "ref": "POVT03952"
   }
 },
 {
@@ -80638,6 +80695,7 @@
     "material": "metal",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "VRCX04255",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -84359,6 +84417,36 @@
     "man_made": "antenna",
     "operator": "DIGI",
     "ref": "LI04911"
+  }
+},
+{
+  "type": "node",
+  "id": 14235819377,
+  "lat": 38.7802222,
+  "lon": -9.2111944,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "ref": "LI05253"
+  }
+},
+{
+  "type": "node",
+  "id": 14235849247,
+  "lat": 38.7589544,
+  "lon": -9.1078864,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "DIGI",
+    "ref": "LI05243"
   }
 }
 
