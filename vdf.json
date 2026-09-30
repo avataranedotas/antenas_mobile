@@ -12693,6 +12693,7 @@
     "MNC": "01;02;03;06",
     "check_date": "2025-08-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se houve mudança de local das antenas",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
@@ -19120,13 +19121,13 @@
   "lon": -8.5997788,
   "tags": {
     "MCC": "268",
-    "MNC": "01;06",
-    "check_date": "2024-05-30",
+    "MNC": "01;02;06",
+    "check_date": "2026-09-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
-    "operator": "vodafone P;MEO",
+    "operator": "vodafone P;DIGI;MEO",
     "owner": "Vantage Towers",
+    "ref": "LEVT04745",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -42410,7 +42411,6 @@
     "check_date": "2024-11-28",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:extra_tube": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -94160,6 +94160,22 @@
     "material": "metal",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14233903347,
+  "lat": 41.4695585,
+  "lon": -8.4212800,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
