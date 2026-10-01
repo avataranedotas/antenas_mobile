@@ -36460,13 +36460,14 @@
   "lon": -8.8721182,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "02;03",
     "check_date": "2025-03-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "mast",
-    "operator": "NOS",
+    "operator": "DIGI;NOS",
     "owner": "Cellnex",
+    "ref": "COCX00990",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
@@ -37858,6 +37859,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "LEVT04874",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -46304,13 +46306,12 @@
     "MNC": "01;02;03;06",
     "check_date": "2025-08-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar se tem mesmo DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "VCO098",
+    "ref": "VCO098;COCX06012",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -46492,6 +46493,25 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P;NOS;MEO",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9684061769,
+  "lat": 40.8099651,
+  "lon": -8.5330967,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02;03;06",
+    "check_date": "2026-09-28",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI;NOS;MEO",
+    "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -60197,9 +60217,8 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;02;03",
-    "check_date": "2024-09-28",
+    "check_date": "2026-09-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se também tem MEO",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -69959,6 +69978,7 @@
     "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
+    "ref": "AVVT01041",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
