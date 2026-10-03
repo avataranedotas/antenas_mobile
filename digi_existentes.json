@@ -20170,6 +20170,7 @@
     "MNC": "03",
     "check_date": "2023-10-31",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda emite",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -78690,10 +78691,12 @@
     "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "communication:radio": "yes",
     "location": "underground",
     "man_made": "antenna",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO"
+    "name": "Rádio Comercial;Rádio Renascença;RFM;RTP Antena 1;RTP Antena 2;RTP Antena 3;TSF Rádio Notícias",
+    "operator": "vodafone P;NOS;MEO;RTP;Bauer Media Group;Grupo Renascença Multimédia;Global Media Group"
   }
 },
 {
@@ -104967,6 +104970,17 @@
     "operator": "vodafone P",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14246439141,
+  "lat": 37.3398190,
+  "lon": -8.8547444,
+  "tags": {
+    "communication:mobile_phone": "yes",
+    "man_made": "antenna",
+    "material": "metal"
   }
 }
 
