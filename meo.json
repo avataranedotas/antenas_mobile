@@ -13448,11 +13448,12 @@
     "MCC": "268",
     "MNC": "06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar que operadoras estão em quais destes 2 prédios",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "CellNex",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -30111,6 +30112,7 @@
     "MCC": "268",
     "MNC": "02;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem NOS e qual o eNb",
     "location": "roof",
     "man_made": "mast",
     "operator": "DIGI;MEO",
@@ -58450,7 +58452,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI;NOS;MEO",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "LICX02277;MLB623"
   }
 },
 {
@@ -70143,7 +70146,8 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS;MEO",
-    "owner": "Cellnex"
+    "owner": "Cellnex",
+    "ref": "MPT486"
   }
 },
 {
@@ -72420,7 +72424,7 @@
     "man_made": "antenna",
     "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
-    "ref": "LICX05009"
+    "ref": "LICX05009;MLB655"
   }
 },
 {
@@ -82635,15 +82639,15 @@
   "lon": -7.0659409,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03;06",
+    "MNC": "01;02;03;06",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS;MEO",
+    "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "GUCX04866",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -86816,9 +86820,12 @@
   "tags": {
     "MCC": "268",
     "MNC": "06",
+    "check_date": "2025-08-28",
+    "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "MEO",
+    "owner": "CellNex",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
