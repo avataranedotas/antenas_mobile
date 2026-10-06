@@ -7181,6 +7181,7 @@
     "man_made": "mast",
     "operator": "vodafone P;DIGI;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "STCX04810",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -10680,6 +10681,7 @@
     "MCC": "268",
     "MNC": "02;06",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar qual o eNb DIGI",
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
@@ -11384,12 +11386,13 @@
   "lon": -8.8551014,
   "tags": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se as operadoras já se mudaram para a torre nova",
+    "communication:mobile_phone:note": "Verificar se a DIGI já se mudou para a torre nova",
     "man_made": "mast",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI",
     "owner": "Cellnex",
+    "ref": "SACX02927",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -21753,6 +21756,23 @@
 },
 {
   "type": "node",
+  "id": 9552007210,
+  "lat": 37.1181089,
+  "lon": -8.5326178,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers",
+    "ref": "VFA210"
+  }
+},
+{
+  "type": "node",
   "id": 9552041315,
   "lat": 37.1202498,
   "lon": -8.5483503,
@@ -23297,6 +23317,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "SACX02944",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -28969,6 +28990,23 @@
 },
 {
   "type": "node",
+  "id": 9610764221,
+  "lat": 39.3640349,
+  "lon": -9.3371980,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;DIGI;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "ref": "LEVT04378"
+  }
+},
+{
+  "type": "node",
   "id": 9610764236,
   "lat": 39.3311473,
   "lon": -9.3539979,
@@ -29841,8 +29879,8 @@
 {
   "type": "node",
   "id": 9626599007,
-  "lat": 40.6901089,
-  "lon": -8.1238288,
+  "lat": 40.6901339,
+  "lon": -8.1238380,
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
@@ -42160,8 +42198,8 @@
 {
   "type": "node",
   "id": 9683684613,
-  "lat": 40.6904029,
-  "lon": -8.1067273,
+  "lat": 40.6904317,
+  "lon": -8.1067639,
   "tags": {
     "MCC": "268",
     "MNC": "02;06",
@@ -43536,6 +43574,7 @@
     "material": "metal",
     "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
+    "ref": "02MN052;MBR138",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -57979,6 +58018,7 @@
     "man_made": "mast",
     "operator": "DIGI;MEO",
     "owner": "Cellnex",
+    "ref": "POCX02556",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -64095,6 +64135,24 @@
     "ref": "LICX02108",
     "tower:construction": "freestanding",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 10034673339,
+  "lat": 38.7565867,
+  "lon": -9.2582735,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;02;03",
+    "check_date": "2025-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar a emissão DIGI 4G",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;DIGI;NOS",
+    "owner": "Vantage Towers",
+    "ref": "LIVT04929"
   }
 },
 {
@@ -75663,6 +75721,7 @@
     "material": "metal",
     "operator": "DIGI",
     "owner": "Cellnex",
+    "ref": "EVCX05072",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -83751,6 +83810,7 @@
     "man_made": "mast",
     "operator": "DIGI",
     "owner": "DIGI",
+    "ref": "ST06207",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
   }
@@ -84432,16 +84492,18 @@
 {
   "type": "node",
   "id": 14216477736,
-  "lat": 38.9669674,
-  "lon": -8.9835308,
+  "lat": 38.9669664,
+  "lon": -8.9835509,
   "tags": {
     "MCC": "268",
     "MNC": "02",
+    "check_date": "2026-09-28",
     "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "DIGI",
     "owner": "Cellnex",
+    "ref": "LICX05620",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -84623,6 +84685,21 @@
     "man_made": "antenna",
     "operator": "DIGI",
     "ref": "LI04966"
+  }
+},
+{
+  "type": "node",
+  "id": 14252994390,
+  "lat": 37.0407042,
+  "lon": -8.0516580,
+  "tags": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "operator": "DIGI",
+    "owner": "DIGI",
+    "tower:construction": "guyed_tube"
   }
 }
 

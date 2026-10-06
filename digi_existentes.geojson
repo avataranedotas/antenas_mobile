@@ -26346,6 +26346,7 @@
     "MNC": "01",
     "check_date": "2024-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
@@ -26371,6 +26372,7 @@
     "MNC": "01",
     "check_date": "2024-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "vodafone P",
     "owner": "Vantage Towers",
@@ -32952,7 +32954,6 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -32990,29 +32991,6 @@
     "coordinates": [
       -8.5397565,
       37.1190029
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9552007210",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "ref": "VFA210",
-    "id": "node/9552007210"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5326178,
-      37.1181089
     ]
   }
 },
@@ -43303,28 +43281,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9610764221",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "id": "node/9610764221"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.337198,
-      39.3640349
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9610764254",
   "properties": {
     "MCC": "268",
@@ -44625,9 +44581,11 @@
   "id": "node/9626599006",
   "properties": {
     "communication:mobile_phone": "no",
+    "communication:radio": "yes",
     "man_made": "mast",
+    "name": "Rádio VFM;Rádio Comercial",
     "old_operator": "NOS",
-    "owner": "NOS",
+    "operator": "Cooperativa Rádio Vouzela",
     "tower:construction": "guyed_lattice",
     "tower:type": "communication",
     "id": "node/9626599006"
@@ -88920,6 +88878,7 @@
     "MNC": "03",
     "check_date": "2023-05-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "NOS",
@@ -122536,28 +122495,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11126448389",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se ainda existe e se emite",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/11126448389"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.509246,
-      39.4152899
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11128530277",
   "properties": {
     "check_date": "2024-07-08",
@@ -141094,8 +141031,12 @@
   "type": "Feature",
   "id": "node/14135846101",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -141350,6 +141291,48 @@
     "coordinates": [
       -8.8547444,
       37.339819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14253464552",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/14253464552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9427222,
+      38.7509167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14253468173",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P",
+    "id": "node/14253468173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9136636,
+      38.7255404
     ]
   }
 }
