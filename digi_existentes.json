@@ -1713,6 +1713,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "tower",
     "operator": "MEO",
+    "operator:wikidata": "Q1365938",
     "owner": "MEO",
     "tower:construction": "lattice",
     "tower:type": "communication"
@@ -35798,26 +35799,6 @@
     "man_made": "antenna",
     "operator": "MEO",
     "owner": "Cellnex"
-  }
-},
-{
-  "type": "node",
-  "id": 9633837313,
-  "lat": 40.9940926,
-  "lon": -7.0570796,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03;06",
-    "check_date": "2023-06-30",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar visualmente que tem VDF/NOS",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "reinforced_concrete",
-    "operator": "vodafone P;NOS;MEO",
-    "owner": "CellNex",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
   }
 },
 {
@@ -102110,9 +102091,12 @@
   "lat": 41.2220428,
   "lon": -8.0059265,
   "tags": {
+    "MCC": "268",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -104854,9 +104838,13 @@
   "lat": 37.3398190,
   "lon": -8.8547444,
   "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "antenna",
-    "material": "metal"
+    "material": "metal",
+    "operator": "vodafone P;NOS"
   }
 },
 {

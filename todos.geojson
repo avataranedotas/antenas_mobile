@@ -3099,6 +3099,7 @@
     "communication:mobile_phone": "yes",
     "man_made": "tower",
     "operator": "MEO",
+    "operator:wikidata": "Q1365938",
     "owner": "MEO",
     "tower:construction": "lattice",
     "tower:type": "communication",
@@ -87084,9 +87085,8 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03;06",
-    "check_date": "2023-06-30",
+    "check_date": "2026-09-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar visualmente que tem VDF/NOS",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "reinforced_concrete",
@@ -166856,7 +166856,6 @@
     "MNC": "01;02;03",
     "check_date": "2025-10-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar a emissão DIGI 4G",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS",
@@ -248136,9 +248135,12 @@
   "type": "Feature",
   "id": "node/13098430309",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -254991,9 +254993,13 @@
   "type": "Feature",
   "id": "node/14246439141",
   "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "antenna",
     "material": "metal",
+    "operator": "vodafone P;NOS",
     "id": "node/14246439141"
   },
   "geometry": {
@@ -255108,6 +255114,49 @@
     "coordinates": [
       -8.8587117,
       40.1300236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14265505137",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "material": "metal",
+    "operator": "DIGI",
+    "id": "node/14265505137"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2189444,
+      38.7755556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14265514301",
+  "properties": {
+    "MCC": "268",
+    "MNC": "02",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "DIGI",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication",
+    "id": "node/14265514301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8516067,
+      37.3409488
     ]
   }
 }
