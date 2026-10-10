@@ -21784,13 +21784,12 @@
     "MCC": "268",
     "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Confirmar visualmente que tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P;DIGI;NOS",
     "owner": "Vantage Towers",
-    "ref": "VFA210"
+    "ref": "VFA210;FAVT04359"
   }
 },
 {
@@ -22576,10 +22575,13 @@
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
-    "man_made": "antenna",
-    "mimics": "chimney",
+    "man_made": "mast",
+    "material": "metal",
     "operator": "vodafone P;DIGI;NOS",
-    "owner": "Vantage Towers"
+    "owner": "Vantage Towers",
+    "ref": "VFA136;FAVT04338",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
   }
 },
 {
@@ -65140,11 +65142,11 @@
   "lon": -9.1156378,
   "tags": {
     "MCC": "268",
-    "MNC": "02;03",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "DIGI;NOS",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
