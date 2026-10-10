@@ -5864,6 +5864,7 @@
     "MNC": "06",
     "check_date": "2024-08-28",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "operator": "MEO",
     "owner": "MEO",
@@ -24442,6 +24443,7 @@
     "MNC": "02;06",
     "colour": "green",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem ran-sharing",
     "man_made": "mast",
     "material": "metal",
     "operator": "DIGI;MEO",
@@ -62361,8 +62363,8 @@
 {
   "type": "node",
   "id": 9935858046,
-  "lat": 38.7232581,
-  "lon": -9.1653255,
+  "lat": 38.7232575,
+  "lon": -9.1653297,
   "tags": {
     "MCC": "268",
     "MNC": "06",
@@ -93573,6 +93575,20 @@
     "operator": "MEO",
     "tower:construction": "guyed_tube",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14270502632,
+  "lat": 37.0988190,
+  "lon": -7.9971564,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;NOS;MEO"
   }
 }
 
