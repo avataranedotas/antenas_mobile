@@ -19496,24 +19496,6 @@
 },
 {
   "type": "node",
-  "id": 9506649284,
-  "lat": 39.5959395,
-  "lon": -8.3748139,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2024-07-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 9506649285,
   "lat": 39.6019623,
   "lon": -8.3988904,
@@ -24711,11 +24693,9 @@
   "lat": 37.1340390,
   "lon": -8.5457942,
   "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "man_made": "mast",
-    "operator": "vodafone P",
+    "old_operator": "vodafone P",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -28580,13 +28560,15 @@
   "lon": -8.5448928,
   "tags": {
     "MCC": "268",
-    "MNC": "03",
+    "MNC": "01;03",
     "check_date": "2023-08-30",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
+    "operator": "vodafone P;NOS",
+    "owner": "Cellnex",
+    "ref": "VFA200"
   }
 },
 {
@@ -102744,8 +102726,8 @@
 {
   "type": "node",
   "id": 13284031732,
-  "lat": 37.5219036,
-  "lon": -8.5712779,
+  "lat": 37.5218653,
+  "lon": -8.5713637,
   "tags": {
     "MCC": "268",
     "MNC": "06",
