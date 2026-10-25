@@ -17319,11 +17319,11 @@
   "properties": {
     "MCC": "268",
     "MNC": "06",
-    "check_date": "2024-07-07",
+    "check_date": "2026-09-28",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "operator": "MEO",
-    "owner": "MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9403538778"
@@ -75304,11 +75304,11 @@
   "id": "node/9913434317",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "location": "indoor",
     "man_made": "antenna",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "id": "node/9913434317"
   },
@@ -75325,11 +75325,11 @@
   "id": "node/9913434319",
   "properties": {
     "MCC": "268",
-    "MNC": "02;06",
+    "MNC": "02;03;06",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "DIGI;MEO",
+    "operator": "DIGI;NOS;MEO",
     "owner": "Cellnex",
     "id": "node/9913434319"
   },
@@ -125096,6 +125096,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/13461538271",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "communication:mobile_phone": "yes",
+    "location": "indoor",
+    "man_made": "antenna",
+    "operator": "vodafone P;MEO",
+    "id": "node/13461538271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1767064,
+      38.7018432
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13463145937",
   "properties": {
     "MCC": "268",
@@ -125274,6 +125294,26 @@
     "coordinates": [
       -8.9834087,
       38.7068602
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13754508608",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "MEO",
+    "id": "node/13754508608"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1879794,
+      38.6996262
     ]
   }
 },
