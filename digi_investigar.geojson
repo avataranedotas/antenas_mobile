@@ -289,28 +289,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9022834323",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se a NOS está a mudar-se para este local",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "id": "node/9022834323"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6557491,
-      41.1614201
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9290787115",
   "properties": {
     "MCC": "268",
@@ -618,6 +596,33 @@
     "coordinates": [
       -7.927581,
       40.1458017
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9499165102",
+  "properties": {
+    "MCC": "268",
+    "MNC": "03",
+    "check_date": "2026-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se a NOS ainda emite aqui ou já se mudou para o local a Este",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "CellNex",
+    "ref": "MPT359",
+    "tower:construction": "guyed_lattice",
+    "tower:type": "communication",
+    "id": "node/9499165102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.656372,
+      41.1612809
     ]
   }
 },
@@ -1575,6 +1580,30 @@
     "coordinates": [
       -7.7100165,
       40.9792157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10078507348",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda emite ou se a emissão já passou para a torre nova a Noroeste",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "vodafone P;NOS",
+    "owner": "Vantage Towers",
+    "id": "node/10078507348"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4493742,
+      41.7977238
     ]
   }
 },
@@ -3050,6 +3079,31 @@
     "coordinates": [
       -9.2522558,
       38.6999174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14323805611",
+  "properties": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/14323805611"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5522908,
+      38.1768439
     ]
   }
 }

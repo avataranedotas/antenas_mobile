@@ -222,22 +222,6 @@
 },
 {
   "type": "node",
-  "id": 9022834323,
-  "lat": 41.1614201,
-  "lon": -8.6557491,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se a NOS está a mudar-se para este local",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
-  }
-},
-{
-  "type": "node",
   "id": 9290787115,
   "lat": 39.9097388,
   "lon": -8.2782024,
@@ -467,6 +451,27 @@
     "operator": "MEO",
     "owner": "MEO",
     "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 9499165102,
+  "lat": 41.1612809,
+  "lon": -8.6563720,
+  "tags": {
+    "MCC": "268",
+    "MNC": "03",
+    "check_date": "2026-10-28",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se a NOS ainda emite aqui ou já se mudou para o local a Este",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "NOS",
+    "owner": "CellNex",
+    "ref": "MPT359",
+    "tower:construction": "guyed_lattice",
     "tower:type": "communication"
   }
 },
@@ -1184,6 +1189,24 @@
     "man_made": "antenna",
     "mimics": "chimney",
     "operator": "vodafone P",
+    "owner": "Vantage Towers"
+  }
+},
+{
+  "type": "node",
+  "id": 10078507348,
+  "lat": 41.7977238,
+  "lon": -7.4493742,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Verificar se ainda emite ou se a emissão já passou para a torre nova a Noroeste",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "location": "roof",
+    "man_made": "antenna",
+    "mimics": "chimney",
+    "operator": "vodafone P;NOS",
     "owner": "Vantage Towers"
   }
 },
@@ -2282,6 +2305,25 @@
     "location": "roof",
     "man_made": "antenna",
     "operator": "DIGI"
+  }
+},
+{
+  "type": "node",
+  "id": 14323805611,
+  "lat": 38.1768439,
+  "lon": -8.5522908,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
   }
 }
 
