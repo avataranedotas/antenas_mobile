@@ -440,10 +440,8 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;03",
-    "check_date": "2024-08-28",
+    "check_date": "2026-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "40",
     "man_made": "mast",
@@ -14366,30 +14364,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9374731804",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite ou se já tem ran-sharing",
-    "location": "roof",
-    "man_made": "mast",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "guyed_tube",
-    "tower:type": "communication",
-    "id": "node/9374731804"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6431774,
-      37.596948
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9374741124",
   "properties": {
     "MCC": "268",
@@ -16783,9 +16757,8 @@
   "properties": {
     "MCC": "268",
     "MNC": "01;02;03;06",
-    "check_date": "2025-08-28",
+    "check_date": "2026-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se houve mudança de local das antenas",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
@@ -16798,8 +16771,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9350738,
-      37.0071723
+      -8.9349088,
+      37.0069088
     ]
   }
 },
@@ -20120,6 +20093,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Cellnex",
+    "ref": "VBJ152",
     "tower:construction": "lattice",
     "tower:type": "communication",
     "id": "node/9482108748"
@@ -25168,15 +25142,14 @@
   "id": "node/9509230193",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
-    "ref": "VFA352",
+    "ref": "VFA352;FAVT00330",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/9509230193"
@@ -82550,30 +82523,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10093260045",
-  "properties": {
-    "MCC": "268",
-    "MNC": "01",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication",
-    "id": "node/10093260045"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6716267,
-      41.7384779
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10093260046",
   "properties": {
     "MCC": "268",
@@ -83975,12 +83924,11 @@
   "id": "node/10104440476",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
     "tower:type": "communication",
@@ -83989,8 +83937,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5779887,
-      41.3377998
+      -8.5779994,
+      41.3378391
     ]
   }
 },
@@ -97745,6 +97693,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "location": "roof",
     "man_made": "antenna",
     "operator": "vodafone P",
@@ -99253,12 +99202,13 @@
   "id": "node/10229603191",
   "properties": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;02",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Confirmar visualmente que tem DIGI",
     "location": "roof",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P",
+    "operator": "vodafone P;DIGI",
     "owner": "Vantage Towers",
     "tower:construction": "guyed_tube",
     "tower:type": "communication",
@@ -107859,14 +107809,14 @@
   "id": "node/10760134854",
   "properties": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se também tem MEO",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VBJ093",
     "tower:construction": "freestanding",
     "tower:type": "communication",
     "id": "node/10760134854"
@@ -120118,6 +120068,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
@@ -126380,6 +126331,32 @@
     "coordinates": [
       -7.4501471,
       41.798659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14336953367",
+  "properties": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "CellNex",
+    "ref": "VBJ150",
+    "tower:construction": "freestanding",
+    "tower:type": "communication",
+    "id": "node/14336953367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5504373,
+      37.5949849
     ]
   }
 }

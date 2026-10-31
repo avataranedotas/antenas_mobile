@@ -341,10 +341,8 @@
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
-    "check_date": "2024-08-28",
+    "check_date": "2026-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:extra_tube": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "height": "40",
     "man_made": "mast",
@@ -11904,14 +11902,13 @@
 {
   "type": "node",
   "id": 9459116405,
-  "lat": 37.0071723,
-  "lon": -8.9350738,
+  "lat": 37.0069088,
+  "lon": -8.9349088,
   "tags": {
     "MCC": "268",
     "MNC": "01;02;03;06",
-    "check_date": "2025-08-28",
+    "check_date": "2026-05-28",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se houve mudança de local das antenas",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "mast",
@@ -14501,6 +14498,7 @@
     "man_made": "mast",
     "operator": "vodafone P;NOS",
     "owner": "Cellnex",
+    "ref": "VBJ152",
     "tower:construction": "lattice",
     "tower:type": "communication"
   }
@@ -18055,15 +18053,14 @@
   "lon": -7.9662570,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;02;03",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;DIGI;NOS",
     "owner": "Cellnex",
-    "ref": "VFA352",
+    "ref": "VFA352;FAVT00330",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -33448,24 +33445,6 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9630262566,
-  "lat": 41.7068318,
-  "lon": -8.8351786,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Verificar se ainda emite",
-    "communication:radio": "yes",
-    "man_made": "mast",
-    "operator": "NOS;Geice FM;Rádio Alto Minho",
-    "owner": "Cellnex",
-    "tower:construction": "lattice",
     "tower:type": "communication"
   }
 },
@@ -75537,14 +75516,14 @@
   "lon": -8.5438791,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01;03;06",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se também tem MEO",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P;NOS;MEO",
     "owner": "Vantage Towers",
+    "ref": "VBJ093",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -81341,11 +81320,11 @@
   "lon": -8.0390940,
   "tags": {
     "MCC": "268",
-    "MNC": "03;06",
+    "MNC": "03",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "NOS;MEO",
+    "operator": "NOS",
     "owner": "Cellnex"
   }
 },
@@ -84881,6 +84860,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
@@ -88740,6 +88720,26 @@
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14336953367,
+  "lat": 37.5949849,
+  "lon": -8.5504373,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;03",
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "vodafone P;NOS",
+    "owner": "CellNex",
+    "ref": "VBJ150",
+    "tower:construction": "freestanding",
     "tower:type": "communication"
   }
 }
