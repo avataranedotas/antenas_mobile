@@ -16576,12 +16576,12 @@
   "lon": -9.0482097,
   "tags": {
     "MCC": "268",
-    "MNC": "01",
+    "MNC": "01;06",
     "check_date": "2025-01-28",
     "communication:mobile_phone": "yes",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "vodafone P",
+    "operator": "vodafone P;MEO",
     "owner": "Vantage Towers"
   }
 },
@@ -92747,13 +92747,14 @@
 {
   "type": "node",
   "id": 13285421090,
-  "lat": 40.0471644,
-  "lon": -8.0772471,
+  "lat": 40.0470699,
+  "lon": -8.0772337,
   "tags": {
     "MCC": "268",
     "MNC": "01;03",
     "colour": "gray",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem MEO",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
@@ -93599,6 +93600,20 @@
     "owner": "Vantage Towers",
     "tower:construction": "lattice",
     "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 13894854335,
+  "lat": 37.2299023,
+  "lon": -8.6294845,
+  "tags": {
+    "MCC": "268",
+    "MNC": "01;06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "antenna",
+    "operator": "vodafone P;MEO"
   }
 },
 {
