@@ -13450,8 +13450,8 @@
 {
   "type": "node",
   "id": 9461670365,
-  "lat": 39.8691830,
-  "lon": -8.9249700,
+  "lat": 39.8691521,
+  "lon": -8.9249432,
   "tags": {
     "MCC": "268",
     "MNC": "03",
@@ -29200,23 +29200,6 @@
     "material": "reinforced_concrete",
     "operator": "vodafone P;NOS",
     "owner": "Vantage Towers",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 9573071303,
-  "lat": 39.6855748,
-  "lon": -8.2878539,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "check_date": "2024-08-28",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se ainda emite",
-    "man_made": "mast",
-    "operator": "vodafone P;NOS",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -63000,22 +62983,6 @@
 },
 {
   "type": "node",
-  "id": 10058722679,
-  "lat": 38.7618178,
-  "lon": -9.1571367,
-  "tags": {
-    "MCC": "268",
-    "MNC": "03",
-    "check_date": "2024-07-28",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "NOS",
-    "owner": "NOS"
-  }
-},
-{
-  "type": "node",
   "id": 10058722680,
   "lat": 38.7577890,
   "lon": -9.1677262,
@@ -72173,22 +72140,6 @@
     "operator": "MEO",
     "owner": "Cellnex",
     "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
-  "id": 10171613621,
-  "lat": 38.7040586,
-  "lon": -9.2522612,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01",
-    "check_date": "2024-08-28",
-    "communication:mobile_phone": "yes",
-    "location": "roof",
-    "man_made": "antenna",
-    "operator": "vodafone P",
-    "owner": "Vantage Towers"
   }
 },
 {
@@ -98279,26 +98230,6 @@
 },
 {
   "type": "node",
-  "id": 12274490934,
-  "lat": 40.7901263,
-  "lon": -7.5937252,
-  "tags": {
-    "MCC": "268",
-    "MNC": "01;03",
-    "communication:mobile_phone": "yes",
-    "communication:mobile_phone:note": "Investigar se tem DIGI",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
-    "man_made": "mast",
-    "material": "metal",
-    "operator": "vodafone P;NOS",
-    "owner": "Cellnex",
-    "ref": "NGR139",
-    "tower:construction": "freestanding",
-    "tower:type": "communication"
-  }
-},
-{
-  "type": "node",
   "id": 12274531331,
   "lat": 40.7747860,
   "lon": -7.4876740,
@@ -101338,15 +101269,18 @@
 {
   "type": "node",
   "id": 12943813462,
-  "lat": 39.4975771,
-  "lon": -8.7806428,
+  "lat": 39.4980278,
+  "lon": -8.7783611,
   "tags": {
+    "MCC": "268",
+    "MNC": "06",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "fixme": "Move to exact location",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
+    "ref": "22BL033",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
@@ -104509,13 +104443,12 @@
   "lon": -8.6715134,
   "tags": {
     "MCC": "268",
-    "MNC": "01;03",
+    "MNC": "01",
     "colour": "green",
     "communication:mobile_phone": "yes",
-    "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "man_made": "mast",
     "material": "metal",
-    "operator": "vodafone P;NOS",
+    "operator": "vodafone P",
     "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
@@ -104767,6 +104700,32 @@
     "man_made": "mast",
     "material": "metal",
     "operator": "MEO",
+    "owner": "CellNex",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14353011255,
+  "lat": 40.2343000,
+  "lon": -7.8612000,
+  "tags": {
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14353048821,
+  "lat": 39.8691815,
+  "lon": -8.9249660,
+  "tags": {
+    "colour": "green",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
     "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
