@@ -4,31 +4,25 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '*/60 * * * *'
+    - cron: '*/60 * * * *'
 
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v2
-    #- uses: actions/setup-node@v2
-    #  with:
-    #    node-version: '14'
+      uses: actions/checkout@v4
     - name: setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
-         python-version: 3.8 #install the python needed    
+        python-version: '3.8' # install the python needed    
     - name: Install deps
-      run: npm i -g osmtogeojson      
+      run: npm i -g osmtogeojson       
     - name: Get the data and analyze
       run: |
         chmod +x ./umap.sh
         ./umap.sh
       shell: bash
-    #- name: proc_mnc.py
-    #  run: |
-    #    python proc_mnc.py    
     - name: Post convert to geojson
       run: |
         chmod +x ./post.sh
