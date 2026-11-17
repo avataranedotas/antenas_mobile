@@ -22765,6 +22765,7 @@
     "MCC": "268",
     "MNC": "01;03",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem DIGI",
     "communication:mobile_phone:ran_sharing": "vodafone P;NOS",
     "location": "roof",
     "man_made": "antenna",
@@ -23537,13 +23538,11 @@
   "lat": 38.6562057,
   "lon": -9.1621512,
   "tags": {
-    "MCC": "268",
-    "MNC": "06",
-    "communication:mobile_phone": "yes",
+    "communication:mobile_phone": "no",
     "location": "roof",
     "man_made": "antenna",
-    "operator": "MEO",
-    "owner": "MEO"
+    "old_operator": "MEO",
+    "owner": "CellNex"
   }
 },
 {
@@ -28067,6 +28066,7 @@
     "MCC": "268",
     "MNC": "01",
     "communication:mobile_phone": "yes",
+    "communication:mobile_phone:note": "Investigar se tem MEO",
     "man_made": "mast",
     "material": "metal",
     "operator": "vodafone P",
@@ -104688,6 +104688,41 @@
     "operator": "vodafone P;NOS",
     "owner": "CellNex",
     "ref": "NVR152",
+    "tower:construction": "freestanding",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14388374917,
+  "lat": 38.6557563,
+  "lon": -9.1619982,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "location": "roof",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "CellNex",
+    "tower:construction": "guyed_tube",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "node",
+  "id": 14388458732,
+  "lat": 39.9450826,
+  "lon": -8.8063265,
+  "tags": {
+    "MCC": "268",
+    "MNC": "06",
+    "communication:mobile_phone": "yes",
+    "man_made": "mast",
+    "material": "metal",
+    "operator": "MEO",
+    "owner": "CellNex",
     "tower:construction": "freestanding",
     "tower:type": "communication"
   }
