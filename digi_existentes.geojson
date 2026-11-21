@@ -2374,25 +2374,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1813667219",
-  "properties": {
-    "communication:mobile_phone": "yes",
-    "man_made": "mast",
-    "old_operator": "vodafone P",
-    "removed:man_made": "mast",
-    "tower:type": "communication",
-    "id": "node/1813667219"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.7629811,
-      41.5072217
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1813667222",
   "properties": {
     "communication:mobile_phone": "no",
@@ -130597,11 +130578,11 @@
   "id": "node/12145020451",
   "properties": {
     "MCC": "268",
-    "MNC": "06",
+    "MNC": "03;06",
     "communication:mobile_phone": "yes",
     "man_made": "mast",
     "material": "metal",
-    "operator": "MEO",
+    "operator": "NOS;MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
@@ -139102,10 +139083,13 @@
   "type": "Feature",
   "id": "node/13742151463",
   "properties": {
+    "MCC": "268",
+    "MNC": "06",
     "communication:mobile_phone": "yes",
     "communication:mobile_phone:note": "Investigar se tem DIGI",
     "man_made": "mast",
     "material": "metal",
+    "operator": "MEO",
     "owner": "Cellnex",
     "tower:construction": "freestanding",
     "tower:type": "communication",
